@@ -1,0 +1,7 @@
+{
+  "total_at_risk": 4756754.0,
+  "total_recovered_simulated": 2945600.62,
+  "recovery_rate_simulated": 0.6192,
+  "interventions_executed": 455,
+  "escalated_to_human": 54
+}

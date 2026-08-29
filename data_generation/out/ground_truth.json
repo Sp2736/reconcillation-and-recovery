@@ -1,0 +1,1731 @@
+{
+  "stlm_f949a5c3f758": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_8e7479d40173",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_96e0236d768a": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_232743f37338",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_67dea378281c": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.06,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7d24279ba12e": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.81,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_09263fe40f6b": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.31,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_72270414ceb6": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_50aab621a3ea",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_860985295e7c": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.19,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0392932f6b40": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1dc5adfc43aa": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_f90fa599f46d",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_cdbf20b34664": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.79,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_22ef30683bcf": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_324deeca63b7",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_324deeca63b7": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_22ef30683bcf",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3b7c2ea1bffd": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_1ae510621ae4": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_2ffffd72ccb0",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_aa21d4b0e11a": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_e6b18e717dcb",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_4cad0cb504b3": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_9bdec084a535",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9bdec084a535": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_4cad0cb504b3",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c6f53beef094": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f140efb8ee72": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_4c02b9d5b486",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_689cee1e2d9b": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_c03788c42586",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c03788c42586": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_689cee1e2d9b",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_2f7ffd8d6386": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_decd0ee0d60b",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f5a14b59526a": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_a765231278b7": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_345a506ede69": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_be1d239d90fb": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b33bb9edeb57": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_6a6876e463d8",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_e941dcf0c635": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_791d06bf690f",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_791d06bf690f": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_e941dcf0c635",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_885e8daa4508": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_64cbe9506224": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_45620c193c3a",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_10ebbb58416a": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_1464313dba16",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1464313dba16": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_10ebbb58416a",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7037acd4cfb8": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cb1f69c58124": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_4bb8b22da077",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_4499990aedb3": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_2fdef75c299b": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cfe1a41fdfa4": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_14ccffafaf2f",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_94157f722677": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c6bcb004e38d": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.74,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c171b068c9f6": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_db076230c3df",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_9691653070ad": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_0ef76a1fdfa0",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_cf5b62b33d04": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.56,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ffb7db0c611f": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6a41ac37d74b": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_26892b995edf",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c14f85df81af": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_4b03f1f6398c",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_889852a346fc": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_198829c5e83d",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_5238b02d4d88": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d06dd0333607": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_470e54c0225c": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.22,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_688ff620eafd": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.14,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ad9af161b966": {
+    "issue": "rounding_drift",
+    "expected_diff": -0.54,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cf5f084246bd": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_3cf079388064",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_240167499b75": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_9c5508af92d3",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_ed543e5fdf1e": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7d786e7d9903",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7d786e7d9903": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_ed543e5fdf1e",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e6454a1eb5e6": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_17aa460de8e3",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_0ba7d7df0af5": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_b2a4ecb77abd",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b3b70d1a824a": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_6349fca83743": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_5f87c4778d5a",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6744342563cf": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_6dead5f32fd0",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_564cf50085e6": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.5,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d96851f3eeb9": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_8927378f611d",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_bf81b48212af": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_85c69d14bc07": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.48,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_68b3d2ed7844": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_b313400f8013",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_1aaf3056b248": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_37d99e6f6d9a": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.12,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_281ee1d3138e": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_dd73a57d3085",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_707500d789d0": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_22427eb944eb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_22427eb944eb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_707500d789d0",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_dd2a37e54243": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.58,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_8c40b4f92acd": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_766d61e994db",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2b121ccc8f61": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_6e789f1789a8",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_6e789f1789a8": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_2b121ccc8f61",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3abe4cd16a46": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_b5e41ba11304",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c2506faa6476": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.4,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9fec059c7fea": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_73d1956f6ed0",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_0f6fd342f0aa": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_a350790c5a44",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_65907746a665": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_9b8d43350c12",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9b8d43350c12": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_65907746a665",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e1a3dda9ecd6": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_f1b4617d3552",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c0ee43325dbe": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.97,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7212a7687fbe": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_313d2f638777",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_313d2f638777": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7212a7687fbe",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7cb84137f2fa": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_faba149d87c3",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_faba149d87c3": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7cb84137f2fa",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b3b679ab167e": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.02,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ea57f004d215": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_3cc22eee9f83",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3cc22eee9f83": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_ea57f004d215",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d43246c0077b": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ecdd6b62a33d": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.39,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b95893063ee5": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3eaeb840bce5": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_e6c07fe6340c",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_22fa1b5d2468": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_49dc61e518a9",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_825f5e68f727": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_233b16dd9d4b",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_233b16dd9d4b": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_825f5e68f727",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c427ec8582f8": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_ec5ea3a65183": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_dbebaca5fd0a",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_79e9a98e8367": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.7,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7ec3d6477630": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_dfe04dab0170",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_df25d342a8a2": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c3673410af28": {
+    "issue": "rounding_drift",
+    "expected_diff": -0.56,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_793630473888": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_1f845fec71ee": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_07160859c140",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_718ebb9cbbde": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_b7e270216c2f",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_ef0c205205b7": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_d11fee3bea2a": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_3eaca1ebba72",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2c92cc710e52": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_f7527c0007ca",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_081e09612129": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_fa3a3f9d9691",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6f75b2e65127": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a645e9fed855": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.56,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b3e61bea8bc7": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d8c868090711",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d8c868090711": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b3e61bea8bc7",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_99d0c88875b1": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.46,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_fad4b850a788": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_339db3a02bcc": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_7d094f963ffb": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3321f95899d4": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_28bd8d6adeeb",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_07331a77907a": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.6,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9b42e292e4d9": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_4584d591bb95",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_dee37ad59c78": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_ee912b351324",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ee912b351324": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_dee37ad59c78",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_84e51ca3c660": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_9f1d776f9fbd": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_e05479d1c723",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_363277764443": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_11b0ad9d4f4b",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_8746edc14bd5": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_66e1953c4440",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_66e1953c4440": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_8746edc14bd5",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_36199cf3121a": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_c5264cdabfa1",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c5264cdabfa1": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_36199cf3121a",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a4320badb6cb": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.28,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e845ac407b3d": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ff881382d068": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_f7e9a209a723",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f7e9a209a723": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_ff881382d068",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ac026322f8e4": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.94,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_be414413be25": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.36,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f84496d3528e": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_96101646fa13": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.01,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3656cf7c9dd8": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_482d2a50e4b6": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_57e8f75ae947": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7a957763e168",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7a957763e168": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_57e8f75ae947",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_5dadc6627c27": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_fdec370e760d",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_fdec370e760d": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_5dadc6627c27",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_8ca3629b26c8": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0a4cd71c6667": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_11e0e72e5fa3",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_df728ca4092e": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_6e9552d57f53",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6012651b6b1f": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_b15be7bcfb92",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_99eafee42ccf": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.87,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f7a7027b512e": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_a6d9a4381ebe": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.57,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_92329aa27d1d": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7d26f46f12a5",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7d26f46f12a5": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_92329aa27d1d",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cd43aba49f55": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_58a864c97881": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_2c14d8cfd12c",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_40066ffbb4d7": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_046bb2a621f8",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_a6e8c16e8aaf": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_6baf05a82fd7",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_38e5ba9b2984": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.15,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b981e9d1177e": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_b30951717578",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f04efb426a97": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_61a5dabbfad9",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_7c78c54e3482": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c2e9db738094": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_73c85a4b5261": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_e856e4512d49",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_4de28f09a0b9": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c32b7712025c": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a6786a1dea29": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_5c1241100251",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_0c8b570d945a": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_e6f7a2adba59",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_d6f4d9ae77dc": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_00468e763343": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_75482df702ac",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f0af45b79ba3": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_708da6f2cb11",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b6b668624059": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_8422265472cf",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_e4ce5117f41a": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_96a21c62a8eb": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_cb27aa0f9ed8": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_62b708349746",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_62b708349746": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_cb27aa0f9ed8",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_08956992411e": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.56,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1b4ffe3662df": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_88f9f1e10ee2",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c350c80441d9": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_ae8d45d97ab0",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_72b1a86596c1": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_5fed794d7ed4",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_4006d92c6d11": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_43036375e122": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_9df4e490e8c6": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_e7cfa7e18771",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e7cfa7e18771": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_9df4e490e8c6",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7c2134bc8ed9": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_51a71cde7ccd": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.79,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_589985d41f9d": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.27,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3cf7a939b089": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_d5220a77b105": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.7,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a4f9cd435a89": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_1f51b1d6c56f",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1f51b1d6c56f": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_a4f9cd435a89",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_714299282eb6": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_888af64f2682",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_888af64f2682": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_714299282eb6",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9f8de09737e4": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_9cefe2459644": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_9a9cf8cc1da5",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2a1e76c69797": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_9c60a5ffea36",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_155deb8b5894": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.7,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0b184395ed62": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_0086bf715e97",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c25fc6e0b439": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_c483d21921cd",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_77a13ddb17ee": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.23,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_476ac212a3ca": {
+    "issue": "rounding_drift",
+    "expected_diff": -0.81,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1055539a36df": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_85ac2b3d8761": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cc8eceee0858": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b796bf838680": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.83,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_5f132e1f647f": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_c415585ea137",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c415585ea137": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_5f132e1f647f",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_404a9b70d245": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_cb587c08cee9": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7044d6568a99",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7044d6568a99": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_cb587c08cee9",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9341aa3bc35f": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ca5b2975c13c": {
+    "issue": "rounding_drift",
+    "expected_diff": -0.53,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f586a074cd7f": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_4deaeb9c8a14": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.62,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1f17f1473c20": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3646a169e681": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_bf31abec9d2d": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_29bfaeeb89cb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_29bfaeeb89cb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_bf31abec9d2d",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_37e51d2b715f": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_2692fd537894",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_1cd6d4037af2": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.65,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7c273304e562": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_01229e1c16d7": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_eae55a89935f",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_70a3e5d5df30": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.63,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9fee49233d21": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.76,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_05effad8a4a9": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_5900835a9608",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_5900835a9608": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_05effad8a4a9",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0679555565ca": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ad7f48cd9755": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.97,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_970bc614b019": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.19,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_01e981270887": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_7f081d3029a5",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_aefc8ab2067a": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.93,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_8850f655555c": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_24762e1e209f": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_4876ac71cbfc",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f772f2b8f6c2": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_603a65120e52": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_4188d0ad9229",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_d5ae7167f3e1": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d8bc4e521ce8",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d8bc4e521ce8": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d5ae7167f3e1",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_af46157e7bba": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9a9428b98079": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_df09ffcf8824": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_24fed7d38bb8",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_847c182a45ad": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7459daa37605",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7459daa37605": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_847c182a45ad",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9961e3672949": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_c76587169145",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c76587169145": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_9961e3672949",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e65069338887": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_8443b7c6333e",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_3f820e90a1ca": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_306ca969d909": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b87075ff758c": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_53ddf06eddf4": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b731d7d3ad91": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.27,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_fe6abfdaf13d": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.19,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_51745d1167a4": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_4e8cf626fd77": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d202289160d2",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d202289160d2": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_4e8cf626fd77",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a4c7939df9eb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_49c41d554fc1",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_49c41d554fc1": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_a4c7939df9eb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_da422aef7604": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d096471b4ede",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d096471b4ede": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_da422aef7604",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e2b1cc5d7fd7": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.04,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_963fde3de696": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.61,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cca9788f9ac5": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_80de58add79e": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_096e508f1587",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2be5f9280bec": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_695eb8ae92ec": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d026fc4157fd",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d026fc4157fd": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_695eb8ae92ec",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_a808e66b07a0": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_555af4df471a": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b6b47953d240": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b81b075cfbeb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b81b075cfbeb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b6b47953d240",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b04f098fefe3": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_7b57222e136f",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7b57222e136f": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b04f098fefe3",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_02281dfee6f6": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_61a51efdf0ab",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_82c26fe44767": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_78cad380c173": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.66,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_969cd27cc4b4": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_29327bb9337b",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_29327bb9337b": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_969cd27cc4b4",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c29325bfdc7b": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_a71cdef91155": {
+    "issue": "rounding_drift",
+    "expected_diff": 1.21,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_325b3e163090": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_44c08dfdeb90": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_3f55c860ca65",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3f55c860ca65": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_44c08dfdeb90",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_2f9942d2c203": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f80fe92c0fb5": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9932250dc8eb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b42e786b6695",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b42e786b6695": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_9932250dc8eb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c96811b4c9b6": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_89a23c922b12",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_89a23c922b12": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_c96811b4c9b6",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ca073f574d67": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_c9ed7202d2bf",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_19f15ab6027e": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_5c2ddd869436",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_517703fe04db": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_dc1bc854ceeb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_dc1bc854ceeb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_517703fe04db",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_09eb5c6457f7": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.81,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9772f11b3b47": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_7a32348024ca",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_edf96b57b374": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_5fbcf719b376",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_84c0700be821": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_13836ee46db4",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_fd463200a5ca": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_38ce084764e2": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_26ca0b38cd1b": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_65ddc1dbae67",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_de019b14a0a5": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_64c8444ff445": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_cdb9458b2feb",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cdb9458b2feb": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_64c8444ff445",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_5b5c407d8ece": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_d678ce83e639",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_0af36e176fc4": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_de2ca11c55af": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_287a5f458b9a",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_287a5f458b9a": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_de2ca11c55af",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_de3178b01a19": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_d798e2f8c150",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2f35d0248b3e": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_2dadf29110d1": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.53,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0155400ff18c": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_e09909281895": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_9422be95f8c2": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.65,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_6965722be8db": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_e1df5e56b8ec": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.64,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1d1b1fc95814": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b13f70938a0f": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_ad8af1098270",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_aa180f984a13": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_17876e9f8aec",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_5da98d4d7b81": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.49,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_017002c6cb66": {
+    "issue": "rounding_drift",
+    "expected_diff": 0.86,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_90cc2367218a": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_8cb40552d994": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_631615d76bf7",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_cf90a31cef23": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_3993cd2110aa",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_be0c1a0fb674": {
+    "issue": "rounding_drift",
+    "expected_diff": -1.25,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_6a8bcc8f89b8": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_fd9314ea7d09": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f7ec496cd35c": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.6,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_c2a926aab135": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.28,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_296385e80cb9": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_ac75912de1b1",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_3d2f07b3a90a": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_1d1867bb0206",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_d441940b05b2": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_bf5f6e312b18",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_bf5f6e312b18": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_d441940b05b2",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_cb218589bc8c": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_c1248a54b27d",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_b5cf74695388": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_2c4ed32e98cf",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_c87b7214bd3f": {
+    "issue": "rounding_drift",
+    "expected_diff": -0.98,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_8e6bb5bbd9bd": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0277e07a2dca": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_10fabb6832dc",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_244c2f6d1d1b": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_6f9f34ab45ed",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_80dbc28e46f0": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_5257c940de97": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6376d0a4fcce": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_bd9a7d1e27ae",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_18389cf933c5": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_fb6d4716a6af": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_4359d26e0aec",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_4359d26e0aec": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_fb6d4716a6af",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_aa57ace5e403": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_46a7c8d69e41",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_46a7c8d69e41": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_aa57ace5e403",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_8ea94c2388f7": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ec2bf0879ac4": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.3,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_1082a0b55c64": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_e7d878493719": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_786078197e00": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_ceb3c0c8b562": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_61bf74bb0987",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_976c55924ee4": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_97d9c64cac51": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_3365634778ee": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_24f462a62e54": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_f856dcb136bb",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_f44aa9a17cbf": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_d90dbe7a326f": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_50bc3eea44e7": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_16912d490a72",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_9966ae40d092": {
+    "issue": "silent_webhook_failure",
+    "order_id": "order_5af3f46c9588",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_6ca7a678b3c9": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_b507a51fae16",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_b507a51fae16": {
+    "issue": "split_settlement",
+    "twin_id": "stlm_6ca7a678b3c9",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_f716af957b7a": {
+    "issue": "rounding_drift",
+    "expected_diff": 2.45,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_43efc8bc4ac5": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_206483eb82f4": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_0cdedf810d79": {
+    "issue": "rounding_drift",
+    "expected_diff": -2.84,
+    "correct_status": "RESOLVED"
+  },
+  "stlm_76f07a1ab5f1": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  },
+  "stlm_7677e2dcaa54": {
+    "issue": "duplicate_settlement",
+    "original_id": "stlm_fe5231666339",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_3632d07eb8b1": {
+    "issue": "orphaned_settlement",
+    "correct_status": "UNRESOLVED"
+  },
+  "stlm_4ab28e2947f6": {
+    "issue": "delayed_settlement",
+    "correct_status": "RESOLVED"
+  }
+}
