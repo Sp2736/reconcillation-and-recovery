@@ -1,0 +1,1242 @@
+[
+  {
+    "settlement_id": "stlm_3632d07eb8b1",
+    "payment_id": "",
+    "bank_ref": "NSM43D8W",
+    "amount": 16749.01,
+    "settled_at": "2026-06-27T22:49:30.468567",
+    "batch_id": "batch_cdb2ba9bd198"
+  },
+  {
+    "settlement_id": "stlm_c2e9db738094",
+    "payment_id": "",
+    "bank_ref": "SDDTV25A",
+    "amount": 10937.33,
+    "settled_at": "2026-08-20T19:41:05.382816",
+    "batch_id": "batch_0cfede55d39d"
+  },
+  {
+    "settlement_id": "stlm_fd9314ea7d09",
+    "payment_id": "",
+    "bank_ref": "BMAE38SR",
+    "amount": 22728.41,
+    "settled_at": "2026-07-11T17:12:03.286379",
+    "batch_id": "batch_5a7e8e3081e2"
+  },
+  {
+    "settlement_id": "stlm_7c2134bc8ed9",
+    "payment_id": "",
+    "bank_ref": "D3DNKN35",
+    "amount": 342.08,
+    "settled_at": "2026-07-13T19:19:07.697792",
+    "batch_id": "batch_e6a80967c7d6"
+  },
+  {
+    "settlement_id": "stlm_f84496d3528e",
+    "payment_id": "",
+    "bank_ref": "INK4FK8W",
+    "amount": 13010.17,
+    "settled_at": "2026-07-17T13:56:20.204924",
+    "batch_id": "batch_1597f3d08b33"
+  },
+  {
+    "settlement_id": "stlm_a765231278b7",
+    "payment_id": "",
+    "bank_ref": "JZP97BMZ",
+    "amount": 18675.93,
+    "settled_at": "2026-07-31T14:33:27.836560",
+    "batch_id": "batch_d0c99a45bd76"
+  },
+  {
+    "settlement_id": "stlm_96a21c62a8eb",
+    "payment_id": "",
+    "bank_ref": "DTAEGRY5",
+    "amount": 15282.31,
+    "settled_at": "2026-07-20T09:07:03.943555",
+    "batch_id": "batch_9a58aec41ad2"
+  },
+  {
+    "settlement_id": "stlm_90cc2367218a",
+    "payment_id": "",
+    "bank_ref": "070EN48U",
+    "amount": 10748.71,
+    "settled_at": "2026-06-19T09:01:59.454800",
+    "batch_id": "batch_a38a96922e23"
+  },
+  {
+    "settlement_id": "stlm_43036375e122",
+    "payment_id": "",
+    "bank_ref": "G3ZRZQ0V",
+    "amount": 239.66,
+    "settled_at": "2026-08-20T19:05:10.349993",
+    "batch_id": "batch_b6b262d03bf5"
+  },
+  {
+    "settlement_id": "stlm_6a8bcc8f89b8",
+    "payment_id": "",
+    "bank_ref": "JMCJB00E",
+    "amount": 19919.95,
+    "settled_at": "2026-06-01T01:57:07.258556",
+    "batch_id": "batch_36238d663e04"
+  },
+  {
+    "settlement_id": "stlm_8850f655555c",
+    "payment_id": "",
+    "bank_ref": "MM0YTMV8",
+    "amount": 14305.86,
+    "settled_at": "2026-06-04T03:17:01.254747",
+    "batch_id": "batch_9ac8b823e4e4"
+  },
+  {
+    "settlement_id": "stlm_43efc8bc4ac5",
+    "payment_id": "",
+    "bank_ref": "91QUPWCK",
+    "amount": 12322.12,
+    "settled_at": "2026-07-12T08:25:53.158423",
+    "batch_id": "batch_82f06f6cac07"
+  },
+  {
+    "settlement_id": "stlm_c427ec8582f8",
+    "payment_id": "",
+    "bank_ref": "PT6UR9XR",
+    "amount": 13845.69,
+    "settled_at": "2026-07-26T06:16:35.864948",
+    "batch_id": "batch_33b287abbecf"
+  },
+  {
+    "settlement_id": "stlm_df25d342a8a2",
+    "payment_id": "",
+    "bank_ref": "2E077U55",
+    "amount": 561.56,
+    "settled_at": "2026-08-13T16:37:19.004053",
+    "batch_id": "batch_afb596f77c76"
+  },
+  {
+    "settlement_id": "stlm_e7d878493719",
+    "payment_id": "",
+    "bank_ref": "H3U0RCOF",
+    "amount": 15076.69,
+    "settled_at": "2026-08-27T04:46:23.881634",
+    "batch_id": "batch_1dc3417f5f34"
+  },
+  {
+    "settlement_id": "stlm_bf81b48212af",
+    "payment_id": "",
+    "bank_ref": "F7UXKE4Q",
+    "amount": 16690.44,
+    "settled_at": "2026-06-21T11:02:29.099662",
+    "batch_id": "batch_3b6d4f4edf11"
+  },
+  {
+    "settlement_id": "stlm_3656cf7c9dd8",
+    "payment_id": "",
+    "bank_ref": "ZP1OQKV0",
+    "amount": 20387.55,
+    "settled_at": "2026-07-17T23:22:34.759265",
+    "batch_id": "batch_af9e2d239c51"
+  },
+  {
+    "settlement_id": "stlm_fd463200a5ca",
+    "payment_id": "",
+    "bank_ref": "6SOW4YIF",
+    "amount": 4681.1,
+    "settled_at": "2026-07-16T15:08:42.414644",
+    "batch_id": "batch_5afd70f750ee"
+  },
+  {
+    "settlement_id": "stlm_94157f722677",
+    "payment_id": "",
+    "bank_ref": "JKLUMCMH",
+    "amount": 10082.48,
+    "settled_at": "2026-06-15T15:39:58.381569",
+    "batch_id": "batch_65b02e70ebec"
+  },
+  {
+    "settlement_id": "stlm_1aaf3056b248",
+    "payment_id": "",
+    "bank_ref": "8ZFAWTY7",
+    "amount": 24246.49,
+    "settled_at": "2026-07-01T03:25:32.556375",
+    "batch_id": "batch_bc9c003a1e0d"
+  },
+  {
+    "settlement_id": "stlm_1082a0b55c64",
+    "payment_id": "",
+    "bank_ref": "C3ECTATG",
+    "amount": 13173.45,
+    "settled_at": "2026-06-22T23:12:21.747419",
+    "batch_id": "batch_d58b74ccd98b"
+  },
+  {
+    "settlement_id": "stlm_82c26fe44767",
+    "payment_id": "",
+    "bank_ref": "AZKTVEZL",
+    "amount": 15203.82,
+    "settled_at": "2026-06-25T15:12:43.225642",
+    "batch_id": "batch_2542264e5594"
+  },
+  {
+    "settlement_id": "stlm_306ca969d909",
+    "payment_id": "",
+    "bank_ref": "8MA1JLMP",
+    "amount": 10458.1,
+    "settled_at": "2026-06-19T20:00:48.261152",
+    "batch_id": "batch_2bf1661e984d"
+  },
+  {
+    "settlement_id": "stlm_3cf7a939b089",
+    "payment_id": "",
+    "bank_ref": "QXF2A8JC",
+    "amount": 1430.86,
+    "settled_at": "2026-08-11T21:12:35.306779",
+    "batch_id": "batch_1265ca17f987"
+  },
+  {
+    "settlement_id": "stlm_7c78c54e3482",
+    "payment_id": "",
+    "bank_ref": "6K9AGEIZ",
+    "amount": 15748.54,
+    "settled_at": "2026-07-20T09:06:18.212520",
+    "batch_id": "batch_035aeb000263"
+  },
+  {
+    "settlement_id": "stlm_f5a14b59526a",
+    "payment_id": "",
+    "bank_ref": "FWUNIBW1",
+    "amount": 21034.15,
+    "settled_at": "2026-08-20T16:40:28.028291",
+    "batch_id": "batch_123642c53498"
+  },
+  {
+    "settlement_id": "stlm_f7a7027b512e",
+    "payment_id": "",
+    "bank_ref": "GQ59H2E0",
+    "amount": 1003.81,
+    "settled_at": "2026-08-29T06:28:19.825412",
+    "batch_id": "batch_a4f5676df125"
+  },
+  {
+    "settlement_id": "stlm_a808e66b07a0",
+    "payment_id": "",
+    "bank_ref": "IHE1JULJ",
+    "amount": 16130.78,
+    "settled_at": "2026-08-27T14:21:13.882428",
+    "batch_id": "batch_d995bd9c3c26"
+  },
+  {
+    "settlement_id": "stlm_555af4df471a",
+    "payment_id": "",
+    "bank_ref": "OD1VAA4L",
+    "amount": 16119.05,
+    "settled_at": "2026-07-10T02:53:04.909230",
+    "batch_id": "batch_5be72e3c7b4a"
+  },
+  {
+    "settlement_id": "stlm_84e51ca3c660",
+    "payment_id": "",
+    "bank_ref": "P7SEPHOM",
+    "amount": 23376.19,
+    "settled_at": "2026-08-16T15:57:53.958835",
+    "batch_id": "batch_9d87832aec8b"
+  },
+  {
+    "settlement_id": "stlm_339db3a02bcc",
+    "payment_id": "",
+    "bank_ref": "FFLAFLGN",
+    "amount": 11846.26,
+    "settled_at": "2026-06-08T06:30:54.952572",
+    "batch_id": "batch_159bcc002dd0"
+  },
+  {
+    "settlement_id": "stlm_ef0c205205b7",
+    "payment_id": "",
+    "bank_ref": "DXT3U6OK",
+    "amount": 10796.65,
+    "settled_at": "2026-08-11T07:21:01.402509",
+    "batch_id": "batch_2e8e9808d838"
+  },
+  {
+    "settlement_id": "stlm_325b3e163090",
+    "payment_id": "",
+    "bank_ref": "OWDXCJ19",
+    "amount": 18160.36,
+    "settled_at": "2026-06-13T06:16:05.609167",
+    "batch_id": "batch_3be3986dee9a"
+  },
+  {
+    "settlement_id": "stlm_9a9428b98079",
+    "payment_id": "",
+    "bank_ref": "DYVY96QZ",
+    "amount": 20426.0,
+    "settled_at": "2026-07-04T13:11:41.843696",
+    "batch_id": "batch_18e31733ebbf"
+  },
+  {
+    "settlement_id": "stlm_9f8de09737e4",
+    "payment_id": "",
+    "bank_ref": "P2MAXXM7",
+    "amount": 14596.06,
+    "settled_at": "2026-08-14T13:45:31.673722",
+    "batch_id": "batch_aac942eb0ae4"
+  },
+  {
+    "settlement_id": "stlm_5257c940de97",
+    "payment_id": "",
+    "bank_ref": "ITRZRAUD",
+    "amount": 10412.89,
+    "settled_at": "2026-07-29T05:12:48.904921",
+    "batch_id": "batch_b33a7a9e334f"
+  },
+  {
+    "settlement_id": "stlm_6965722be8db",
+    "payment_id": "",
+    "bank_ref": "BTXJUVRM",
+    "amount": 7436.78,
+    "settled_at": "2026-06-23T10:46:09.142721",
+    "batch_id": "batch_5124ca10d5f6"
+  },
+  {
+    "settlement_id": "stlm_0af36e176fc4",
+    "payment_id": "",
+    "bank_ref": "YOG3SSL5",
+    "amount": 12765.52,
+    "settled_at": "2026-06-04T00:45:25.092445",
+    "batch_id": "batch_2ba5f975be66"
+  },
+  {
+    "settlement_id": "stlm_404a9b70d245",
+    "payment_id": "",
+    "bank_ref": "8K0REP1K",
+    "amount": 18900.47,
+    "settled_at": "2026-07-29T14:18:49.662385",
+    "batch_id": "batch_f573fc625348"
+  },
+  {
+    "settlement_id": "stlm_7c273304e562",
+    "payment_id": "",
+    "bank_ref": "G2AZ7GKX",
+    "amount": 17543.39,
+    "settled_at": "2026-06-17T16:28:33.370089",
+    "batch_id": "batch_8201ee2dbad2"
+  },
+  {
+    "settlement_id": "stlm_482d2a50e4b6",
+    "payment_id": "",
+    "bank_ref": "OLWDTH79",
+    "amount": 7028.32,
+    "settled_at": "2026-08-14T13:58:38.806805",
+    "batch_id": "batch_fc02e82dcbda"
+  },
+  {
+    "settlement_id": "stlm_3b7c2ea1bffd",
+    "payment_id": "",
+    "bank_ref": "TDP1FXKY",
+    "amount": 11372.01,
+    "settled_at": "2026-06-29T07:18:32.317657",
+    "batch_id": "batch_79bec1cbeb05"
+  },
+  {
+    "settlement_id": "stlm_e4ce5117f41a",
+    "payment_id": "",
+    "bank_ref": "7C8D5BOR",
+    "amount": 186.37,
+    "settled_at": "2026-07-15T22:32:27.442177",
+    "batch_id": "batch_7a2e4b553369"
+  },
+  {
+    "settlement_id": "stlm_3f820e90a1ca",
+    "payment_id": "",
+    "bank_ref": "YWJOYGKL",
+    "amount": 299.35,
+    "settled_at": "2026-06-06T19:20:04.103188",
+    "batch_id": "batch_52ce37205c70"
+  },
+  {
+    "settlement_id": "stlm_793630473888",
+    "payment_id": "",
+    "bank_ref": "VYJ2JZO7",
+    "amount": 22936.34,
+    "settled_at": "2026-08-01T20:14:24.540553",
+    "batch_id": "batch_8a4bea4a0962"
+  },
+  {
+    "settlement_id": "stlm_ffb7db0c611f",
+    "payment_id": "",
+    "bank_ref": "K9N6CXEF",
+    "amount": 3742.31,
+    "settled_at": "2026-08-27T21:42:02.991340",
+    "batch_id": "batch_1cc28a1dae72"
+  },
+  {
+    "settlement_id": "stlm_c29325bfdc7b",
+    "payment_id": "",
+    "bank_ref": "N0N64BR3",
+    "amount": 9594.43,
+    "settled_at": "2026-08-19T10:50:28.306145",
+    "batch_id": "batch_8f614a7101cb"
+  },
+  {
+    "settlement_id": "stlm_be1d239d90fb",
+    "payment_id": "",
+    "bank_ref": "OUMU4YGO",
+    "amount": 7621.07,
+    "settled_at": "2026-06-03T14:27:54.497020",
+    "batch_id": "batch_c1b2d79fb0df"
+  },
+  {
+    "settlement_id": "stlm_2f35d0248b3e",
+    "payment_id": "",
+    "bank_ref": "9L660NFF",
+    "amount": 3189.2,
+    "settled_at": "2026-07-14T20:09:28.362974",
+    "batch_id": "batch_f68bfef264ac"
+  },
+  {
+    "settlement_id": "stlm_57e8f75ae947",
+    "payment_id": "pay_85e77a73647f",
+    "bank_ref": "MV2XCDYK0X65MU",
+    "amount": 12095.65,
+    "settled_at": "2026-08-25T18:28:12.311410",
+    "batch_id": "batch_6ca011575d5c"
+  },
+  {
+    "settlement_id": "stlm_7a957763e168",
+    "payment_id": "pay_85e77a73647f",
+    "bank_ref": "MV2XCDYK0X65MU",
+    "amount": 0.0,
+    "settled_at": "2026-08-25T18:28:12.311410",
+    "batch_id": "batch_6ca011575d5c"
+  },
+  {
+    "settlement_id": "stlm_7212a7687fbe",
+    "payment_id": "pay_27dd8b4b1884",
+    "bank_ref": "0LVYLKFXHKC856",
+    "amount": 5398.63,
+    "settled_at": "2026-08-08T22:18:45.186649",
+    "batch_id": "batch_32575fb6917c"
+  },
+  {
+    "settlement_id": "stlm_313d2f638777",
+    "payment_id": "pay_27dd8b4b1884",
+    "bank_ref": "0LVYLKFXHKC856",
+    "amount": 0.0,
+    "settled_at": "2026-08-08T22:18:45.186649",
+    "batch_id": "batch_32575fb6917c"
+  },
+  {
+    "settlement_id": "stlm_825f5e68f727",
+    "payment_id": "pay_30fb496d47e7",
+    "bank_ref": "R00Q0MFTG698S4",
+    "amount": 4075.08,
+    "settled_at": "2026-07-24T06:22:24.554195",
+    "batch_id": "batch_87c1535b4f51"
+  },
+  {
+    "settlement_id": "stlm_233b16dd9d4b",
+    "payment_id": "pay_30fb496d47e7",
+    "bank_ref": "R00Q0MFTG698S4",
+    "amount": 0.0,
+    "settled_at": "2026-07-24T06:22:24.554195",
+    "batch_id": "batch_87c1535b4f51"
+  },
+  {
+    "settlement_id": "stlm_847c182a45ad",
+    "payment_id": "pay_5541119960d0",
+    "bank_ref": "2DDH0UYHNQYYF9",
+    "amount": 3084.71,
+    "settled_at": "2026-06-08T14:16:06.371530",
+    "batch_id": "batch_6b31cd529193"
+  },
+  {
+    "settlement_id": "stlm_7459daa37605",
+    "payment_id": "pay_5541119960d0",
+    "bank_ref": "2DDH0UYHNQYYF9",
+    "amount": 0.0,
+    "settled_at": "2026-06-08T14:16:06.371530",
+    "batch_id": "batch_6b31cd529193"
+  },
+  {
+    "settlement_id": "stlm_36199cf3121a",
+    "payment_id": "pay_aa5bdc5102ae",
+    "bank_ref": "KODYR5PGBA9IN2",
+    "amount": 11730.96,
+    "settled_at": "2026-08-21T07:19:41.891755",
+    "batch_id": "batch_1f8fbd4ae29e"
+  },
+  {
+    "settlement_id": "stlm_c5264cdabfa1",
+    "payment_id": "pay_aa5bdc5102ae",
+    "bank_ref": "KODYR5PGBA9IN2",
+    "amount": 0.0,
+    "settled_at": "2026-08-21T07:19:41.891755",
+    "batch_id": "batch_1f8fbd4ae29e"
+  },
+  {
+    "settlement_id": "stlm_d678ce83e639",
+    "payment_id": "pay_85f369acd757",
+    "bank_ref": "9ERRYE12O003E8",
+    "amount": 1123.22,
+    "settled_at": "2026-08-15T22:46:00.536012",
+    "batch_id": "batch_041927168749"
+  },
+  {
+    "settlement_id": "stlm_5b5c407d8ece",
+    "payment_id": "pay_85f369acd757",
+    "bank_ref": "9ERRYE12O003E8",
+    "amount": 1123.22,
+    "settled_at": "2026-08-15T22:46:00.536012",
+    "batch_id": "batch_041927168749"
+  },
+  {
+    "settlement_id": "stlm_9932250dc8eb",
+    "payment_id": "pay_a5b367f5826f",
+    "bank_ref": "AMZ6146VEY0A94",
+    "amount": 9004.48,
+    "settled_at": "2026-08-21T05:50:37.435325",
+    "batch_id": "batch_988a0f5f7c77"
+  },
+  {
+    "settlement_id": "stlm_b42e786b6695",
+    "payment_id": "pay_a5b367f5826f",
+    "bank_ref": "AMZ6146VEY0A94",
+    "amount": 0.0,
+    "settled_at": "2026-08-21T05:50:37.435325",
+    "batch_id": "batch_988a0f5f7c77"
+  },
+  {
+    "settlement_id": "stlm_714299282eb6",
+    "payment_id": "pay_3fa16a4c409a",
+    "bank_ref": "WZSJQ77Z4ES3AO",
+    "amount": 3984.34,
+    "settled_at": "2026-06-11T12:12:17.428035",
+    "batch_id": "batch_3ddc6a065b8b"
+  },
+  {
+    "settlement_id": "stlm_888af64f2682",
+    "payment_id": "pay_3fa16a4c409a",
+    "bank_ref": "WZSJQ77Z4ES3AO",
+    "amount": 0.0,
+    "settled_at": "2026-06-11T12:12:17.428035",
+    "batch_id": "batch_3ddc6a065b8b"
+  },
+  {
+    "settlement_id": "stlm_969cd27cc4b4",
+    "payment_id": "pay_76361ad8714b",
+    "bank_ref": "U9PXYKM8T0JSHH",
+    "amount": 7093.84,
+    "settled_at": "2026-08-05T16:49:30.844313",
+    "batch_id": "batch_a9a92a529127"
+  },
+  {
+    "settlement_id": "stlm_29327bb9337b",
+    "payment_id": "pay_76361ad8714b",
+    "bank_ref": "U9PXYKM8T0JSHH",
+    "amount": 0.0,
+    "settled_at": "2026-08-05T16:49:30.844313",
+    "batch_id": "batch_a9a92a529127"
+  },
+  {
+    "settlement_id": "stlm_9c5508af92d3",
+    "payment_id": "pay_77e1ddcf39cf",
+    "bank_ref": "QFCPK7PWTG21HS",
+    "amount": 13764.72,
+    "settled_at": "2026-08-11T07:30:19.998520",
+    "batch_id": "batch_7f961860b265"
+  },
+  {
+    "settlement_id": "stlm_240167499b75",
+    "payment_id": "pay_77e1ddcf39cf",
+    "bank_ref": "QFCPK7PWTG21HS",
+    "amount": 13764.72,
+    "settled_at": "2026-08-11T07:30:19.998520",
+    "batch_id": "batch_7f961860b265"
+  },
+  {
+    "settlement_id": "stlm_d5ae7167f3e1",
+    "payment_id": "pay_fb0e8f0a88e4",
+    "bank_ref": "W0AN6NBYZM242O",
+    "amount": 8040.09,
+    "settled_at": "2026-08-08T10:47:26.638775",
+    "batch_id": "batch_bf944beecffa"
+  },
+  {
+    "settlement_id": "stlm_d8bc4e521ce8",
+    "payment_id": "pay_fb0e8f0a88e4",
+    "bank_ref": "W0AN6NBYZM242O",
+    "amount": 0.0,
+    "settled_at": "2026-08-08T10:47:26.638775",
+    "batch_id": "batch_bf944beecffa"
+  },
+  {
+    "settlement_id": "stlm_9961e3672949",
+    "payment_id": "pay_4b7d485a5438",
+    "bank_ref": "AAXA3BL13VCG8D",
+    "amount": 7763.01,
+    "settled_at": "2026-07-20T18:23:53.326267",
+    "batch_id": "batch_2745479cc692"
+  },
+  {
+    "settlement_id": "stlm_c76587169145",
+    "payment_id": "pay_4b7d485a5438",
+    "bank_ref": "AAXA3BL13VCG8D",
+    "amount": 0.0,
+    "settled_at": "2026-07-20T18:23:53.326267",
+    "batch_id": "batch_2745479cc692"
+  },
+  {
+    "settlement_id": "stlm_cb587c08cee9",
+    "payment_id": "pay_7e87f0a94a2c",
+    "bank_ref": "PDWR1XFHSJ0BI6",
+    "amount": 2202.45,
+    "settled_at": "2026-06-23T20:03:10.445782",
+    "batch_id": "batch_52be8c87f2e9"
+  },
+  {
+    "settlement_id": "stlm_7044d6568a99",
+    "payment_id": "pay_7e87f0a94a2c",
+    "bank_ref": "PDWR1XFHSJ0BI6",
+    "amount": 0.0,
+    "settled_at": "2026-06-23T20:03:10.445782",
+    "batch_id": "batch_52be8c87f2e9"
+  },
+  {
+    "settlement_id": "stlm_da422aef7604",
+    "payment_id": "pay_8f5694cba0ec",
+    "bank_ref": "SW58611GQIT8D9",
+    "amount": 8240.03,
+    "settled_at": "2026-07-15T23:06:33.995755",
+    "batch_id": "batch_ba8b4e946c66"
+  },
+  {
+    "settlement_id": "stlm_d096471b4ede",
+    "payment_id": "pay_8f5694cba0ec",
+    "bank_ref": "SW58611GQIT8D9",
+    "amount": 0.0,
+    "settled_at": "2026-07-15T23:06:33.995755",
+    "batch_id": "batch_ba8b4e946c66"
+  },
+  {
+    "settlement_id": "stlm_2b121ccc8f61",
+    "payment_id": "pay_1a1205f4be08",
+    "bank_ref": "3TDV0IQF1G5FU3",
+    "amount": 467.65,
+    "settled_at": "2026-07-12T10:45:31.887880",
+    "batch_id": "batch_33bbf9efbb9f"
+  },
+  {
+    "settlement_id": "stlm_6e789f1789a8",
+    "payment_id": "pay_1a1205f4be08",
+    "bank_ref": "3TDV0IQF1G5FU3",
+    "amount": 0.0,
+    "settled_at": "2026-07-12T10:45:31.887880",
+    "batch_id": "batch_33bbf9efbb9f"
+  },
+  {
+    "settlement_id": "stlm_d798e2f8c150",
+    "payment_id": "pay_4835405d264e",
+    "bank_ref": "UQRVN2AEJGS5JV",
+    "amount": 19341.97,
+    "settled_at": "2026-07-11T08:15:10.329979",
+    "batch_id": "batch_ef7ab0f48bbc"
+  },
+  {
+    "settlement_id": "stlm_de3178b01a19",
+    "payment_id": "pay_4835405d264e",
+    "bank_ref": "UQRVN2AEJGS5JV",
+    "amount": 19341.97,
+    "settled_at": "2026-07-11T08:15:10.329979",
+    "batch_id": "batch_ef7ab0f48bbc"
+  },
+  {
+    "settlement_id": "stlm_517703fe04db",
+    "payment_id": "pay_c408f75a7c71",
+    "bank_ref": "0D6QJ2ONVEOX3A",
+    "amount": 963.39,
+    "settled_at": "2026-08-06T08:57:58.306580",
+    "batch_id": "batch_e99758534749"
+  },
+  {
+    "settlement_id": "stlm_dc1bc854ceeb",
+    "payment_id": "pay_c408f75a7c71",
+    "bank_ref": "0D6QJ2ONVEOX3A",
+    "amount": 0.0,
+    "settled_at": "2026-08-06T08:57:58.306580",
+    "batch_id": "batch_e99758534749"
+  },
+  {
+    "settlement_id": "stlm_10ebbb58416a",
+    "payment_id": "pay_3f1239b07dff",
+    "bank_ref": "H72IQ4LU1BY4IY",
+    "amount": 5241.59,
+    "settled_at": "2026-06-20T09:41:08.634854",
+    "batch_id": "batch_73b1b839a7ea"
+  },
+  {
+    "settlement_id": "stlm_1464313dba16",
+    "payment_id": "pay_3f1239b07dff",
+    "bank_ref": "H72IQ4LU1BY4IY",
+    "amount": 0.0,
+    "settled_at": "2026-06-20T09:41:08.634854",
+    "batch_id": "batch_73b1b839a7ea"
+  },
+  {
+    "settlement_id": "stlm_aa57ace5e403",
+    "payment_id": "pay_85502afa1a26",
+    "bank_ref": "1ARMX6Z7VCRNFY",
+    "amount": 4571.45,
+    "settled_at": "2026-08-05T16:10:04.399847",
+    "batch_id": "batch_9dfbfe44d487"
+  },
+  {
+    "settlement_id": "stlm_46a7c8d69e41",
+    "payment_id": "pay_85502afa1a26",
+    "bank_ref": "1ARMX6Z7VCRNFY",
+    "amount": 0.0,
+    "settled_at": "2026-08-05T16:10:04.399847",
+    "batch_id": "batch_9dfbfe44d487"
+  },
+  {
+    "settlement_id": "stlm_65907746a665",
+    "payment_id": "pay_3fae7251b758",
+    "bank_ref": "RKZOEAVNAQWB41",
+    "amount": 11891.92,
+    "settled_at": "2026-06-18T17:01:09.470227",
+    "batch_id": "batch_21dfd984f985"
+  },
+  {
+    "settlement_id": "stlm_9b8d43350c12",
+    "payment_id": "pay_3fae7251b758",
+    "bank_ref": "RKZOEAVNAQWB41",
+    "amount": 0.0,
+    "settled_at": "2026-06-18T17:01:09.470227",
+    "batch_id": "batch_21dfd984f985"
+  },
+  {
+    "settlement_id": "stlm_4cad0cb504b3",
+    "payment_id": "pay_e2ba65df5885",
+    "bank_ref": "SVWUDJ9VHQCNJB",
+    "amount": 422.36,
+    "settled_at": "2026-06-28T20:15:58.094085",
+    "batch_id": "batch_05b3d846225a"
+  },
+  {
+    "settlement_id": "stlm_9bdec084a535",
+    "payment_id": "pay_e2ba65df5885",
+    "bank_ref": "SVWUDJ9VHQCNJB",
+    "amount": 0.0,
+    "settled_at": "2026-06-28T20:15:58.094085",
+    "batch_id": "batch_05b3d846225a"
+  },
+  {
+    "settlement_id": "stlm_cb27aa0f9ed8",
+    "payment_id": "pay_e846cf591fed",
+    "bank_ref": "JIUOIZ6AAIVW94",
+    "amount": 1838.82,
+    "settled_at": "2026-06-30T05:18:25.963669",
+    "batch_id": "batch_672228d1db8d"
+  },
+  {
+    "settlement_id": "stlm_62b708349746",
+    "payment_id": "pay_e846cf591fed",
+    "bank_ref": "JIUOIZ6AAIVW94",
+    "amount": 0.0,
+    "settled_at": "2026-06-30T05:18:25.963669",
+    "batch_id": "batch_672228d1db8d"
+  },
+  {
+    "settlement_id": "stlm_05effad8a4a9",
+    "payment_id": "pay_3f205dfefcaa",
+    "bank_ref": "LYM9VUDMK3P6OW",
+    "amount": 364.62,
+    "settled_at": "2026-08-19T19:41:05.443732",
+    "batch_id": "batch_06b745f98b01"
+  },
+  {
+    "settlement_id": "stlm_5900835a9608",
+    "payment_id": "pay_3f205dfefcaa",
+    "bank_ref": "LYM9VUDMK3P6OW",
+    "amount": 0.0,
+    "settled_at": "2026-08-19T19:41:05.443732",
+    "batch_id": "batch_06b745f98b01"
+  },
+  {
+    "settlement_id": "stlm_5dadc6627c27",
+    "payment_id": "pay_4269da408d3b",
+    "bank_ref": "E12WUW60N330PG",
+    "amount": 8275.49,
+    "settled_at": "2026-08-01T03:02:50.967788",
+    "batch_id": "batch_cce4edd1a6ee"
+  },
+  {
+    "settlement_id": "stlm_fdec370e760d",
+    "payment_id": "pay_4269da408d3b",
+    "bank_ref": "E12WUW60N330PG",
+    "amount": 0.0,
+    "settled_at": "2026-08-01T03:02:50.967788",
+    "batch_id": "batch_cce4edd1a6ee"
+  },
+  {
+    "settlement_id": "stlm_22ef30683bcf",
+    "payment_id": "pay_7b168863c857",
+    "bank_ref": "KY7TXECE98J6ZR",
+    "amount": 1159.81,
+    "settled_at": "2026-06-04T16:15:51.054950",
+    "batch_id": "batch_79636e562627"
+  },
+  {
+    "settlement_id": "stlm_324deeca63b7",
+    "payment_id": "pay_7b168863c857",
+    "bank_ref": "KY7TXECE98J6ZR",
+    "amount": 0.0,
+    "settled_at": "2026-06-04T16:15:51.054950",
+    "batch_id": "batch_79636e562627"
+  },
+  {
+    "settlement_id": "stlm_fb6d4716a6af",
+    "payment_id": "pay_d2d3fe5ec889",
+    "bank_ref": "O9ICS9JRMBK39S",
+    "amount": 11391.24,
+    "settled_at": "2026-07-27T22:53:58.886453",
+    "batch_id": "batch_df8cb517673f"
+  },
+  {
+    "settlement_id": "stlm_4359d26e0aec",
+    "payment_id": "pay_d2d3fe5ec889",
+    "bank_ref": "O9ICS9JRMBK39S",
+    "amount": 0.0,
+    "settled_at": "2026-07-27T22:53:58.886453",
+    "batch_id": "batch_df8cb517673f"
+  },
+  {
+    "settlement_id": "stlm_b6b47953d240",
+    "payment_id": "pay_0d0f6dab853f",
+    "bank_ref": "U37EB8QHS9CKHA",
+    "amount": 6514.89,
+    "settled_at": "2026-08-13T11:45:17.905906",
+    "batch_id": "batch_b56dfcf52e35"
+  },
+  {
+    "settlement_id": "stlm_b81b075cfbeb",
+    "payment_id": "pay_0d0f6dab853f",
+    "bank_ref": "U37EB8QHS9CKHA",
+    "amount": 0.0,
+    "settled_at": "2026-08-13T11:45:17.905906",
+    "batch_id": "batch_b56dfcf52e35"
+  },
+  {
+    "settlement_id": "stlm_44c08dfdeb90",
+    "payment_id": "pay_559d65e0972b",
+    "bank_ref": "K1I19VLYS86Y05",
+    "amount": 321.57,
+    "settled_at": "2026-06-06T13:02:27.116672",
+    "batch_id": "batch_652b2ba065a3"
+  },
+  {
+    "settlement_id": "stlm_3f55c860ca65",
+    "payment_id": "pay_559d65e0972b",
+    "bank_ref": "K1I19VLYS86Y05",
+    "amount": 0.0,
+    "settled_at": "2026-06-06T13:02:27.116672",
+    "batch_id": "batch_652b2ba065a3"
+  },
+  {
+    "settlement_id": "stlm_7cb84137f2fa",
+    "payment_id": "pay_8ec7f92358f4",
+    "bank_ref": "1JFEGH1VOWD186",
+    "amount": 3299.11,
+    "settled_at": "2026-06-07T03:48:36.007130",
+    "batch_id": "batch_2610c45589a2"
+  },
+  {
+    "settlement_id": "stlm_faba149d87c3",
+    "payment_id": "pay_8ec7f92358f4",
+    "bank_ref": "1JFEGH1VOWD186",
+    "amount": 0.0,
+    "settled_at": "2026-06-07T03:48:36.007130",
+    "batch_id": "batch_2610c45589a2"
+  },
+  {
+    "settlement_id": "stlm_65ddc1dbae67",
+    "payment_id": "pay_0356f652ec41",
+    "bank_ref": "3GL8T66108PO1V",
+    "amount": 8017.42,
+    "settled_at": "2026-08-08T08:19:42.753959",
+    "batch_id": "batch_5f70078fbbc8"
+  },
+  {
+    "settlement_id": "stlm_26ca0b38cd1b",
+    "payment_id": "pay_0356f652ec41",
+    "bank_ref": "3GL8T66108PO1V",
+    "amount": 8017.42,
+    "settled_at": "2026-08-08T08:19:42.753959",
+    "batch_id": "batch_5f70078fbbc8"
+  },
+  {
+    "settlement_id": "stlm_6ca7a678b3c9",
+    "payment_id": "pay_4d3bed570368",
+    "bank_ref": "LUKKAPILQME0EU",
+    "amount": 5353.4,
+    "settled_at": "2026-07-05T16:35:13.240803",
+    "batch_id": "batch_faad7cb59d1e"
+  },
+  {
+    "settlement_id": "stlm_b507a51fae16",
+    "payment_id": "pay_4d3bed570368",
+    "bank_ref": "LUKKAPILQME0EU",
+    "amount": 0.0,
+    "settled_at": "2026-07-05T16:35:13.240803",
+    "batch_id": "batch_faad7cb59d1e"
+  },
+  {
+    "settlement_id": "stlm_c96811b4c9b6",
+    "payment_id": "pay_2808942c1dfd",
+    "bank_ref": "QQNJ0ROCMQXTJB",
+    "amount": 7634.03,
+    "settled_at": "2026-08-25T20:09:18.714848",
+    "batch_id": "batch_984af7fa82c3"
+  },
+  {
+    "settlement_id": "stlm_89a23c922b12",
+    "payment_id": "pay_2808942c1dfd",
+    "bank_ref": "QQNJ0ROCMQXTJB",
+    "amount": 0.0,
+    "settled_at": "2026-08-25T20:09:18.714848",
+    "batch_id": "batch_984af7fa82c3"
+  },
+  {
+    "settlement_id": "stlm_b3e61bea8bc7",
+    "payment_id": "pay_18f6b1755c71",
+    "bank_ref": "YU96AG0SLZOB36",
+    "amount": 4253.47,
+    "settled_at": "2026-07-03T04:53:08.374375",
+    "batch_id": "batch_7841ab939e47"
+  },
+  {
+    "settlement_id": "stlm_d8c868090711",
+    "payment_id": "pay_18f6b1755c71",
+    "bank_ref": "YU96AG0SLZOB36",
+    "amount": 0.0,
+    "settled_at": "2026-07-03T04:53:08.374375",
+    "batch_id": "batch_7841ab939e47"
+  },
+  {
+    "settlement_id": "stlm_4e8cf626fd77",
+    "payment_id": "pay_4dc7a3c8dc82",
+    "bank_ref": "UASMCJ2JGB36H2",
+    "amount": 11759.07,
+    "settled_at": "2026-06-15T14:16:08.298271",
+    "batch_id": "batch_04299e74e485"
+  },
+  {
+    "settlement_id": "stlm_d202289160d2",
+    "payment_id": "pay_4dc7a3c8dc82",
+    "bank_ref": "UASMCJ2JGB36H2",
+    "amount": 0.0,
+    "settled_at": "2026-06-15T14:16:08.298271",
+    "batch_id": "batch_04299e74e485"
+  },
+  {
+    "settlement_id": "stlm_b04f098fefe3",
+    "payment_id": "pay_a520b35cab70",
+    "bank_ref": "Z7BYK9L1WDX68C",
+    "amount": 3556.64,
+    "settled_at": "2026-06-21T22:11:00.814693",
+    "batch_id": "batch_83d4053c46be"
+  },
+  {
+    "settlement_id": "stlm_7b57222e136f",
+    "payment_id": "pay_a520b35cab70",
+    "bank_ref": "Z7BYK9L1WDX68C",
+    "amount": 0.0,
+    "settled_at": "2026-06-21T22:11:00.814693",
+    "batch_id": "batch_83d4053c46be"
+  },
+  {
+    "settlement_id": "stlm_695eb8ae92ec",
+    "payment_id": "pay_872644269c10",
+    "bank_ref": "FV7UW67H8F9T6G",
+    "amount": 7342.57,
+    "settled_at": "2026-07-20T01:50:29.813103",
+    "batch_id": "batch_71513fee89a5"
+  },
+  {
+    "settlement_id": "stlm_d026fc4157fd",
+    "payment_id": "pay_872644269c10",
+    "bank_ref": "FV7UW67H8F9T6G",
+    "amount": 0.0,
+    "settled_at": "2026-07-20T01:50:29.813103",
+    "batch_id": "batch_71513fee89a5"
+  },
+  {
+    "settlement_id": "stlm_8746edc14bd5",
+    "payment_id": "pay_33f260bfcba8",
+    "bank_ref": "AIU7HQPKZKGDJW",
+    "amount": 2051.16,
+    "settled_at": "2026-07-30T06:15:32.050393",
+    "batch_id": "batch_393e6cc7dd91"
+  },
+  {
+    "settlement_id": "stlm_66e1953c4440",
+    "payment_id": "pay_33f260bfcba8",
+    "bank_ref": "AIU7HQPKZKGDJW",
+    "amount": 0.0,
+    "settled_at": "2026-07-30T06:15:32.050393",
+    "batch_id": "batch_393e6cc7dd91"
+  },
+  {
+    "settlement_id": "stlm_dee37ad59c78",
+    "payment_id": "pay_ab5c9ba3ea14",
+    "bank_ref": "ZT360AMHLTT7R9",
+    "amount": 10286.52,
+    "settled_at": "2026-08-21T19:04:14.167354",
+    "batch_id": "batch_dada35e430c4"
+  },
+  {
+    "settlement_id": "stlm_ee912b351324",
+    "payment_id": "pay_ab5c9ba3ea14",
+    "bank_ref": "ZT360AMHLTT7R9",
+    "amount": 0.0,
+    "settled_at": "2026-08-21T19:04:14.167354",
+    "batch_id": "batch_dada35e430c4"
+  },
+  {
+    "settlement_id": "stlm_e941dcf0c635",
+    "payment_id": "pay_eee1b89ff84e",
+    "bank_ref": "I0159OAXTA8R80",
+    "amount": 2722.55,
+    "settled_at": "2026-06-13T08:56:12.993868",
+    "batch_id": "batch_d00d8ceeef18"
+  },
+  {
+    "settlement_id": "stlm_791d06bf690f",
+    "payment_id": "pay_eee1b89ff84e",
+    "bank_ref": "I0159OAXTA8R80",
+    "amount": 0.0,
+    "settled_at": "2026-06-13T08:56:12.993868",
+    "batch_id": "batch_d00d8ceeef18"
+  },
+  {
+    "settlement_id": "stlm_689cee1e2d9b",
+    "payment_id": "pay_06f759479d28",
+    "bank_ref": "4IMCX159WGW70M",
+    "amount": 9874.18,
+    "settled_at": "2026-07-02T21:37:15.758803",
+    "batch_id": "batch_0e439ce9ee50"
+  },
+  {
+    "settlement_id": "stlm_c03788c42586",
+    "payment_id": "pay_06f759479d28",
+    "bank_ref": "4IMCX159WGW70M",
+    "amount": 0.0,
+    "settled_at": "2026-07-02T21:37:15.758803",
+    "batch_id": "batch_0e439ce9ee50"
+  },
+  {
+    "settlement_id": "stlm_ea57f004d215",
+    "payment_id": "pay_2846b535fc48",
+    "bank_ref": "TB02JCU4JI7IC3",
+    "amount": 4317.06,
+    "settled_at": "2026-08-01T01:22:54.395470",
+    "batch_id": "batch_58798fa0fc2a"
+  },
+  {
+    "settlement_id": "stlm_3cc22eee9f83",
+    "payment_id": "pay_2846b535fc48",
+    "bank_ref": "TB02JCU4JI7IC3",
+    "amount": 0.0,
+    "settled_at": "2026-08-01T01:22:54.395470",
+    "batch_id": "batch_58798fa0fc2a"
+  },
+  {
+    "settlement_id": "stlm_ff881382d068",
+    "payment_id": "pay_dbf2ff28fea6",
+    "bank_ref": "6KKQVGXO234W4F",
+    "amount": 1414.38,
+    "settled_at": "2026-06-18T06:39:29.771431",
+    "batch_id": "batch_7bf2ad3100e9"
+  },
+  {
+    "settlement_id": "stlm_f7e9a209a723",
+    "payment_id": "pay_dbf2ff28fea6",
+    "bank_ref": "6KKQVGXO234W4F",
+    "amount": 0.0,
+    "settled_at": "2026-06-18T06:39:29.771431",
+    "batch_id": "batch_7bf2ad3100e9"
+  },
+  {
+    "settlement_id": "stlm_a4f9cd435a89",
+    "payment_id": "pay_ab921a4e2408",
+    "bank_ref": "ODG9VGNEY4RNBG",
+    "amount": 11853.67,
+    "settled_at": "2026-08-08T05:25:55.783040",
+    "batch_id": "batch_58ec698b9bed"
+  },
+  {
+    "settlement_id": "stlm_1f51b1d6c56f",
+    "payment_id": "pay_ab921a4e2408",
+    "bank_ref": "ODG9VGNEY4RNBG",
+    "amount": 0.0,
+    "settled_at": "2026-08-08T05:25:55.783040",
+    "batch_id": "batch_58ec698b9bed"
+  },
+  {
+    "settlement_id": "stlm_ed543e5fdf1e",
+    "payment_id": "pay_c8bcb4509610",
+    "bank_ref": "BX6IB3STV3CIFS",
+    "amount": 4108.59,
+    "settled_at": "2026-08-25T06:11:16.662294",
+    "batch_id": "batch_9c79d4d8964c"
+  },
+  {
+    "settlement_id": "stlm_7d786e7d9903",
+    "payment_id": "pay_c8bcb4509610",
+    "bank_ref": "BX6IB3STV3CIFS",
+    "amount": 0.0,
+    "settled_at": "2026-08-25T06:11:16.662294",
+    "batch_id": "batch_9c79d4d8964c"
+  },
+  {
+    "settlement_id": "stlm_bf31abec9d2d",
+    "payment_id": "pay_52d1ecc0c989",
+    "bank_ref": "IR1AJ1DABWG56W",
+    "amount": 4645.7,
+    "settled_at": "2026-07-18T08:10:52.299538",
+    "batch_id": "batch_e08a63bcf46d"
+  },
+  {
+    "settlement_id": "stlm_29bfaeeb89cb",
+    "payment_id": "pay_52d1ecc0c989",
+    "bank_ref": "IR1AJ1DABWG56W",
+    "amount": 0.0,
+    "settled_at": "2026-07-18T08:10:52.299538",
+    "batch_id": "batch_e08a63bcf46d"
+  },
+  {
+    "settlement_id": "stlm_707500d789d0",
+    "payment_id": "pay_e291df5f4647",
+    "bank_ref": "T5NZA9S1R8VSQU",
+    "amount": 1507.6,
+    "settled_at": "2026-06-30T17:50:32.008848",
+    "batch_id": "batch_373d2892c82a"
+  },
+  {
+    "settlement_id": "stlm_22427eb944eb",
+    "payment_id": "pay_e291df5f4647",
+    "bank_ref": "T5NZA9S1R8VSQU",
+    "amount": 0.0,
+    "settled_at": "2026-06-30T17:50:32.008848",
+    "batch_id": "batch_373d2892c82a"
+  },
+  {
+    "settlement_id": "stlm_d441940b05b2",
+    "payment_id": "pay_f305cf709efb",
+    "bank_ref": "511VS0UFOHHVPN",
+    "amount": 8843.9,
+    "settled_at": "2026-07-21T19:50:07.056893",
+    "batch_id": "batch_60b52e683ac8"
+  },
+  {
+    "settlement_id": "stlm_bf5f6e312b18",
+    "payment_id": "pay_f305cf709efb",
+    "bank_ref": "511VS0UFOHHVPN",
+    "amount": 0.0,
+    "settled_at": "2026-07-21T19:50:07.056893",
+    "batch_id": "batch_60b52e683ac8"
+  },
+  {
+    "settlement_id": "stlm_64c8444ff445",
+    "payment_id": "pay_1f9e29a70e9e",
+    "bank_ref": "ND5SGKIZF0NCEG",
+    "amount": 737.28,
+    "settled_at": "2026-08-04T14:14:10.030724",
+    "batch_id": "batch_a0015aa1e8cb"
+  },
+  {
+    "settlement_id": "stlm_cdb9458b2feb",
+    "payment_id": "pay_1f9e29a70e9e",
+    "bank_ref": "ND5SGKIZF0NCEG",
+    "amount": 0.0,
+    "settled_at": "2026-08-04T14:14:10.030724",
+    "batch_id": "batch_a0015aa1e8cb"
+  },
+  {
+    "settlement_id": "stlm_9df4e490e8c6",
+    "payment_id": "pay_69193370bdca",
+    "bank_ref": "DD5S0KF98P6N6N",
+    "amount": 8205.48,
+    "settled_at": "2026-07-11T01:24:22.277028",
+    "batch_id": "batch_d0a30f3357a7"
+  },
+  {
+    "settlement_id": "stlm_e7cfa7e18771",
+    "payment_id": "pay_69193370bdca",
+    "bank_ref": "DD5S0KF98P6N6N",
+    "amount": 0.0,
+    "settled_at": "2026-07-11T01:24:22.277028",
+    "batch_id": "batch_d0a30f3357a7"
+  },
+  {
+    "settlement_id": "stlm_5f132e1f647f",
+    "payment_id": "pay_3b5b360a3cfa",
+    "bank_ref": "JZGD2WAV77R38I",
+    "amount": 4190.19,
+    "settled_at": "2026-06-26T16:30:31.377408",
+    "batch_id": "batch_9b67b317f318"
+  },
+  {
+    "settlement_id": "stlm_c415585ea137",
+    "payment_id": "pay_3b5b360a3cfa",
+    "bank_ref": "JZGD2WAV77R38I",
+    "amount": 0.0,
+    "settled_at": "2026-06-26T16:30:31.377408",
+    "batch_id": "batch_9b67b317f318"
+  },
+  {
+    "settlement_id": "stlm_a4c7939df9eb",
+    "payment_id": "pay_bcc06bbe589b",
+    "bank_ref": "MQISOSLMX13Y39",
+    "amount": 7485.5,
+    "settled_at": "2026-08-15T16:11:58.773727",
+    "batch_id": "batch_a47b1792ef91"
+  },
+  {
+    "settlement_id": "stlm_49c41d554fc1",
+    "payment_id": "pay_bcc06bbe589b",
+    "bank_ref": "MQISOSLMX13Y39",
+    "amount": 0.0,
+    "settled_at": "2026-08-15T16:11:58.773727",
+    "batch_id": "batch_a47b1792ef91"
+  },
+  {
+    "settlement_id": "stlm_92329aa27d1d",
+    "payment_id": "pay_99c68614d4a4",
+    "bank_ref": "LGQXHLCEZH82MW",
+    "amount": 9614.61,
+    "settled_at": "2026-08-12T10:06:16.526806",
+    "batch_id": "batch_6e1a209e1fdf"
+  },
+  {
+    "settlement_id": "stlm_7d26f46f12a5",
+    "payment_id": "pay_99c68614d4a4",
+    "bank_ref": "LGQXHLCEZH82MW",
+    "amount": 0.0,
+    "settled_at": "2026-08-12T10:06:16.526806",
+    "batch_id": "batch_6e1a209e1fdf"
+  },
+  {
+    "settlement_id": "stlm_de2ca11c55af",
+    "payment_id": "pay_5fc486958058",
+    "bank_ref": "9WCBW4QL7K3FN3",
+    "amount": 7083.41,
+    "settled_at": "2026-07-27T12:18:47.052085",
+    "batch_id": "batch_c77d333ba282"
+  },
+  {
+    "settlement_id": "stlm_287a5f458b9a",
+    "payment_id": "pay_5fc486958058",
+    "bank_ref": "9WCBW4QL7K3FN3",
+    "amount": 0.0,
+    "settled_at": "2026-07-27T12:18:47.052085",
+    "batch_id": "batch_c77d333ba282"
+  }
+]

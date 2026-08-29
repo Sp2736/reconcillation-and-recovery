@@ -1,0 +1,13 @@
+{
+  "total_settlement_records": 2754,
+  "auto_matched_stage_1_2": 2599,
+  "auto_matched_pct": 0.9437,
+  "llm_resolved_stage_3": 6,
+  "llm_resolved_pct": 0.0022,
+  "unresolved_escalated": 149,
+  "unresolved_pct": 0.0541,
+  "chaos_subset_size": 367,
+  "precision_on_chaos_subset": 0.5495,
+  "recall_on_chaos_subset": 0.5545,
+  "false_resolution_rate": 0.2725
+}
