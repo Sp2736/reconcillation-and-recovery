@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-clay-base: #EAEEF2;
+  --color-clay-surface: #F4F7FA;
+  --color-clay-ink: #3A4454;
+  --color-clay-muted: #8A94A6;
+  --color-clay-green: #8FBFA0;
+  --color-clay-red: #D9A0A0;
+  --color-clay-amber: #E3C58C;
+  --color-clay-accent: #6E8FB5;
+  
+  --font-display: var(--font-display), sans-serif;
+  --font-body: var(--font-body), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-clay-base);
+    color: var(--color-clay-ink);
+    font-family: var(--font-body);
+  }
+}
+
+@keyframes stampClayBounce {
+  0% { transform: scale(0); opacity: 0; box-shadow: none; }
+  60% { transform: scale(1.1); opacity: 1; box-shadow: none; }
+  100% { 
+    transform: scale(1); 
+    opacity: 1; 
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.6), 4px 4px 8px rgba(163, 177, 198, 0.4);
+  }
+}
+
+@layer utilities {
+  .clay-card {
+    border-radius: 24px;
+    background: var(--color-clay-surface);
+    box-shadow: 
+      -8px -8px 16px rgba(255, 255, 255, 0.7),
+       8px  8px 16px rgba(163, 177, 198, 0.5);
+  }
+
+  .clay-inset {
+    border-radius: 20px;
+    background: var(--color-clay-base);
+    box-shadow: 
+      inset -6px -6px 12px rgba(255, 255, 255, 0.6),
+      inset  6px  6px 12px rgba(163, 177, 198, 0.5);
+  }
+
+  .clay-pill {
+    border-radius: 999px;
+    background: var(--color-clay-surface);
+    box-shadow: 
+      -4px -4px 8px rgba(255, 255, 255, 0.6),
+       4px  4px 8px rgba(163, 177, 198, 0.4);
+  }
+
+  .clay-button {
+    border-radius: 999px;
+    background: var(--color-clay-accent);
+    color: white;
+    box-shadow: 
+      -4px -4px 8px rgba(255, 255, 255, 0.6),
+       4px  4px 8px rgba(163, 177, 198, 0.4);
+    transition: box-shadow 0ms, transform 40ms;
+  }
+  
+  .clay-button:active {
+    box-shadow: 
+      inset -4px -4px 8px rgba(255, 255, 255, 0.3),
+      inset  4px  4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+  }
+
+  .stamp-clay-animation {
+    animation: stampClayBounce 220ms ease-out forwards;
+  }
+  
+  @media (prefers-reduced-motion) {
+    .stamp-clay-animation {
+      animation: none;
+      transition: opacity 200ms ease-in;
+    }
+  }
+}
