@@ -6,7 +6,14 @@ import { EvidencePanel, EvidenceRecord } from "@/components/EvidencePanel";
 import { AuditTrailFooter, AuditRecord } from "@/components/AuditTrailFooter";
 import { StampStatus } from "@/components/Stamp";
 
-const API_BASE = "http://localhost:8000";
+import {
+  fetchReconciliationMetrics,
+  fetchRecoverySummary,
+  fetchRecoveryQueue,
+  fetchResolvedReconciliation,
+  fetchUnresolvedReconciliation,
+  fetchAuditTrail
+} from "@/lib/api";
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState<"reconciliation" | "recovery">("reconciliation");
@@ -25,14 +32,14 @@ export default function Dashboard() {
   const [auditTrail, setAuditTrail] = useState<AuditRecord[]>([]);
 
   useEffect(() => {
-    // Fetch all data
+    // Fetch all data using API client
     Promise.all([
-      fetch(`${API_BASE}/metrics/reconciliation`).then(r => r.json()).catch(() => ({})),
-      fetch(`${API_BASE}/recovery/summary`).then(r => r.json()).catch(() => ({})),
-      fetch(`${API_BASE}/reconciliation/unresolved`).then(r => r.json()).catch(() => ({})),
-      fetch(`${API_BASE}/reconciliation/resolved`).then(r => r.json()).catch(() => ({})),
-      fetch(`${API_BASE}/recovery/queue`).then(r => r.json()).catch(() => []),
-      fetch(`${API_BASE}/audit-trail`).then(r => r.json()).catch(() => [])
+      fetchReconciliationMetrics().catch(() => ({})),
+      fetchRecoverySummary().catch(() => ({})),
+      fetchUnresolvedReconciliation().catch(() => ({})),
+      fetchResolvedReconciliation().catch(() => ({})),
+      fetchRecoveryQueue(50).catch(() => []),
+      fetchAuditTrail().catch(() => [])
     ]).then(([reconMetrics, recoverySum, reconUnres, reconRes, recQueue, audit]) => {
       
       setHeaderData({
@@ -130,28 +137,39 @@ export default function Dashboard() {
   const evidenceRecord = getEvidenceRecord(selectedId);
 
   return (
-    <div className="flex flex-col h-screen w-full bg-[var(--color-clay-base)] overflow-hidden">
+    <div className="flex flex-col h-screen w-full bg-[var(--color-neu-bg)] overflow-hidden">
       <LedgerHeader {...headerData} />
       
-      <main className="flex-grow flex relative overflow-hidden pb-10">
-        <RecordList 
-          activeTab={activeTab} 
-          onTabChange={(tab) => {
-            setActiveTab(tab);
-            setSelectedId(null);
-          }} 
-          records={activeRecords}
-          selectedId={selectedId}
-          onSelect={setSelectedId}
-        />
+      <main className="flex-grow flex flex-col md:flex-row relative overflow-hidden">
+        {/* Record List View */}
+        <div className={`flex-grow h-full overflow-hidden ${selectedId ? 'hidden md:block md:w-1/2 lg:w-[55%]' : 'w-full'}`}>
+          <RecordList 
+            activeTab={activeTab} 
+            onTabChange={(tab) => {
+              setActiveTab(tab);
+              setSelectedId(null);
+            }} 
+            records={activeRecords}
+            selectedId={selectedId}
+            onSelect={setSelectedId}
+          />
+        </div>
         
-        <EvidencePanel 
-          record={evidenceRecord} 
-          onClose={() => setSelectedId(null)} 
-        />
+        {/* Detail/Evidence View (Full screen on mobile if selected, side panel on tablet+) */}
+        {selectedId && (
+          <div className="absolute inset-0 z-20 bg-[var(--color-neu-bg)] md:relative md:z-auto md:w-1/2 lg:w-[45%] h-full">
+            <EvidencePanel 
+              record={evidenceRecord} 
+              onClose={() => setSelectedId(null)} 
+            />
+          </div>
+        )}
       </main>
 
-      <AuditTrailFooter records={auditTrail} />
+      {/* Audit trail footer/section */}
+      <div className="lg:block">
+         <AuditTrailFooter records={auditTrail} />
+      </div>
     </div>
   );
 }

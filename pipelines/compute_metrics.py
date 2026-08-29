@@ -7,7 +7,23 @@ Usage:
 """
 import argparse
 import json
+import math
 from pathlib import Path
+
+
+def wilson_confidence_interval(successes: int, n: int, z: float = 1.96):
+    """95% Wilson score interval — more reliable than a normal approximation
+    at the sample sizes this project actually has (n~100-150), where a
+    naive ±1.96*sqrt(p(1-p)/n) interval can overshoot past 0 or 1."""
+    if n == 0:
+        return (float("nan"), float("nan"))
+    p = successes / n
+    denom = 1 + z**2 / n
+    centre = p + z**2 / (2 * n)
+    adj = z * math.sqrt((p * (1 - p) / n) + (z**2 / (4 * n**2)))
+    lower = (centre - adj) / denom
+    upper = (centre + adj) / denom
+    return (round(max(0.0, lower), 4), round(min(1.0, upper), 4))
 
 
 def run(data_dir: Path):
@@ -56,6 +72,9 @@ def run(data_dir: Path):
     recall = tp / (tp + fn) if (tp + fn) else float("nan")
     false_resolution_rate = false_resolutions / len(chaos_ids) if chaos_ids else float("nan")
 
+    precision_ci = wilson_confidence_interval(tp, tp + fp) if (tp + fp) else (float("nan"), float("nan"))
+    recall_ci = wilson_confidence_interval(tp, tp + fn) if (tp + fn) else (float("nan"), float("nan"))
+
     metrics = {
         "total_settlement_records": total,
         "auto_matched_stage_1_2": auto_matched,
@@ -66,7 +85,9 @@ def run(data_dir: Path):
         "unresolved_pct": round(unresolved / total, 4) if total else 0,
         "chaos_subset_size": len(chaos_ids),
         "precision_on_chaos_subset": round(precision, 4),
+        "precision_95pct_ci": precision_ci,
         "recall_on_chaos_subset": round(recall, 4),
+        "recall_95pct_ci": recall_ci,
         "false_resolution_rate": round(false_resolution_rate, 4),
     }
 
@@ -76,7 +97,8 @@ def run(data_dir: Path):
 
     md_lines = ["# Reconciliation Metrics\n", "| metric | value |", "|---|---|"]
     for k, v in metrics.items():
-        md_lines.append(f"| {k.replace('_', ' ')} | {v} |")
+        display = f"{v[0]}–{v[1]}" if isinstance(v, tuple) else v
+        md_lines.append(f"| {k.replace('_', ' ')} | {display} |")
     with open(data_dir / "METRICS.md", "w") as f:
         f.write("\n".join(md_lines) + "\n")
 

@@ -1,0 +1,12 @@
+{
+  "42": {
+    "total_settlements": 1371,
+    "auto_matched_pct": 0.9504,
+    "chaos_issues_injected": 183
+  },
+  "777": {
+    "total_settlements": 1352,
+    "auto_matched_pct": 0.9564,
+    "chaos_issues_injected": 177
+  }
+}

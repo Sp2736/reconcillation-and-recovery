@@ -1,88 +1,111 @@
 @import "tailwindcss";
 
 @theme {
-  --color-clay-base: #EAEEF2;
-  --color-clay-surface: #F4F7FA;
-  --color-clay-ink: #3A4454;
-  --color-clay-muted: #8A94A6;
-  --color-clay-green: #8FBFA0;
-  --color-clay-red: #D9A0A0;
-  --color-clay-amber: #E3C58C;
-  --color-clay-accent: #6E8FB5;
-  
   --font-display: var(--font-display), sans-serif;
   --font-body: var(--font-body), sans-serif;
   --font-mono: var(--font-mono), monospace;
+  
+  --color-neu-bg: #E4E9F0;
+  --color-neu-surface: #EDF1F6;
+  --color-neu-text: #3E4756;
+  --color-neu-muted: #8D97A8;
+  --color-neu-accent-start: #3E7BFA;
+  --color-neu-accent-end: #6E5AF0;
 }
 
 @layer base {
   body {
-    background-color: var(--color-clay-base);
-    color: var(--color-clay-ink);
+    background-color: var(--color-neu-bg);
+    color: var(--color-neu-text);
     font-family: var(--font-body);
+    /* tabular-nums for general number alignment */
+    font-variant-numeric: tabular-nums;
   }
-}
 
-@keyframes stampClayBounce {
-  0% { transform: scale(0); opacity: 0; box-shadow: none; }
-  60% { transform: scale(1.1); opacity: 1; box-shadow: none; }
-  100% { 
-    transform: scale(1); 
-    opacity: 1; 
-    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.6), 4px 4px 8px rgba(163, 177, 198, 0.4);
+  /* Custom Scrollbar matching Neumorphic Theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-neu-bg);
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 3px rgba(163, 177, 198, 0.3);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-neu-surface);
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(163, 177, 198, 0.5);
+    transition: background 0.2s;
+  }
+  ::-webkit-scrollbar-thumb:hover,
+  ::-webkit-scrollbar-thumb:active {
+    background: var(--color-neu-accent-start);
   }
 }
 
 @layer utilities {
-  .clay-card {
-    border-radius: 24px;
-    background: var(--color-clay-surface);
-    box-shadow: 
-      -8px -8px 16px rgba(255, 255, 255, 0.7),
-       8px  8px 16px rgba(163, 177, 198, 0.5);
-  }
-
-  .clay-inset {
+  .neu-panel {
+    background: var(--color-neu-surface);
     border-radius: 20px;
-    background: var(--color-clay-base);
-    box-shadow: 
-      inset -6px -6px 12px rgba(255, 255, 255, 0.6),
-      inset  6px  6px 12px rgba(163, 177, 198, 0.5);
+    box-shadow:
+      -10px -10px 20px rgba(255, 255, 255, 0.8),
+       10px  10px 20px rgba(163, 177, 198, 0.45);
   }
 
-  .clay-pill {
-    border-radius: 999px;
-    background: var(--color-clay-surface);
-    box-shadow: 
-      -4px -4px 8px rgba(255, 255, 255, 0.6),
-       4px  4px 8px rgba(163, 177, 198, 0.4);
+  .neu-inset {
+    background: var(--color-neu-bg);
+    border-radius: 16px;
+    box-shadow:
+      inset -8px -8px 16px rgba(255, 255, 255, 0.7),
+      inset  8px  8px 16px rgba(163, 177, 198, 0.5);
   }
 
-  .clay-button {
+  .neu-pill {
+    background: var(--color-neu-surface);
     border-radius: 999px;
-    background: var(--color-clay-accent);
-    color: white;
-    box-shadow: 
-      -4px -4px 8px rgba(255, 255, 255, 0.6),
-       4px  4px 8px rgba(163, 177, 198, 0.4);
-    transition: box-shadow 0ms, transform 40ms;
+    box-shadow:
+      -6px -6px 12px rgba(255, 255, 255, 0.8),
+       6px  6px 12px rgba(163, 177, 198, 0.45);
+  }
+
+  .neu-gradient-text {
+    background: linear-gradient(135deg, var(--color-neu-accent-start), var(--color-neu-accent-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   
-  .clay-button:active {
-    box-shadow: 
-      inset -4px -4px 8px rgba(255, 255, 255, 0.3),
-      inset  4px  4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(0.98);
+  .neu-gradient-bg {
+    background: linear-gradient(135deg, var(--color-neu-accent-start), var(--color-neu-accent-end));
   }
 
-  .stamp-clay-animation {
-    animation: stampClayBounce 220ms ease-out forwards;
+  @keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
   }
   
-  @media (prefers-reduced-motion) {
-    .stamp-clay-animation {
-      animation: none;
-      transition: opacity 200ms ease-in;
+  .animate-ticker {
+    animation: ticker 25s linear infinite;
+  }
+  
+  .animate-ticker:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
     }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0; /* Ensures element is hidden before animation starts */
   }
 }

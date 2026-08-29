@@ -207,6 +207,7 @@ class Generator:
         chaos_types = [
             "rounding_drift", "split_settlement", "duplicate_settlement",
             "orphaned_settlement", "delayed_settlement", "silent_webhook_failure",
+            "rounding_rule_mismatch", "reused_truncated_bank_ref", "cross_period_settlement",
         ]
 
         for s in targets:
@@ -271,6 +272,44 @@ class Generator:
                         "issue": "silent_webhook_failure", "order_id": order.order_id,
                         "correct_status": "UNRESOLVED",
                     }
+
+            elif chaos == "rounding_rule_mismatch":
+                # gateway rounds round-half-even, our books assume round-half-up —
+                # produces a mismatch strictly under a paise or two, distinct from
+                # generic rounding_drift because the cause is a *rule* difference,
+                # not a one-off arithmetic slip, and should still resolve once
+                # amount-tolerance matching is applied
+                s.amount = round(s.amount + random.choice([-0.01, 0.01]), 2)
+                self.ground_truth[s.settlement_id] = {
+                    "issue": "rounding_rule_mismatch", "correct_status": "RESOLVED",
+                }
+
+            elif chaos == "reused_truncated_bank_ref":
+                # bank truncates references at a fixed length, so two genuinely
+                # unrelated settlements can share an identical truncated prefix —
+                # this should NOT be treated as a match by a naive substring-based
+                # fuzzy matcher; it's a false-positive trap by design
+                other = random.choice([o for o in self.settlements if o.settlement_id != s.settlement_id])
+                shared_prefix = rand_bank_ref()[:8]
+                s.bank_ref = shared_prefix
+                other.bank_ref = shared_prefix
+                self.ground_truth[s.settlement_id] = {
+                    "issue": "reused_truncated_bank_ref", "unrelated_id": other.settlement_id,
+                    "correct_status": "UNRESOLVED",
+                }
+
+            elif chaos == "cross_period_settlement":
+                # payment captured near a reporting-period boundary settles in
+                # the following period — legitimate, not an error, but easy to
+                # mis-flag as unmatched if the date window is too narrow
+                settled = datetime.fromisoformat(s.settled_at)
+                # push settlement to the 3rd of the following month, simulating
+                # a period-boundary crossing
+                next_month = (settled.replace(day=28) + timedelta(days=4)).replace(day=3)
+                s.settled_at = next_month.isoformat()
+                self.ground_truth[s.settlement_id] = {
+                    "issue": "cross_period_settlement", "correct_status": "RESOLVED",
+                }
 
     def to_dict(self):
         return {

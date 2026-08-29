@@ -1,3509 +1,3908 @@
 [
   {
-    "record_id": "pay_a7f4d4cd0d51",
+    "record_id": "pay_8abf811ca412",
+    "customer_id": "cust_00998b146904",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24938.79
   },
   {
-    "record_id": "pay_c19a38dcd66d",
+    "record_id": "pay_731d1b58b15d",
+    "customer_id": "cust_43231612e788",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 24747.02
   },
   {
-    "record_id": "pay_ebfa10bd6daa",
+    "record_id": "pay_3fb4265d5a37",
+    "customer_id": "cust_7a1659d4c961",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24522.56
   },
   {
-    "record_id": "pay_93b72e6bbb32",
+    "record_id": "pay_239603b60239",
+    "customer_id": "cust_4ae63b2f3092",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24380.81
   },
   {
-    "record_id": "pay_aa2e5e948a57",
+    "record_id": "pay_7945fdb1eb2d",
+    "customer_id": "cust_b72605c4e86d",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24253.91
   },
   {
-    "record_id": "pay_5fb6a76eb705",
+    "record_id": "pay_d802eb374914",
+    "customer_id": "cust_aad110283c0c",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24196.67
   },
   {
-    "record_id": "pay_39e1e1087bb4",
+    "record_id": "pay_26b5d3b0fa9b",
+    "customer_id": "cust_41486f1e528e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 23653.5
   },
   {
-    "record_id": "pay_aae8abe972b2",
+    "record_id": "pay_6b7534720c92",
+    "customer_id": "cust_662f63570ef5",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 23632.75
   },
   {
-    "record_id": "pay_38bf18dbd934",
+    "record_id": "pay_57b0f604210c",
+    "customer_id": "cust_bb9538b58023",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 23483.13
   },
   {
-    "record_id": "pay_8d6622b1f123",
+    "record_id": "pay_386d3c594443",
+    "customer_id": "cust_9994dc6059ec",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 23335.45
   },
   {
-    "record_id": "pay_c7cf14dbcced",
+    "record_id": "pay_966d9e017a01",
+    "customer_id": "cust_223d3b73cb99",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 23307.56
   },
   {
-    "record_id": "pay_202186a4c7c3",
+    "record_id": "pay_f96fe2819d78",
+    "customer_id": "cust_0e4b6337e786",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 23266.62
   },
   {
-    "record_id": "pay_e92d44ca44b9",
+    "record_id": "pay_996876138ccb",
+    "customer_id": "cust_31aee6354762",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 23233.5
   },
   {
-    "record_id": "pay_0588978c14b3",
+    "record_id": "pay_16b011e0a344",
+    "customer_id": "cust_da0a18cfc5e0",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 23009.37
   },
   {
-    "record_id": "pay_abef9acd4082",
+    "record_id": "pay_2d689a58608a",
+    "customer_id": "cust_552e73e9d355",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22664.37
   },
   {
-    "record_id": "pay_a7a8cde2b284",
+    "record_id": "pay_6b099fbf2bc7",
+    "customer_id": "cust_99b88effeacd",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22609.72
   },
   {
-    "record_id": "pay_9d48e3f5e766",
+    "record_id": "pay_dfb967a0722b",
+    "customer_id": "cust_9db0ab002437",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22546.63
   },
   {
-    "record_id": "pay_1365fb47bd52",
+    "record_id": "pay_c9d9024229d7",
+    "customer_id": "cust_4691dbba3242",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22502.79
   },
   {
-    "record_id": "pay_dfb7dbd7ef58",
+    "record_id": "pay_1d4145c9c9bb",
+    "customer_id": "cust_dc2212d63f5e",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 22276.49
   },
   {
-    "record_id": "pay_bce538cf23f9",
+    "record_id": "pay_6040260340c8",
+    "customer_id": "cust_c2c21bd107b4",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21988.58
   },
   {
-    "record_id": "pay_91cd117998c8",
+    "record_id": "pay_eb8335a266e9",
+    "customer_id": "cust_acc7c08bc8cf",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21910.59
   },
   {
-    "record_id": "pay_1a8bbc436b01",
+    "record_id": "pay_fe56b638b425",
+    "customer_id": "cust_db6b46ba6fc1",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21706.4
   },
   {
-    "record_id": "pay_5d102edfabf5",
+    "record_id": "pay_635acff97235",
+    "customer_id": "cust_ab7ace63286f",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21688.3
   },
   {
-    "record_id": "pay_c10138f28bc1",
+    "record_id": "pay_19490f002a46",
+    "customer_id": "cust_da0a18cfc5e0",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 21621.32
   },
   {
-    "record_id": "pay_8132f280d490",
+    "record_id": "pay_0604616b8480",
+    "customer_id": "cust_4c40d15c15cb",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21447.21
   },
   {
-    "record_id": "pay_ff7f56fdb403",
+    "record_id": "pay_f99ce8df4220",
+    "customer_id": "cust_a2f065358bc3",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21352.48
   },
   {
-    "record_id": "pay_39b266debbf7",
+    "record_id": "pay_9af533788b1f",
+    "customer_id": "cust_b72605c4e86d",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 21283.29
   },
   {
-    "record_id": "pay_7b386dd0f8d0",
+    "record_id": "pay_072b2237e5e4",
+    "customer_id": "cust_ca3ffb2b75ac",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21049.06
   },
   {
-    "record_id": "pay_3da56fea3a4f",
+    "record_id": "pay_a09004a81985",
+    "customer_id": "cust_dbcb6c836bb3",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20585.09
   },
   {
-    "record_id": "pay_8ef4e2d22196",
+    "record_id": "pay_d982a2cee786",
+    "customer_id": "cust_fc944eeb99d7",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20564.73
   },
   {
-    "record_id": "pay_e8099803cc95",
+    "record_id": "pay_71ed329ede2d",
+    "customer_id": "cust_9af42feb2e3b",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20486.31
   },
   {
-    "record_id": "pay_11e068abc839",
+    "record_id": "pay_25d9a14cf5da",
+    "customer_id": "cust_051b69cb9356",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 20152.52
   },
   {
-    "record_id": "pay_738aa74b1229",
+    "record_id": "pay_763c71812e18",
+    "customer_id": "cust_a208294ff0ad",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20150.53
   },
   {
-    "record_id": "pay_1eaa1bd3461d",
+    "record_id": "pay_18636332916a",
+    "customer_id": "cust_ad236ac2631c",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 19919.43
   },
   {
-    "record_id": "pay_8ab22e464d57",
+    "record_id": "pay_2cc042d68ab8",
+    "customer_id": "cust_a139d3dbb765",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 19639.39
   },
   {
-    "record_id": "pay_572a5c431259",
+    "record_id": "pay_c368d7e77e11",
+    "customer_id": "cust_4b5e6c55e378",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 19497.22
   },
   {
-    "record_id": "pay_db4bc7c7810b",
+    "record_id": "pay_ef969ef70ce5",
+    "customer_id": "cust_0f884d53a7c0",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24904.05
   },
   {
-    "record_id": "pay_25907c84f979",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 24805.95
-  },
-  {
-    "record_id": "pay_6a6319da6351",
+    "record_id": "pay_297fcb3df698",
+    "customer_id": "cust_0374bb4e1de1",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
-    "amount": 24713.83
+    "amount": 24805.95
   },
   {
-    "record_id": "pay_37929c45d8dd",
+    "record_id": "pay_8a82d7ee2f6f",
+    "customer_id": "cust_f336e1cf3174",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
+    "amount": 24713.83
+  },
+  {
+    "record_id": "pay_57d518d9c462",
+    "customer_id": "cust_292b0c9fe8d6",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "recovered",
     "amount": 24642.85
   },
   {
-    "record_id": "pay_702cf59c9b8d",
+    "record_id": "pay_3de11ae555fc",
+    "customer_id": "cust_e73a4d711916",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 19037.82
   },
   {
-    "record_id": "pay_94a7bc445490",
+    "record_id": "pay_840f3ec1082f",
+    "customer_id": "cust_536dbc7d95bc",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 18954.11
   },
   {
-    "record_id": "pay_bb0e2e55ffba",
+    "record_id": "pay_b49db59fc5d7",
+    "customer_id": "cust_2e560001f473",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 24355.9
   },
   {
-    "record_id": "pay_22e02790f58c",
+    "record_id": "pay_7b6396b0969c",
+    "customer_id": "cust_ba277016b49d",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24316.54
   },
   {
-    "record_id": "pay_1e674abf3c8e",
+    "record_id": "pay_4b82dc518fd4",
+    "customer_id": "cust_a585981c8d55",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24264.38
   },
   {
-    "record_id": "pay_d32eae9cd2bb",
+    "record_id": "pay_6b989b539e06",
+    "customer_id": "cust_2cb59a96ab2d",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 24201.95
   },
   {
-    "record_id": "pay_ac3de500adf5",
+    "record_id": "pay_b3717e5d7884",
+    "customer_id": "cust_91d5417d1061",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 24164.44
   },
   {
-    "record_id": "pay_ecd8cd1883f2",
+    "record_id": "pay_4c0984bd0f4a",
+    "customer_id": "cust_4f95a26bfdb6",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24019.33
   },
   {
-    "record_id": "pay_a6118d93720f",
+    "record_id": "pay_8da91f08d8bb",
+    "customer_id": "cust_fe7144ab03bd",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 23949.88
   },
   {
-    "record_id": "pay_d6788fb03d5a",
+    "record_id": "pay_4066e70422c5",
+    "customer_id": "cust_766c2752fd40",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 18528.46
   },
   {
-    "record_id": "pay_d74fcac03afd",
+    "record_id": "pay_6a8ff182e848",
+    "customer_id": "cust_d0b94c9a199a",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 23689.17
   },
   {
-    "record_id": "pay_5b59a4a18e99",
+    "record_id": "pay_7b73cba8f43e",
+    "customer_id": "cust_a66214687b29",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 23683.0
   },
   {
-    "record_id": "pay_716ab1ef61c2",
+    "record_id": "pay_b6dd22db6fdd",
+    "customer_id": "cust_75023fa0078a",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 18318.29
   },
   {
-    "record_id": "pay_9858e057d3de",
+    "record_id": "pay_542796ffcc19",
+    "customer_id": "cust_e72658d66391",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 18178.71
   },
   {
-    "record_id": "pay_0622bf516b68",
+    "record_id": "pay_67a0134250e2",
+    "customer_id": "cust_275f009e6a11",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 23440.95
   },
   {
-    "record_id": "pay_aaf2c0167def",
+    "record_id": "pay_09adbb5d8d16",
+    "customer_id": "cust_9db0ab002437",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 23400.16
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_ed7d106a312b",
+    "record_id": "pay_c085a9c53a9e",
+    "customer_id": "cust_b440d13a9b3e",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 18118.04
   },
   {
-    "record_id": "pay_82d2678f7e97",
+    "record_id": "pay_990a5ead1d1e",
+    "customer_id": "cust_4339017d62d0",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 23122.1
   },
   {
-    "record_id": "pay_e51f140c6b37",
+    "record_id": "pay_147900ebffc1",
+    "customer_id": "cust_0ea5248e6d07",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 22894.7
   },
   {
-    "record_id": "pay_05960b59ff5d",
+    "record_id": "pay_636975944da1",
+    "customer_id": "cust_95187bcfef39",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 17717.85
   },
   {
-    "record_id": "pay_ffad8e70ba40",
+    "record_id": "pay_49bb02e81b4d",
+    "customer_id": "cust_b89e83ba2468",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22605.74
   },
   {
-    "record_id": "pay_a28c56da2e9d",
+    "record_id": "pay_dbff5ae486b2",
+    "customer_id": "cust_3fadc56af24f",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 17376.35
   },
   {
-    "record_id": "pay_5ebc48b6c20a",
+    "record_id": "pay_8e065e073445",
+    "customer_id": "cust_b8fda0105d9d",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 22373.05
   },
   {
-    "record_id": "pay_aa8f530e8c27",
+    "record_id": "pay_b24975621c80",
+    "customer_id": "cust_dc2212d63f5e",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 22330.42
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_c0e4a6d03e6b",
+    "record_id": "pay_4e6a3d12c8b5",
+    "customer_id": "cust_192bd1f35648",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 22176.75
   },
   {
-    "record_id": "pay_d165d9a7d48b",
+    "record_id": "pay_51fec51f94ae",
+    "customer_id": "cust_f65c0b3d180d",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 17173.53
   },
   {
-    "record_id": "pay_43f88bb1090b",
+    "record_id": "pay_1723969dabce",
+    "customer_id": "cust_2f486634645b",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 24945.02
   },
   {
-    "record_id": "pay_f7a743bda172",
+    "record_id": "pay_f5e3ae171b07",
+    "customer_id": "cust_db6b46ba6fc1",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_e9baffc9b7df",
+    "customer_id": "cust_29b4190a173c",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
-    "amount": 22113.51
-  },
-  {
-    "record_id": "pay_986882bc6dfe",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
     "amount": 22102.4
   },
   {
-    "record_id": "pay_39c6d099d47f",
+    "record_id": "pay_2a9274e93896",
+    "customer_id": "cust_68278022d5fd",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 22032.53
   },
   {
-    "record_id": "pay_af8ac9336dbb",
+    "record_id": "pay_3af3b615535e",
+    "customer_id": "cust_090b9e311c84",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 16956.62
   },
   {
-    "record_id": "pay_b5529c31dfe5",
+    "record_id": "pay_f67c65d6ec56",
+    "customer_id": "cust_96655fe63549",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 16842.21
   },
   {
-    "record_id": "pay_73472967ecfc",
+    "record_id": "pay_4c5fb4f88b50",
+    "customer_id": "cust_6c3c3df8b801",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 21645.72
   },
   {
-    "record_id": "pay_fd931ab689e0",
+    "record_id": "pay_8d4a85e67a82",
+    "customer_id": "cust_4691dbba3242",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 21626.83
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_96b566aea5d7",
+    "record_id": "pay_be7f6a6b9080",
+    "customer_id": "cust_95187bcfef39",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 24350.19
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_ac9ba2051f0a",
+    "record_id": "pay_e8cb7a4b917d",
+    "customer_id": "cust_7151cdf26034",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 21559.16
   },
   {
-    "record_id": "pay_e0fd137a5858",
+    "record_id": "pay_12990b6c2ed5",
+    "customer_id": "cust_6d1de6c7c4e0",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 24293.23
   },
   {
-    "record_id": "pay_4d2ec8daa5b0",
+    "record_id": "pay_1783c640a2ea",
+    "customer_id": "cust_69357b105c5b",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16651.96
   },
   {
-    "record_id": "pay_077b6da235dc",
+    "record_id": "pay_5a3449ff9702",
+    "customer_id": "cust_96655fe63549",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 21479.95
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_f3559d80164b",
+    "record_id": "pay_c4dc167c8f86",
+    "customer_id": "cust_f4bc54e6ef85",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 24202.52
   },
   {
-    "record_id": "pay_557d4c8273d3",
+    "record_id": "pay_e2118fb74300",
+    "customer_id": "cust_41486f1e528e",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 24006.66
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_57cb737beeef",
+    "record_id": "pay_f03009b2a8e4",
+    "customer_id": "cust_aa7cde0eaa66",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 23924.23
   },
   {
-    "record_id": "pay_19bfa0fbdbdf",
+    "record_id": "pay_702bd5209dbc",
+    "customer_id": "cust_0a0c633c4439",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 20934.81
   },
   {
-    "record_id": "pay_79911ff79e3b",
+    "record_id": "pay_88ba479673ff",
+    "customer_id": "cust_f2bca0145291",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 23589.14
   },
   {
-    "record_id": "pay_ac01eb9ab94f",
+    "record_id": "pay_32361d500b01",
+    "customer_id": "cust_ab7ace63286f",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 23587.75
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_60a48084b475",
+    "record_id": "pay_7050715f5315",
+    "customer_id": "cust_daece4cfc7ea",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 23278.12
   },
   {
-    "record_id": "pay_5e4fbc091076",
+    "record_id": "pay_d4739227f0ae",
+    "customer_id": "cust_4860d3e1a5f7",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15915.99
   },
   {
-    "record_id": "pay_3e43c1f73e05",
+    "record_id": "pay_c427e52e9c3f",
+    "customer_id": "cust_29e0353ea143",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 22955.15
   },
   {
-    "record_id": "pay_f3719e3e8244",
+    "record_id": "pay_bf3ba60c9bad",
+    "customer_id": "cust_3fadc56af24f",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 20359.75
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_bc13d8ed89f9",
+    "record_id": "pay_da051df83697",
+    "customer_id": "cust_ecd250bbbd89",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 20338.58
   },
   {
-    "record_id": "pay_cf629dc328e7",
+    "record_id": "pay_4027fbaa310a",
+    "customer_id": "cust_211a8f70f021",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 15513.61
   },
   {
-    "record_id": "pay_cc7ab6eda128",
+    "record_id": "pay_4f8e18cc7817",
+    "customer_id": "cust_223d3b73cb99",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15501.67
   },
   {
-    "record_id": "pay_b3e10fff53d1",
+    "record_id": "pay_f23052817278",
+    "customer_id": "cust_160530b80504",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 22542.63
   },
   {
-    "record_id": "pay_a59485f0b18a",
+    "record_id": "pay_96f56cab432f",
+    "customer_id": "cust_020b41043e7e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15482.17
   },
   {
-    "record_id": "pay_c086f2ce8a59",
+    "record_id": "pay_6363b354982b",
+    "customer_id": "cust_a58a3e88ff39",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 22304.49
   },
   {
-    "record_id": "pay_8834487c736a",
+    "record_id": "pay_eab0ce13ef23",
+    "customer_id": "cust_0ea5248e6d07",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 22280.31
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_57f9e1cce722",
+    "record_id": "pay_6fbff0d6c404",
+    "customer_id": "cust_7273bc702ad2",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 19755.47
   },
   {
-    "record_id": "pay_3868e1e59519",
+    "record_id": "pay_ffdb2d53c9de",
+    "customer_id": "cust_60b97e8948ee",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15191.73
   },
   {
-    "record_id": "pay_66b12e6e4f8d",
+    "record_id": "pay_64b0e62a6c92",
+    "customer_id": "cust_121ae3cc1879",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 19418.88
   },
   {
-    "record_id": "pay_70352fe67879",
+    "record_id": "pay_98add82cd166",
+    "customer_id": "cust_97bf718ea3d9",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 14932.32
   },
   {
-    "record_id": "pay_72af4198f098",
+    "record_id": "pay_9daf7ed6ced3",
+    "customer_id": "cust_e5d922600816",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 14909.15
+  },
+  {
+    "record_id": "pay_7e62d943b915",
+    "customer_id": "cust_944701bd892e",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 19238.67
   },
   {
-    "record_id": "pay_ace773a1cc4a",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 14909.15
-  },
-  {
-    "record_id": "pay_153840161621",
+    "record_id": "pay_dcd5d8286d75",
+    "customer_id": "cust_1ddcf311af53",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 21643.23
   },
   {
-    "record_id": "pay_cecf4bf6743b",
+    "record_id": "pay_c4afe5ca3d8f",
+    "customer_id": "cust_3e8e3c84f964",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 14813.0
   },
   {
-    "record_id": "pay_84dbefa9f670",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 21405.84
-  },
-  {
-    "record_id": "pay_7e19c0bb9a51",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 21403.18
-  },
-  {
-    "record_id": "pay_acb30ccb114b",
+    "record_id": "pay_1903ec244883",
+    "customer_id": "cust_71de059f7712",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14712.67
   },
   {
-    "record_id": "pay_4fa58b3367cb",
+    "record_id": "pay_94317c3e340d",
+    "customer_id": "cust_f7c943407928",
+    "action": "request_update",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 21405.84
+  },
+  {
+    "record_id": "pay_13ef36fed54f",
+    "customer_id": "cust_9c11d51faec0",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
+    "amount": 21403.18
+  },
+  {
+    "record_id": "pay_80f1d2204610",
+    "customer_id": "cust_a425512b5c46",
+    "action": "request_update",
+    "policy_check": "passed",
+    "outcome": "recovered",
     "amount": 21367.97
   },
   {
-    "record_id": "pay_1376aaf6bd79",
+    "record_id": "pay_71191e0ab82e",
+    "customer_id": "cust_04fbe6ec0848",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 21337.85
   },
   {
-    "record_id": "pay_73733a15c7ed",
+    "record_id": "pay_e48ffed00b32",
+    "customer_id": "cust_3e725aa8fcda",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 21266.36
   },
   {
-    "record_id": "pay_f070874056e3",
+    "record_id": "pay_3408d5abef3d",
+    "customer_id": "cust_6c3c3df8b801",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 18683.85
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_331bd57d9c87",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 18623.21
-  },
-  {
-    "record_id": "pay_d0f5bd72319b",
+    "record_id": "pay_34b8f5466e30",
+    "customer_id": "cust_fc808693aa13",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
+    "amount": 18623.21
+  },
+  {
+    "record_id": "pay_cbb8d5753cfb",
+    "customer_id": "cust_4b58f4020792",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
     "amount": 18566.3
   },
   {
-    "record_id": "pay_5bd02962c26b",
+    "record_id": "pay_de0b19540ac4",
+    "customer_id": "cust_f28a99983cf0",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20906.59
   },
   {
-    "record_id": "pay_6d2d08422cc5",
+    "record_id": "pay_722993c4693d",
+    "customer_id": "cust_f1a0e1078a4a",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 20892.6
   },
   {
-    "record_id": "pay_6dd820e07e1a",
+    "record_id": "pay_0be9299d4417",
+    "customer_id": "cust_536dbc7d95bc",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 20885.41
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_d99457e21454",
+    "record_id": "pay_0aa90596633c",
+    "customer_id": "cust_d67271559cb0",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 18305.3
   },
   {
-    "record_id": "pay_43278c81eca0",
+    "record_id": "pay_6e652a03243a",
+    "customer_id": "cust_7c3692e8d2c6",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 20634.56
   },
   {
-    "record_id": "pay_f7534387b690",
+    "record_id": "pay_8ee5e1f42984",
+    "customer_id": "cust_ca55868911f2",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 20597.48
   },
   {
-    "record_id": "pay_f0283be333fd",
+    "record_id": "pay_11eee5bc1b12",
+    "customer_id": "cust_fb2cab1837b7",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14129.22
   },
   {
-    "record_id": "pay_86c2906178cd",
+    "record_id": "pay_d131ee38ebfd",
+    "customer_id": "cust_778394a6ee23",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 18231.12
   },
   {
-    "record_id": "pay_41a3383def12",
+    "record_id": "pay_c4e8996e568a",
+    "customer_id": "cust_77422ed1ffeb",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14092.78
   },
   {
-    "record_id": "pay_5514daf38fb4",
+    "record_id": "pay_5aa37488e824",
+    "customer_id": "cust_0acff0d00870",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 18144.08
   },
   {
-    "record_id": "pay_f87905ef81bb",
+    "record_id": "pay_0c869a17ef74",
+    "customer_id": "cust_91d5417d1061",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_90fcefa3da99",
+    "customer_id": "cust_f06f2815f6e0",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
-    "amount": 18128.95
-  },
-  {
-    "record_id": "pay_93a6bc08a9ea",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
     "amount": 18077.21
   },
   {
-    "record_id": "pay_c45087fde186",
+    "record_id": "pay_b35f4b2bf8f4",
+    "customer_id": "cust_e80874eed45d",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 13994.16
   },
   {
-    "record_id": "pay_c7813367b95c",
+    "record_id": "pay_7b989eb67995",
+    "customer_id": "cust_0484bd0f02a6",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 18052.28
   },
   {
-    "record_id": "pay_b9e0d2e74b81",
+    "record_id": "pay_a1501ca8e1af",
+    "customer_id": "cust_a58f574195d0",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 20248.37
   },
   {
-    "record_id": "pay_607a6124b357",
+    "record_id": "pay_52916876cd21",
+    "customer_id": "cust_0f884d53a7c0",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13876.71
   },
   {
-    "record_id": "pay_ecfbc278b84a",
+    "record_id": "pay_4d751f1c53b6",
+    "customer_id": "cust_090b9e311c84",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13857.35
   },
   {
-    "record_id": "pay_b628b5433778",
+    "record_id": "pay_5319585d437d",
+    "customer_id": "cust_f7b0a171643a",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 17771.06
   },
   {
-    "record_id": "pay_a31c71a6f466",
+    "record_id": "pay_881f71800d1b",
+    "customer_id": "cust_c8ef37b97fe3",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13719.91
   },
   {
-    "record_id": "pay_810af116dc6c",
+    "record_id": "pay_481982c5ca61",
+    "customer_id": "cust_ffed63ea20e0",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 17645.57
   },
   {
-    "record_id": "pay_dfccd33feb09",
+    "record_id": "pay_2d039ea179c4",
+    "customer_id": "cust_a58a3e88ff39",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 17621.81
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_e9427f4711ec",
+    "record_id": "pay_81dc19ac9f2c",
+    "customer_id": "cust_0a1f170cdcc5",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 13634.1
   },
   {
-    "record_id": "pay_a19234880a4c",
+    "record_id": "pay_52c604ba00df",
+    "customer_id": "cust_f06f2815f6e0",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 19607.3
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_0cb341aa7148",
+    "record_id": "pay_958d546a3a9e",
+    "customer_id": "cust_6ac186201879",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13389.55
   },
   {
-    "record_id": "pay_994399c03996",
+    "record_id": "pay_541d2032bed8",
+    "customer_id": "cust_d6582641bb3f",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 17161.43
   },
   {
-    "record_id": "pay_34662cd62724",
+    "record_id": "pay_5bb6c7e0d14f",
+    "customer_id": "cust_38f8306d9f45",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16930.36
   },
   {
-    "record_id": "pay_141b5b991748",
+    "record_id": "pay_a35fe42f87c0",
+    "customer_id": "cust_fe7144ab03bd",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 16899.51
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_7ada1f09c8ca",
+    "record_id": "pay_c18cdbeb5145",
+    "customer_id": "cust_a208294ff0ad",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 13046.72
   },
   {
-    "record_id": "pay_b7f726fc281a",
+    "record_id": "pay_1c6fb243af5a",
+    "customer_id": "cust_a7cc002838be",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 18825.35
   },
   {
-    "record_id": "pay_a93af62eceb1",
+    "record_id": "pay_242e94a462ce",
+    "customer_id": "cust_a142fa21729e",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16697.65
   },
   {
-    "record_id": "pay_77e6e3665ee0",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 18783.42
-  },
-  {
-    "record_id": "pay_41eb461e6a37",
+    "record_id": "pay_1da036294ffb",
+    "customer_id": "cust_0e4b6337e786",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12910.67
   },
   {
-    "record_id": "pay_5740ab295cfa",
+    "record_id": "pay_6bcfcffc5fe7",
+    "customer_id": "cust_0904ab7514c4",
+    "action": "request_update",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 18783.42
+  },
+  {
+    "record_id": "pay_ab969ee811a3",
+    "customer_id": "cust_39c728e4bc68",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12844.43
   },
   {
-    "record_id": "pay_b9d29dd15a7f",
+    "record_id": "pay_a9f3f86a28d3",
+    "customer_id": "cust_3d92cc597e38",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16549.41
   },
   {
-    "record_id": "pay_b3d6acba5b40",
+    "record_id": "pay_1d451b7ad3a7",
+    "customer_id": "cust_3d42ed17c8f6",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16513.54
   },
   {
-    "record_id": "pay_27483bd3378d",
+    "record_id": "pay_1e1eb064fe08",
+    "customer_id": "cust_b8fda0105d9d",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 12571.86
   },
   {
-    "record_id": "pay_0702ad2a5a44",
+    "record_id": "pay_baa2c4c6f6d4",
+    "customer_id": "cust_d0f2adff97e8",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16162.54
   },
   {
-    "record_id": "pay_7459c882b6a0",
+    "record_id": "pay_ae75aeae9a9b",
+    "customer_id": "cust_6e17dcca5789",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12512.78
   },
   {
-    "record_id": "pay_0844e9f504c7",
+    "record_id": "pay_7b50f19b56a5",
+    "customer_id": "cust_160530b80504",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 16019.8
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_bf5d9879f187",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 18024.1
-  },
-  {
-    "record_id": "pay_70ba73901fe7",
+    "record_id": "pay_43a1a856a2b7",
+    "customer_id": "cust_4bc0fca30c04",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12390.69
   },
   {
-    "record_id": "pay_255b7509925a",
-    "action": "scheduled_retry_salary_cycle",
+    "record_id": "pay_f3e1ee298ea1",
+    "customer_id": "cust_564ade9bce3c",
+    "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
+    "amount": 18024.1
+  },
+  {
+    "record_id": "pay_2cefbf5c73fb",
+    "customer_id": "cust_23afd7d73a1f",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "recovered",
     "amount": 15954.4
   },
   {
-    "record_id": "pay_b76947ebb3ba",
+    "record_id": "pay_970a893d81b0",
+    "customer_id": "cust_7a0fcacc9226",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 15818.45
   },
   {
-    "record_id": "pay_203de7845461",
+    "record_id": "pay_e760f4839f43",
+    "customer_id": "cust_d0f2adff97e8",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 15753.88
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_fb448baf70da",
+    "record_id": "pay_c7c3795dd0cf",
+    "customer_id": "cust_d2473acbd369",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 17678.93
   },
   {
-    "record_id": "pay_11cdce9f220d",
+    "record_id": "pay_e2cd3787c1a4",
+    "customer_id": "cust_d148b0e7cbba",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 17583.78
   },
   {
-    "record_id": "pay_299f5351d44f",
+    "record_id": "pay_bd691d722790",
+    "customer_id": "cust_d5fe8c0b5931",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15558.29
   },
   {
-    "record_id": "pay_af77e8b74bbc",
+    "record_id": "pay_d66f911661f6",
+    "customer_id": "cust_223996aee1f5",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 15481.73
   },
   {
-    "record_id": "pay_a1e995245661",
+    "record_id": "pay_353d18c39638",
+    "customer_id": "cust_13af3b14c12e",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 17401.84
   },
   {
-    "record_id": "pay_9a05ecbb15cf",
+    "record_id": "pay_e52a42b9e8cb",
+    "customer_id": "cust_43231612e788",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 11947.68
   },
   {
-    "record_id": "pay_65b631e0b5f2",
+    "record_id": "pay_d9bf79f7f390",
+    "customer_id": "cust_f28378097447",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 17310.47
   },
   {
-    "record_id": "pay_d56f07119615",
+    "record_id": "pay_5b5195181fef",
+    "customer_id": "cust_23bfe8d9d997",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 17213.68
   },
   {
-    "record_id": "pay_27209c5600ff",
+    "record_id": "pay_8a0d209af58f",
+    "customer_id": "cust_0a0c633c4439",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 17202.45
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_1a946ee0d210",
+    "record_id": "pay_5f7ffcbda06f",
+    "customer_id": "cust_1e077effb998",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 15062.2
   },
   {
-    "record_id": "pay_bf7553af345b",
+    "record_id": "pay_dbde24538d48",
+    "customer_id": "cust_728c3046cee2",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 15030.05
   },
   {
-    "record_id": "pay_74349b9515b9",
+    "record_id": "pay_1978f0bf60b1",
+    "customer_id": "cust_91d5417d1061",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 15021.34
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_09c3152a897b",
+    "record_id": "pay_2e15babd42a5",
+    "customer_id": "cust_64130d6d0b43",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 16898.2
   },
   {
-    "record_id": "pay_ddf61fed9100",
+    "record_id": "pay_26306d18cea8",
+    "customer_id": "cust_db6b46ba6fc1",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 16891.64
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_23c72e03b1fa",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 14884.97
-  },
-  {
-    "record_id": "pay_5268ded1b0c7",
+    "record_id": "pay_e16fdac3c905",
+    "customer_id": "cust_f3202dcbfd9c",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
+    "amount": 14884.97
+  },
+  {
+    "record_id": "pay_a09c03d0def1",
+    "customer_id": "cust_e26122100839",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
     "amount": 14476.2
   },
   {
-    "record_id": "pay_bf960a9df0f9",
+    "record_id": "pay_8532b7a4b9ab",
+    "customer_id": "cust_49ef6245b619",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 11120.57
   },
   {
-    "record_id": "pay_1f547e613cda",
+    "record_id": "pay_f6571debaff8",
+    "customer_id": "cust_3e34f35676dd",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14320.16
   },
   {
-    "record_id": "pay_59ccbcb30ed4",
+    "record_id": "pay_77df519fbb3e",
+    "customer_id": "cust_e73a4d711916",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 11056.19
   },
   {
-    "record_id": "pay_baa699ef42a4",
+    "record_id": "pay_8115097e9da5",
+    "customer_id": "cust_25786e2dc61b",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 14184.01
   },
   {
-    "record_id": "pay_b535ad24c388",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 14181.97
-  },
-  {
-    "record_id": "pay_30d3cc6820b4",
+    "record_id": "pay_9ea59c5b078b",
+    "customer_id": "cust_7cabcac11f54",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
-    "amount": 14128.18
+    "amount": 14181.97
   },
   {
-    "record_id": "pay_9b009c51fecb",
+    "record_id": "pay_3450d66b1356",
+    "customer_id": "cust_564ade9bce3c",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_4da6dd0f1ecc",
+    "customer_id": "cust_becb1ce66d5f",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 15845.92
   },
   {
-    "record_id": "pay_16b20d8a2c7a",
+    "record_id": "pay_09b74ad8d145",
+    "customer_id": "cust_944701bd892e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 10714.7
   },
   {
-    "record_id": "pay_fd2337293280",
+    "record_id": "pay_fab69a436579",
+    "customer_id": "cust_a58a3e88ff39",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 15499.08
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_18fb999d6f94",
+    "record_id": "pay_341bf13a898c",
+    "customer_id": "cust_c238ac14b8a9",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 13733.51
   },
   {
-    "record_id": "pay_c8c69f9cc738",
+    "record_id": "pay_00a27627519e",
+    "customer_id": "cust_465ce74a88b5",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 13677.42
   },
   {
-    "record_id": "pay_2fad46d7576d",
+    "record_id": "pay_fe4895dd2ec5",
+    "customer_id": "cust_222049faf9ac",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 10553.58
   },
   {
-    "record_id": "pay_c4430d78322e",
+    "record_id": "pay_d34810fbf51d",
+    "customer_id": "cust_3cdadb3088db",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13597.17
   },
   {
-    "record_id": "pay_d28a70937b49",
+    "record_id": "pay_4035dde38675",
+    "customer_id": "cust_74f66f621fd1",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13382.28
   },
   {
-    "record_id": "pay_dae7453aef3d",
+    "record_id": "pay_be85bbf2da3b",
+    "customer_id": "cust_202a36fd380e",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 15016.87
   },
   {
-    "record_id": "pay_964d7f960c4c",
+    "record_id": "pay_649ae235627c",
+    "customer_id": "cust_d148b0e7cbba",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 10285.58
   },
   {
-    "record_id": "pay_d75a04ded840",
+    "record_id": "pay_fa8620bde0b5",
+    "customer_id": "cust_2f486634645b",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 14915.98
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_74c3b5708a41",
+    "record_id": "pay_63644740cdf8",
+    "customer_id": "cust_94ebe4659058",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12979.2
   },
   {
-    "record_id": "pay_6ea4f0432f8b",
+    "record_id": "pay_f62f66c416d1",
+    "customer_id": "cust_9cee5b7c6363",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14503.49
   },
   {
-    "record_id": "pay_1f447c2f2d44",
+    "record_id": "pay_577793ed6d25",
+    "customer_id": "cust_23bfe8d9d997",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_c77e6543678e",
+    "customer_id": "cust_3746fcff468d",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
-    "amount": 14466.29
-  },
-  {
-    "record_id": "pay_5fe79617cd03",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
     "amount": 14455.48
   },
   {
-    "record_id": "pay_2bda0c7480f0",
+    "record_id": "pay_e705e493fc37",
+    "customer_id": "cust_0a0a3584abb6",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 9922.67
   },
   {
-    "record_id": "pay_d71cd0d56930",
+    "record_id": "pay_48bde1220734",
+    "customer_id": "cust_7d3d9566f031",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 14397.76
   },
   {
-    "record_id": "pay_c957bbf356a4",
+    "record_id": "pay_55548661cb3f",
+    "customer_id": "cust_01943c591a69",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 14285.57
   },
   {
-    "record_id": "pay_13f13a28042e",
+    "record_id": "pay_86ee28e24f1a",
+    "customer_id": "cust_a208294ff0ad",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 9701.33
   },
   {
-    "record_id": "pay_a7d12af5312f",
+    "record_id": "pay_33237c31fcee",
+    "customer_id": "cust_766c2752fd40",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 12435.27
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_bec2f10376be",
+    "record_id": "pay_d287d832e792",
+    "customer_id": "cust_c2e9dd88a85a",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 12369.9
   },
   {
-    "record_id": "pay_5d55617165b8",
+    "record_id": "pay_9e7af8b66795",
+    "customer_id": "cust_e80874eed45d",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 13869.83
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_95b641aa5dbf",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 12292.07
-  },
-  {
-    "record_id": "pay_3d2f356b949b",
+    "record_id": "pay_df0b19e33660",
+    "customer_id": "cust_93f83053238a",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 9524.59
   },
   {
-    "record_id": "pay_aa0a6a3487f6",
+    "record_id": "pay_e3f455801869",
+    "customer_id": "cust_ca55868911f2",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_ad70da2c7a1a",
+    "customer_id": "cust_1383ca6484fa",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 12164.04
   },
   {
-    "record_id": "pay_ce60d309fe3f",
+    "record_id": "pay_6831e80160e1",
+    "customer_id": "cust_b07f3d2754eb",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 13462.12
   },
   {
-    "record_id": "pay_8e13166217e2",
+    "record_id": "pay_061c2206fb44",
+    "customer_id": "cust_211a8f70f021",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 11934.59
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_20b16b3d78c8",
+    "record_id": "pay_1b013a1a4aab",
+    "customer_id": "cust_0946d3c154b8",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 9236.88
   },
   {
-    "record_id": "pay_25cb183fae50",
+    "record_id": "pay_4ac5064a1983",
+    "customer_id": "cust_35f979e61696",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 13422.44
   },
   {
-    "record_id": "pay_179aa539d931",
+    "record_id": "pay_cafb45fbe0ae",
+    "customer_id": "cust_4bd624ad94d8",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 13232.14
   },
   {
-    "record_id": "pay_06290a43b098",
+    "record_id": "pay_6cfeb55ea5f8",
+    "customer_id": "cust_78b4844b7635",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 13165.56
   },
   {
-    "record_id": "pay_296ab264c02d",
+    "record_id": "pay_3a14dbeb5a35",
+    "customer_id": "cust_ecd250bbbd89",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 11619.54
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_a17b7cf1d7ee",
+    "record_id": "pay_6563b30000ee",
+    "customer_id": "cust_de6ae9d32171",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 13033.34
   },
   {
-    "record_id": "pay_32aca64e90a7",
+    "record_id": "pay_eadb24a7db2e",
+    "customer_id": "cust_a58a3e88ff39",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 8945.97
   },
   {
-    "record_id": "pay_f64a9771ee79",
+    "record_id": "pay_f09b795f36a1",
+    "customer_id": "cust_68cd279a5c8c",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 8831.7
   },
   {
-    "record_id": "pay_01ea976de927",
+    "record_id": "pay_bc50af4ee6ae",
+    "customer_id": "cust_f7c943407928",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_e10211016b42",
+    "customer_id": "cust_ad236ac2631c",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_1b8218b349f7",
+    "customer_id": "cust_8be8def09675",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
-    "amount": 12779.95
-  },
-  {
-    "record_id": "pay_e553d7c3e8f0",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 12371.74
-  },
-  {
-    "record_id": "pay_296fccaf058a",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
     "amount": 12347.43
   },
   {
-    "record_id": "pay_aa9dbed1b64e",
+    "record_id": "pay_5837a815b011",
+    "customer_id": "cust_f28a99983cf0",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 12271.18
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_359d4f123c39",
+    "record_id": "pay_e508aca52c10",
+    "customer_id": "cust_8f2851d34996",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 10582.76
   },
   {
-    "record_id": "pay_e6f2eb3ec038",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 8154.88
-  },
-  {
-    "record_id": "pay_7e6376f567cc",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 8073.64
-  },
-  {
-    "record_id": "pay_d50a1cafec93",
+    "record_id": "pay_5cb554f4e6a2",
+    "customer_id": "cust_75023fa0078a",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
+    "amount": 8154.88
+  },
+  {
+    "record_id": "pay_30cb6da89a0a",
+    "customer_id": "cust_37de2a849f5a",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 8073.64
+  },
+  {
+    "record_id": "pay_822415445950",
+    "customer_id": "cust_57de8021a0a9",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
     "amount": 7898.86
   },
   {
-    "record_id": "pay_0078e462feda",
+    "record_id": "pay_776069d8b97f",
+    "customer_id": "cust_a2f065358bc3",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 11484.19
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_5775d8a50496",
+    "record_id": "pay_833bbf78edf9",
+    "customer_id": "cust_57af1d084786",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 7862.89
   },
   {
-    "record_id": "pay_8202a3cf833c",
+    "record_id": "pay_6432b5fc877a",
+    "customer_id": "cust_5a11d5578de8",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 11098.15
   },
   {
-    "record_id": "pay_ba0854c50581",
+    "record_id": "pay_2fce01e3bdfd",
+    "customer_id": "cust_19c0892f07a5",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 9799.18
   },
   {
-    "record_id": "pay_d8a9377429df",
+    "record_id": "pay_10317c9b326a",
+    "customer_id": "cust_a2dee476f50e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 7576.77
   },
   {
-    "record_id": "pay_47a51248c509",
+    "record_id": "pay_4ee8c1d2ce8e",
+    "customer_id": "cust_7dacbecd60b3",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 9648.2
   },
   {
-    "record_id": "pay_84a1829c06e9",
+    "record_id": "pay_84798cbd1ec1",
+    "customer_id": "cust_02092455569c",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 10816.83
   },
   {
-    "record_id": "pay_5dec2774d040",
+    "record_id": "pay_bd405a643ede",
+    "customer_id": "cust_09ceb8cf4804",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 9230.5
   },
   {
-    "record_id": "pay_302143da3dee",
+    "record_id": "pay_7a0af82b734d",
+    "customer_id": "cust_9cee5b7c6363",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 6933.08
   },
   {
-    "record_id": "pay_21f58030b178",
+    "record_id": "pay_6a3654faf326",
+    "customer_id": "cust_43231612e788",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 9984.53
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_f01616571b86",
+    "record_id": "pay_65e411da2b05",
+    "customer_id": "cust_954740ef6541",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 8680.17
   },
   {
-    "record_id": "pay_518e6db28227",
+    "record_id": "pay_163091feeb3e",
+    "customer_id": "cust_dcf0d58e0175",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 9618.4
   },
   {
-    "record_id": "pay_d879d717effd",
+    "record_id": "pay_66b484ecad4d",
+    "customer_id": "cust_3ef90c22ac7d",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 9519.19
   },
   {
-    "record_id": "pay_7ebe4745af19",
+    "record_id": "pay_ac17486d3da5",
+    "customer_id": "cust_3e34f35676dd",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 8399.16
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_65625aeb408e",
+    "record_id": "pay_2902b53bfaa1",
+    "customer_id": "cust_a40502f9c13c",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 6393.93
   },
   {
-    "record_id": "pay_d5c1bc5c3322",
+    "record_id": "pay_651ba6d5720f",
+    "customer_id": "cust_62de780770ca",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 8154.66
   },
   {
-    "record_id": "pay_203bf6f5c7b9",
+    "record_id": "pay_d4dcd07473e7",
+    "customer_id": "cust_8be8def09675",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 9186.01
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_63c79dea8259",
+    "record_id": "pay_b723841673ab",
+    "customer_id": "cust_c8a9aca975c6",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 6276.15
   },
   {
-    "record_id": "pay_30e781c61d73",
+    "record_id": "pay_9531beda0cb1",
+    "customer_id": "cust_3d92cc597e38",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 9068.37
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_4bba056f3caf",
+    "record_id": "pay_53b4529e59c0",
+    "customer_id": "cust_1d62209e242e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 6205.93
   },
   {
-    "record_id": "pay_0d4513eeccb2",
+    "record_id": "pay_2db4b2b65035",
+    "customer_id": "cust_5a95de3bc7d1",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 7973.7
   },
   {
-    "record_id": "pay_7fed8914ce8e",
+    "record_id": "pay_61f726fb202b",
+    "customer_id": "cust_0acff0d00870",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 8888.35
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_cdd9a50bcd89",
+    "record_id": "pay_c5fcf050f437",
+    "customer_id": "cust_526b64c57b5f",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 7863.6
   },
   {
-    "record_id": "pay_658839a8bc30",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 7688.27
-  },
-  {
-    "record_id": "pay_e95fd1d5ce62",
+    "record_id": "pay_116ab3b42b49",
+    "customer_id": "cust_c7304cbe3eb6",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
-    "amount": 7634.95
+    "amount": 7688.27
   },
   {
-    "record_id": "pay_ca7140b68af2",
+    "record_id": "pay_01590216b92e",
+    "customer_id": "cust_4ae63b2f3092",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_8ac0a5ecf3b4",
+    "customer_id": "cust_9accd4522949",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 7623.41
   },
   {
-    "record_id": "pay_f1ec37093bc6",
+    "record_id": "pay_5ec048d673f5",
+    "customer_id": "cust_a1be4e33d78b",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 8573.02
   },
   {
-    "record_id": "pay_dac6e46964a6",
+    "record_id": "pay_3a3d703c55fb",
+    "customer_id": "cust_f2bca0145291",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 5757.66
   },
   {
-    "record_id": "pay_3506c13598e1",
+    "record_id": "pay_1a81115c6f31",
+    "customer_id": "cust_6db7f2a9d497",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 5696.76
   },
   {
-    "record_id": "pay_45532638d8dc",
+    "record_id": "pay_b92f16086842",
+    "customer_id": "cust_bac5c25d0cf4",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 5482.0
   },
   {
-    "record_id": "pay_d1dc59035405",
+    "record_id": "pay_a9d7b44c93bc",
+    "customer_id": "cust_af4254eeeac8",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 6880.73
   },
   {
-    "record_id": "pay_29ec89f4906c",
+    "record_id": "pay_04f23a81bffc",
+    "customer_id": "cust_5be6039ad591",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 6842.48
   },
   {
-    "record_id": "pay_d95173fa2f9a",
+    "record_id": "pay_82633553071a",
+    "customer_id": "cust_daece4cfc7ea",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 7687.64
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_7626dccb9449",
+    "record_id": "pay_c736846f1cf8",
+    "customer_id": "cust_d513b9eb6850",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 6816.04
   },
   {
-    "record_id": "pay_8611538aabce",
+    "record_id": "pay_9560f255a910",
+    "customer_id": "cust_d6714cccb0c1",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 7654.42
   },
   {
-    "record_id": "pay_a7362d11956d",
+    "record_id": "pay_874c30add5d7",
+    "customer_id": "cust_ca3ffb2b75ac",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 6737.5
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_8bf3d6f7bf41",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 6722.8
-  },
-  {
-    "record_id": "pay_1002ce7bdb1e",
+    "record_id": "pay_fa68c65fe4ec",
+    "customer_id": "cust_93f83053238a",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 5209.66
   },
   {
-    "record_id": "pay_0f94dd330bca",
+    "record_id": "pay_8812f0d41d26",
+    "customer_id": "cust_59ea50321bcf",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 6722.8
+  },
+  {
+    "record_id": "pay_bb63799a47c4",
+    "customer_id": "cust_f01fc0f84681",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 7540.66
   },
   {
-    "record_id": "pay_18b356f0fe7a",
+    "record_id": "pay_4c7590360baa",
+    "customer_id": "cust_8032ab9fca19",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 7421.32
   },
   {
-    "record_id": "pay_d75546313819",
+    "record_id": "pay_b6e845432758",
+    "customer_id": "cust_a2a09bb5173c",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 6541.41
   },
   {
-    "record_id": "pay_9ec37980ee6a",
+    "record_id": "pay_4455e1afdb9f",
+    "customer_id": "cust_83722c42c646",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 5027.53
   },
   {
-    "record_id": "pay_7e4ae9d27311",
+    "record_id": "pay_9edafa34f384",
+    "customer_id": "cust_5a04c7c98388",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 4975.43
   },
   {
-    "record_id": "pay_774ec1f53eae",
+    "record_id": "pay_2942c9e7d502",
+    "customer_id": "cust_04c92989b85e",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 7215.83
   },
   {
-    "record_id": "pay_eaf333cfa38f",
+    "record_id": "pay_28e085402e93",
+    "customer_id": "cust_23cb0902d906",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 7150.07
   },
   {
-    "record_id": "pay_1b32a8287021",
+    "record_id": "pay_64f84891bec7",
+    "customer_id": "cust_7cabcac11f54",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 6253.94
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_201966e6f587",
+    "record_id": "pay_afdc6c604f34",
+    "customer_id": "cust_6ec879971a7f",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 6642.49
   },
   {
-    "record_id": "pay_65eb4591bcd0",
+    "record_id": "pay_979ba54c31b9",
+    "customer_id": "cust_00998b146904",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 4434.84
   },
   {
-    "record_id": "pay_23dbda43da97",
+    "record_id": "pay_7a4af4c67859",
+    "customer_id": "cust_19ca6171028b",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 5678.93
   },
   {
-    "record_id": "pay_17fdd5b03747",
+    "record_id": "pay_9da5c5422a97",
+    "customer_id": "cust_e44c4a43e25d",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 6389.06
   },
   {
-    "record_id": "pay_d25a802dccc9",
+    "record_id": "pay_14703c4a1a8d",
+    "customer_id": "cust_097561565a07",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 6387.55
   },
   {
-    "record_id": "pay_3c311ecca101",
+    "record_id": "pay_651eae5d0a9e",
+    "customer_id": "cust_f943b17f9628",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 5615.61
   },
   {
-    "record_id": "pay_041078289572",
+    "record_id": "pay_6a5280c1fbbd",
+    "customer_id": "cust_222049faf9ac",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 6327.05
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_4f9e60160350",
+    "record_id": "pay_7b5a82544f78",
+    "customer_id": "cust_206192fd7dd2",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 5590.97
   },
   {
-    "record_id": "pay_cad6099c8933",
+    "record_id": "pay_e94796f47a12",
+    "customer_id": "cust_c8c8504a4099",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 4304.36
   },
   {
-    "record_id": "pay_7668b048896e",
+    "record_id": "pay_f73f5444cec5",
+    "customer_id": "cust_06d5c47fc774",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 6163.97
   },
   {
-    "record_id": "pay_e27becef4c33",
+    "record_id": "pay_8d8bfa7d1683",
+    "customer_id": "cust_1f988d5b1b4e",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 4224.23
   },
   {
-    "record_id": "pay_c55739f4f448",
+    "record_id": "pay_4ee5a5069571",
+    "customer_id": "cust_4b5e6c55e378",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 4146.58
   },
   {
-    "record_id": "pay_9d9c0a5e7901",
+    "record_id": "pay_d740d8fafffe",
+    "customer_id": "cust_8a2c9ce89064",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 4060.52
   },
   {
-    "record_id": "pay_caf0b3bdbf47",
+    "record_id": "pay_6ac4ea549a28",
+    "customer_id": "cust_fc94a1c92ed7",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 4984.88
   },
   {
-    "record_id": "pay_12655e0bbec5",
+    "record_id": "pay_ce0aee409b7a",
+    "customer_id": "cust_13af3b14c12e",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 4913.91
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_6c7cb9c5efa2",
+    "record_id": "pay_a8d66f68eee9",
+    "customer_id": "cust_97f383773f3c",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4848.6
   },
   {
-    "record_id": "pay_81d516bf3fac",
+    "record_id": "pay_1f3303b487c3",
+    "customer_id": "cust_d771a1ffea35",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 3709.83
+  },
+  {
+    "record_id": "pay_e65abb6d6715",
+    "customer_id": "cust_faab8f00245b",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 5406.87
   },
   {
-    "record_id": "pay_71efdfaa604a",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 3709.83
-  },
-  {
-    "record_id": "pay_cd655b7f92c4",
+    "record_id": "pay_727d7b21f9f1",
+    "customer_id": "cust_29b4190a173c",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 3578.01
   },
   {
-    "record_id": "pay_0e96b73741cb",
+    "record_id": "pay_065c5ad11055",
+    "customer_id": "cust_294e64236fcc",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 3568.0
   },
   {
-    "record_id": "pay_600238aa383f",
+    "record_id": "pay_4203005f6d61",
+    "customer_id": "cust_d513b9eb6850",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 4602.78
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_880cf9db91a1",
+    "record_id": "pay_0446835ae168",
+    "customer_id": "cust_8d3eb0e2f37f",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4503.49
   },
   {
-    "record_id": "pay_60e88a116846",
+    "record_id": "pay_82e25111bc1d",
+    "customer_id": "cust_6e644b9f678c",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4992.98
   },
   {
-    "record_id": "pay_6d9a103b8031",
+    "record_id": "pay_d8c712ad655b",
+    "customer_id": "cust_ada7f01e133b",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 4963.69
   },
   {
-    "record_id": "pay_9966d9c909e8",
+    "record_id": "pay_4dbf10e2aa3e",
+    "customer_id": "cust_d12e7c320c98",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4285.07
   },
   {
-    "record_id": "pay_4f7f52a7d456",
+    "record_id": "pay_532b4ec9d7f0",
+    "customer_id": "cust_7442a4f4f016",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4694.92
   },
   {
-    "record_id": "pay_9c35051fa7f9",
+    "record_id": "pay_374bf595944a",
+    "customer_id": "cust_4d99df9cfa0a",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 4446.3
   },
   {
-    "record_id": "pay_184b01f04ecd",
+    "record_id": "pay_13181c1e61f6",
+    "customer_id": "cust_868dfbc79300",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 4374.54
   },
   {
-    "record_id": "pay_e1cbf3370127",
+    "record_id": "pay_c66422ffa123",
+    "customer_id": "cust_6db8afff1518",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 3840.6
   },
   {
-    "record_id": "pay_3a3743b2e8b1",
+    "record_id": "pay_e1194cf33058",
+    "customer_id": "cust_35f979e61696",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 2963.32
   },
   {
-    "record_id": "pay_96b9d07c5775",
+    "record_id": "pay_992155b90e08",
+    "customer_id": "cust_fdb9757eba05",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 3796.75
   },
   {
-    "record_id": "pay_583b3c136e15",
+    "record_id": "pay_f0b0aa7c36c1",
+    "customer_id": "cust_78b4844b7635",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 3760.24
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_7afa3e7ed4ac",
+    "record_id": "pay_e52ab3b65233",
+    "customer_id": "cust_b073f499220b",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 3716.53
   },
   {
-    "record_id": "pay_b92c60b9a8d1",
+    "record_id": "pay_4d76558cdf9d",
+    "customer_id": "cust_c1c0301a93cc",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 3181.16
   },
   {
-    "record_id": "pay_e8b318577622",
+    "record_id": "pay_044888368458",
+    "customer_id": "cust_05c243c522a1",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 2422.25
   },
   {
-    "record_id": "pay_ca4763ca1b64",
+    "record_id": "pay_973b8e0570f2",
+    "customer_id": "cust_323938ae9c36",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 3493.6
   },
   {
-    "record_id": "pay_8ce13b7fb160",
+    "record_id": "pay_2804a1fcbf00",
+    "customer_id": "cust_8f2851d34996",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 2938.95
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_01a03068f2be",
+    "record_id": "pay_319d69a40821",
+    "customer_id": "cust_4ae63b2f3092",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 2929.78
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_48d8a80fd445",
+    "record_id": "pay_6356f03c87c9",
+    "customer_id": "cust_74781ee715a7",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 2117.95
   },
   {
-    "record_id": "pay_d142a5767eb0",
+    "record_id": "pay_300ea4ba1f55",
+    "customer_id": "cust_4691dbba3242",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 2117.7
   },
   {
-    "record_id": "pay_d62956404961",
+    "record_id": "pay_404baa0a15c9",
+    "customer_id": "cust_67f09f131fda",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 2709.02
   },
   {
-    "record_id": "pay_85235eba7aa2",
+    "record_id": "pay_9f8a65854886",
+    "customer_id": "cust_0a0c633c4439",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 3012.45
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_19168ae59de1",
+    "record_id": "pay_4c2d9235b984",
+    "customer_id": "cust_a12bf2ad38e2",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 2002.78
   },
   {
-    "record_id": "pay_b623b20d5202",
+    "record_id": "pay_edf52fb7e517",
+    "customer_id": "cust_b6e91f0f265b",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 2583.98
   },
   {
-    "record_id": "pay_00e106250392",
+    "record_id": "pay_a5d46b7f5712",
+    "customer_id": "cust_8ea1f0d8e63a",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 1976.75
   },
   {
-    "record_id": "pay_ae44384397ce",
+    "record_id": "pay_62f36cf2edca",
+    "customer_id": "cust_19ca6171028b",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_6eadf8ea5a41",
+    "customer_id": "cust_f3cfa2729f44",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
-    "amount": 2527.42
-  },
-  {
-    "record_id": "pay_f8dee995f7fe",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
     "amount": 2486.04
   },
   {
-    "record_id": "pay_102004256b9b",
+    "record_id": "pay_ecaec63e7fe7",
+    "customer_id": "cust_6b179e73b239",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 2657.91
   },
   {
-    "record_id": "pay_fd9150c169b9",
+    "record_id": "pay_804e85a36c56",
+    "customer_id": "cust_0904ab7514c4",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 2219.56
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_390d9e517252",
+    "record_id": "pay_2767280954e4",
+    "customer_id": "cust_c7304cbe3eb6",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 2204.75
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_e6eecd977383",
+    "record_id": "pay_c6b7df9b6879",
+    "customer_id": "cust_c1da7e033374",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 1620.12
   },
   {
-    "record_id": "pay_03dd203adfd8",
+    "record_id": "pay_97c7c5a7cebe",
+    "customer_id": "cust_6501aef6a982",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 2298.48
   },
   {
-    "record_id": "pay_d65e572027c3",
+    "record_id": "pay_be68801e6916",
+    "customer_id": "cust_5af206afff92",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 1899.15
   },
   {
-    "record_id": "pay_b47c830d84f6",
+    "record_id": "pay_5d4a42c16ae8",
+    "customer_id": "cust_a40502f9c13c",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 1453.93
   },
   {
-    "record_id": "pay_d11727aa84b3",
+    "record_id": "pay_cb9e0059fa1e",
+    "customer_id": "cust_d2473acbd369",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 2072.06
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_8a787fd1b59c",
+    "record_id": "pay_2ca6da651d19",
+    "customer_id": "cust_57af1d084786",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 1970.03
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_8bda782fe98b",
+    "record_id": "pay_df8efc61e94b",
+    "customer_id": "cust_017b65fe0e5d",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 1338.68
   },
   {
-    "record_id": "pay_37ffc777f43e",
+    "record_id": "pay_b2737a2cc3c4",
+    "customer_id": "cust_d00190eb1545",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 1719.81
   },
   {
-    "record_id": "pay_63c0545c1725",
+    "record_id": "pay_01eb945037e4",
+    "customer_id": "cust_fc94a1c92ed7",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 1686.54
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_c8b6e258bf1e",
+    "record_id": "pay_1b5c95f30e65",
+    "customer_id": "cust_47f62b097b30",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 1638.42
   },
   {
-    "record_id": "pay_5941e2c3ea40",
+    "record_id": "pay_3ba6c0ede9dc",
+    "customer_id": "cust_9994dc6059ec",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 1615.7
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_c72530114007",
+    "record_id": "pay_cd9093878419",
+    "customer_id": "cust_0904ab7514c4",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 1799.64
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_310cc347a52a",
+    "record_id": "pay_25af7f0074d8",
+    "customer_id": "cust_29cfddaf20be",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 1780.85
   },
   {
-    "record_id": "pay_d597cf26d5a4",
+    "record_id": "pay_01e3e24b5ce9",
+    "customer_id": "cust_fdb9757eba05",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 1502.19
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_4c1ce93023f2",
+    "record_id": "pay_de033513987e",
+    "customer_id": "cust_223996aee1f5",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 1127.52
   },
   {
-    "record_id": "pay_47890cdf9b48",
+    "record_id": "pay_775a2bd38a3c",
+    "customer_id": "cust_22576f501372",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 1432.55
   },
   {
-    "record_id": "pay_8a2f149d36e9",
+    "record_id": "pay_ac05b502d34f",
+    "customer_id": "cust_9c11d51faec0",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 1309.04
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_dfd5c7d1c0a0",
+    "record_id": "sub_bfdb8ea980ff",
+    "customer_id": "cust_8f04cdc5c364",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_b9eb44d8d0d3",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_dfb338e71a86",
+    "record_id": "sub_bfa842acf7e4",
+    "customer_id": "cust_296cf8394f38",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_02f075c7be63",
+    "record_id": "sub_36ddacc9b153",
+    "customer_id": "cust_3cdadb3088db",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_614134e76934",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_2ed295ca1852",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_19a5d5061f21",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_ad32d5320c3d",
+    "record_id": "sub_6f7d4762544b",
+    "customer_id": "cust_cf97c8cb9072",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "pay_07b9c8c65342",
+    "record_id": "sub_1d8de1c727ad",
+    "customer_id": "cust_2cb59a96ab2d",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_5844d5eb7c78",
+    "customer_id": "cust_49ef6245b619",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_69a49db07cc1",
+    "customer_id": "cust_acc7c08bc8cf",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_9c1b8fe55527",
+    "customer_id": "cust_fc808693aa13",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "pay_05ae1c3654ee",
+    "customer_id": "cust_868100cfd5bb",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
     "amount": 983.18
   },
   {
-    "record_id": "pay_7fe3d8b49846",
+    "record_id": "pay_cad6c1cacd81",
+    "customer_id": "cust_79af539498b8",
     "action": "request_update",
     "policy_check": "passed",
-    "outcome": "not_recovered",
+    "outcome": "recovered",
     "amount": 1396.06
   },
   {
-    "record_id": "pay_c44b41264a24",
+    "record_id": "pay_c158409dd8cb",
+    "customer_id": "cust_826ba4d567dc",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 872.68
   },
   {
-    "record_id": "sub_af819b0e0061",
+    "record_id": "sub_864a04a0b240",
+    "customer_id": "cust_6ec879971a7f",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_818dfdc35df6",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_9b2180ea3705",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_44c45d94a02b",
+    "record_id": "sub_c289ec3d9a3a",
+    "customer_id": "cust_a7ecb87abaae",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_a5fbe9f336c6",
+    "record_id": "sub_bc0f86fa5673",
+    "customer_id": "cust_0d948f8297b6",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_3e5867087735",
+    "record_id": "sub_2a52337ed9e6",
+    "customer_id": "cust_d148b0e7cbba",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_7cc1a6829a12",
+    "customer_id": "cust_b89e83ba2468",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_a223e2cef8be",
+    "customer_id": "cust_e73a4d711916",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_746700958204",
+    "customer_id": "cust_15daffee4a22",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_8b9762ea0fc9",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_6211f2279914",
+    "record_id": "sub_a29e349e2453",
+    "customer_id": "cust_9946441137ec",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_d2c2f2958548",
+    "record_id": "sub_9740e0830883",
+    "customer_id": "cust_ad0ea562cf72",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_48a6347e9da9",
+    "record_id": "sub_5eabeaed7fe3",
+    "customer_id": "cust_1f988d5b1b4e",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_660a986469e8",
+    "customer_id": "cust_3e725aa8fcda",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_b7e313abd31f",
+    "record_id": "sub_b6d6508947c5",
+    "customer_id": "cust_4350c1d0fd64",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
+    "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_c697e714f4d3",
+    "record_id": "sub_b3fda4737407",
+    "customer_id": "cust_c6c6217ce709",
     "action": "auto_retry",
     "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_1741ce00343d",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_c04a9dc892de",
-    "action": "request_update",
-    "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_caf1a95899bc",
+    "record_id": "sub_ea9e57a398b1",
+    "customer_id": "cust_f3a6d595ef57",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_1e13411496b3",
+    "record_id": "sub_edac7c209675",
+    "customer_id": "cust_95187bcfef39",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_01a75d53cf3d",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_23f2d8a9c19a",
+    "record_id": "sub_787f8dea4238",
+    "customer_id": "cust_3773e65ef4bf",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_32bb792c2872",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_4d5075c1e8c0",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_e6407c4fd46e",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "pay_8282c67caac1",
+    "record_id": "sub_4f003e20d35a",
+    "customer_id": "cust_3c939f4f2962",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
-    "amount": 996.98
+    "amount": 999.0
   },
   {
-    "record_id": "pay_728c2b56b4c1",
+    "record_id": "sub_09b32dc9a7db",
+    "customer_id": "cust_1274aa9d544f",
+    "action": "request_update",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_95d778f906da",
+    "customer_id": "cust_728c3046cee2",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_a0b5711aa3de",
+    "customer_id": "cust_de4782023159",
+    "action": "request_update",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_7633f095e384",
+    "customer_id": "cust_41486f1e528e",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_fbe2d3855bbf",
+    "customer_id": "cust_49ef6245b619",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_e983c83c54d0",
+    "customer_id": "cust_f336e1cf3174",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 628.13
   },
   {
-    "record_id": "pay_c1e85f437fb0",
+    "record_id": "pay_8311ddbc7c9c",
+    "customer_id": "cust_c2e9dd88a85a",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 778.53
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_68eabda96a24",
+    "record_id": "sub_0cdffa5cba24",
+    "customer_id": "cust_766c2752fd40",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_adc8bafd5995",
+    "record_id": "sub_9313760f6982",
+    "customer_id": "cust_051b69cb9356",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_f8b632215f04",
+    "record_id": "sub_12e12b6527e8",
+    "customer_id": "cust_35f979e61696",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_be3dd41b5f60",
+    "record_id": "sub_c8a4a1b97760",
+    "customer_id": "cust_097561565a07",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_b1dddab062af",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_cf3dee9bf760",
+    "record_id": "sub_7dab699db5eb",
+    "customer_id": "cust_215179301168",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_f7f3a88638e5",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_1911c7c786bb",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_b42dcd91df5b",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_777c8802fa98",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_3756f65b8366",
+    "record_id": "sub_235c59a6c8c3",
+    "customer_id": "cust_055ee5a88d67",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_1273e788e8d4",
+    "record_id": "sub_77b7f13d96b0",
+    "customer_id": "cust_0a0a3584abb6",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_3c94ca7384f8",
+    "customer_id": "cust_7a1659d4c961",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_904e37cf98f8",
+    "customer_id": "cust_10f04968e977",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_8af25fa88748",
+    "customer_id": "cust_017b65fe0e5d",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_6906cfe7bbc6",
+    "customer_id": "cust_46f0ed650c33",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_fe827bba1019",
+    "customer_id": "cust_f1a0e1078a4a",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_c62ac892ef48",
+    "record_id": "sub_4346d3f59ec9",
+    "customer_id": "cust_a9411d708f69",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_cae108aeb7fc",
+    "record_id": "sub_21ed8e1d4aba",
+    "customer_id": "cust_5941e00da7d6",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_e6418c2296d5",
+    "record_id": "sub_3250a180f7a3",
+    "customer_id": "cust_57d90fd26180",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_f96187b07997",
+    "customer_id": "cust_bce964216ffe",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_a1b20f044b21",
+    "record_id": "sub_5ed28a71f1d5",
+    "customer_id": "cust_f65c0b3d180d",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_bb12231b3a4b",
+    "record_id": "sub_e181bb6356b0",
+    "customer_id": "cust_0d948f8297b6",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_ec83bb14ff87",
+    "customer_id": "cust_7ccc74b62b2e",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_1247d148f988",
+    "customer_id": "cust_9bd613c63cba",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_9e0ea266cc1b",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_7810855106e0",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_a54efbbca4c9",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_5a63d922f786",
+    "record_id": "sub_6eeeb3532560",
+    "customer_id": "cust_b737627ad2e0",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_2a08805ef3ea",
+    "record_id": "sub_64f3ffbe9487",
+    "customer_id": "cust_fb2cab1837b7",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_806c979be495",
+    "customer_id": "cust_a58f574195d0",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_b3d08f7be11c",
+    "customer_id": "cust_f29b4ea49c1d",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_fe21674fab25",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_0e11e209a2fc",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_8e9143d064f5",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_c142c6f42e03",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_16432a6d7d99",
+    "record_id": "sub_c40b7fc73e59",
+    "customer_id": "cust_9787844a8d19",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "pay_8efb5999974f",
+    "record_id": "sub_e971d477368c",
+    "customer_id": "cust_a2f065358bc3",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_313fced26b46",
+    "customer_id": "cust_a425512b5c46",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "pay_1a391a80f78c",
+    "customer_id": "cust_d6582641bb3f",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 658.33
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "pay_1d067b198358",
+    "record_id": "pay_a4fec06bed94",
+    "customer_id": "cust_3b3e6bcba0ce",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 710.56
   },
   {
-    "record_id": "sub_9625ef30cf63",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_b9224af80b91",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_a957188bef74",
+    "record_id": "sub_b30caa3c8676",
+    "customer_id": "cust_3ccea7699124",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_528476951783",
+    "record_id": "sub_95d3a5b22c78",
+    "customer_id": "cust_c6c6217ce709",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_8fcabf043e9f",
+    "record_id": "sub_c0254483c2ff",
+    "customer_id": "cust_a142fa21729e",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_e78e300f5f66",
+    "customer_id": "cust_436735bd6d4b",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_90f6d68d87fc",
+    "record_id": "sub_6d676469dacb",
+    "customer_id": "cust_97bf718ea3d9",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_692a9ef14fd7",
+    "customer_id": "cust_f66a075779a2",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_bc475103d1c9",
+    "record_id": "sub_4eb6b980564f",
+    "customer_id": "cust_c99ed8a1cb73",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_81e5a3d06a0e",
+    "record_id": "sub_c4895659e5f5",
+    "customer_id": "cust_192bd1f35648",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_0a70e8cd0e7d",
+    "record_id": "sub_7ac7cd52ae71",
+    "customer_id": "cust_0a0c633c4439",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_453afa362266",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_576a7afbaf17",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_3aef7f6619aa",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_1cfae86d87a7",
+    "record_id": "sub_5fbe0f7aa028",
+    "customer_id": "cust_29d3e82ab554",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_14c40b2b71b9",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_a5278f5cc4b7",
+    "record_id": "sub_49aea8c9b363",
+    "customer_id": "cust_0f884d53a7c0",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_3c2ce638942f",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_a5cd084b8dd1",
-    "action": "auto_retry",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_94cf959d6547",
+    "record_id": "sub_afbcdb09867b",
+    "customer_id": "cust_1b2612629c83",
     "action": "auto_retry",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_b93a3c86b95b",
+    "record_id": "sub_18acbbb0d786",
+    "customer_id": "cust_c238ac14b8a9",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_faec70273640",
+    "customer_id": "cust_d5fe8c0b5931",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_092c040b5649",
+    "customer_id": "cust_06ed11e57266",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_60016172cc04",
+    "customer_id": "cust_f75e42a13dfe",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_dc2227b97d7c",
+    "customer_id": "cust_211a8f70f021",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_4accb3a202ad",
+    "customer_id": "cust_9dfd2aebf6d9",
+    "action": "auto_retry",
+    "policy_check": "passed",
+    "outcome": "not_recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_8ff9a70057f5",
+    "customer_id": "cust_5be42d04e56c",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_7afec4978c3c",
+    "record_id": "sub_00cc1f9d3237",
+    "customer_id": "cust_e412bb0d0d81",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_19ed328ad684",
+    "record_id": "sub_c0e6d6900741",
+    "customer_id": "cust_465ce74a88b5",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_65e96414ddbe",
+    "customer_id": "cust_e5d922600816",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_5b0e333941ea",
+    "customer_id": "cust_377ecc2955b4",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_9cdcb3a416e9",
+    "record_id": "sub_4ade7f23347a",
+    "customer_id": "cust_a0045a83e506",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_00b51895f45d",
+    "record_id": "sub_5bd8f3ce7792",
+    "customer_id": "cust_cf5eabd79ec9",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_671b9cfdf2a1",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_1da372e44ea7",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "pay_959aeb8faac7",
+    "record_id": "pay_f0983a664f06",
+    "customer_id": "cust_38f8306d9f45",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 431.27
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_4d75152d1637",
+    "record_id": "sub_b78b1e0211a9",
+    "customer_id": "cust_c1c0301a93cc",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_ee34eddfdce9",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_c242fd10b6a4",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_b1dcd1e1646e",
+    "record_id": "sub_d08cca169fa4",
+    "customer_id": "cust_c69ec39ba062",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_9d8919cf38b4",
+    "record_id": "sub_fab9cc8805e0",
+    "customer_id": "cust_a7cc002838be",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_0a82d53cfd3c",
+    "customer_id": "cust_4b58f4020792",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_71005343f656",
+    "customer_id": "cust_0a0c633c4439",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_75604f8a65bd",
+    "customer_id": "cust_b3844bca0b70",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "passed",
+    "outcome": "recovered",
+    "amount": 999.0
+  },
+  {
+    "record_id": "sub_efb581255ef0",
+    "customer_id": "cust_775a6beed221",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_7fdc33386c52",
+    "record_id": "sub_d92f0e1846f6",
+    "customer_id": "cust_f01fc0f84681",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_1d1b117b4042",
+    "customer_id": "cust_4c40d15c15cb",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_adc5e229d069",
+    "customer_id": "cust_0374bb4e1de1",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_13e9da44f14b",
+    "customer_id": "cust_e44c4a43e25d",
+    "action": "scheduled_retry_salary_cycle",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_65e673871535",
+    "customer_id": "cust_bd3022051fc4",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_0a70ba11bd49",
+    "record_id": "sub_d120b0e7f114",
+    "customer_id": "cust_04c92989b85e",
     "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_67905d78e683",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_716dad0eb1b5",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_35249787dd69",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_7703ee0c13d2",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_c54063df9493",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_54cb6a500b89",
-    "action": "scheduled_retry_salary_cycle",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_8ca7c60637e9",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_8092050d848e",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_327d281acdfe",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_43430670124d",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_3796f857b90b",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_0bd058ba6b1b",
+    "record_id": "sub_af51850a18c9",
+    "customer_id": "cust_a66214687b29",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_717f19a055ed",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_30b34aba7d43",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_9700c238dcf0",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_1ed459699c44",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_9d61273ced68",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_f17bf77dd6d9",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_53d48e3bcee0",
-    "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
-  },
-  {
-    "record_id": "sub_49d3843b7e84",
+    "record_id": "sub_ec93bcb9894e",
+    "customer_id": "cust_aa005d849d98",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_2e659831e06c",
+    "record_id": "sub_1a0ab60913b8",
+    "customer_id": "cust_b56586fc6659",
     "action": "request_update",
     "policy_check": "passed",
     "outcome": "not_recovered",
     "amount": 999.0
   },
   {
-    "record_id": "sub_80814aaa5988",
+    "record_id": "sub_f3c16a5be1ac",
+    "customer_id": "cust_a40502f9c13c",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_0e8bff7fe620",
+    "record_id": "sub_accf7b512fba",
+    "customer_id": "cust_7cabcac11f54",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_8a4d464489bd",
+    "record_id": "sub_62af7a7d2f69",
+    "customer_id": "cust_d148b0e7cbba",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_ba77e00ba036",
+    "record_id": "sub_d2c3ca07d251",
+    "customer_id": "cust_778394a6ee23",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 999.0
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_169617916bfe",
+    "record_id": "sub_1bb795921699",
+    "customer_id": "cust_68cd279a5c8c",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_97c9ca279341",
+    "customer_id": "cust_9cee5b7c6363",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_86812e093601",
+    "customer_id": "cust_e5d922600816",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_ba751a3a2b82",
+    "customer_id": "cust_020b41043e7e",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_0a23d9e32eee",
+    "customer_id": "cust_662f63570ef5",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_6d68b212ee93",
+    "customer_id": "cust_f28378097447",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_2da0b4c66834",
+    "customer_id": "cust_64130d6d0b43",
+    "action": "request_update",
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
+  },
+  {
+    "record_id": "sub_c9d371f8071d",
+    "customer_id": "cust_6042fd553eb3",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_077cbced6dfa",
+    "record_id": "sub_6745cdcbc526",
+    "customer_id": "cust_67783f4a1abc",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_cffeeb1c81ce",
+    "record_id": "sub_b7c48eb33bcb",
+    "customer_id": "cust_f66a075779a2",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_bbedd4847496",
+    "record_id": "sub_2e83746c59f0",
+    "customer_id": "cust_055ee5a88d67",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_2205ec47cd31",
+    "record_id": "sub_8a4e8a2d06bd",
+    "customer_id": "cust_826ba4d567dc",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_04fa298f0263",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_14f99dc4c480",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_17f45cc7e7ec",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "pay_79cacb093b9d",
+    "record_id": "pay_342d8e461b10",
+    "customer_id": "cust_8b51e073bbed",
     "action": "scheduled_retry_salary_cycle",
     "policy_check": "passed",
     "outcome": "recovered",
     "amount": 306.88
   },
   {
-    "record_id": "sub_0af55632d2e2",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_40c30c1dd24e",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_09f736ca4285",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_412995e3d045",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_899dc2f4f1c2",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_91d32f716e19",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_153ce547d7ac",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "sub_41fe437ad79a",
-    "action": "escalate_to_human",
-    "policy_check": "stopping_rule_triggered",
-    "outcome": "pending_human_review"
-  },
-  {
-    "record_id": "pay_ca33333f7653",
+    "record_id": "pay_94b439e2c5f4",
+    "customer_id": "cust_3746fcff468d",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "not_recovered",
-    "amount": 299.76
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_7e01abbc0585",
+    "record_id": "sub_f9191dde1a5e",
+    "customer_id": "cust_b1468b19bca3",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_56a71af37351",
+    "record_id": "sub_8d56687f5acd",
+    "customer_id": "cust_a7cc002838be",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_49fa4768bc83",
+    "record_id": "sub_5e8c6bfd68b9",
+    "customer_id": "cust_83722c42c646",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "pay_0411575cea70",
+    "record_id": "sub_02baa543f230",
+    "customer_id": "cust_96655fe63549",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_872907367c23",
+    "customer_id": "cust_9d16534c21ff",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_144f90f2ec2b",
+    "customer_id": "cust_75023fa0078a",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_34f8cdc0cacd",
+    "customer_id": "cust_43231612e788",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_2bfe9cb53e17",
+    "customer_id": "cust_1ed33321408f",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_5ae48e22a8d6",
+    "customer_id": "cust_becb1ce66d5f",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_b5fa8d5eb71f",
+    "customer_id": "cust_ca55868911f2",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_400276996b58",
+    "customer_id": "cust_9946441137ec",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_3dfdd1bbee54",
+    "customer_id": "cust_3ef90c22ac7d",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_cad514dddb8f",
+    "customer_id": "cust_c1da7e033374",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_30b5f49254d9",
+    "customer_id": "cust_35f979e61696",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_b2883faf79b6",
+    "customer_id": "cust_662f63570ef5",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_3a71ecac409e",
+    "customer_id": "cust_f943b17f9628",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "pay_860f8ab520ef",
+    "customer_id": "cust_294e64236fcc",
     "action": "request_update",
-    "policy_check": "passed",
-    "outcome": "recovered",
-    "amount": 241.67
+    "policy_check": "rate_limit_blocked",
+    "outcome": "skipped"
   },
   {
-    "record_id": "sub_07d312ea78c6",
+    "record_id": "sub_684a5d8a13ca",
+    "customer_id": "cust_29e0353ea143",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_5da6062f2f7e",
+    "record_id": "sub_5be2c0818fba",
+    "customer_id": "cust_23afd7d73a1f",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_a3837c813016",
+    "record_id": "sub_76759337d101",
+    "customer_id": "cust_77f662934f19",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_f3a028454405",
+    "record_id": "sub_2bbb16696f2b",
+    "customer_id": "cust_757006560c69",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_e4cb9fcc884a",
+    "record_id": "sub_cb0661189851",
+    "customer_id": "cust_f28378097447",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_6d1a2ea30699",
+    "record_id": "sub_02f782c3c3c7",
+    "customer_id": "cust_76210c396704",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_a5a72765c536",
+    "record_id": "sub_266eb1b29999",
+    "customer_id": "cust_6f930ad16ca1",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_6c7f915a8b1f",
+    "record_id": "sub_eb346f1d47eb",
+    "customer_id": "cust_fe7144ab03bd",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_034df706bab9",
+    "record_id": "sub_5bef66c42b28",
+    "customer_id": "cust_e8bed167c065",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_5a11111c0fce",
+    "record_id": "sub_e175e494b760",
+    "customer_id": "cust_75ec64e4cb87",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_dbe6d76c9707",
+    "record_id": "sub_e869eafd3685",
+    "customer_id": "cust_386306ed8f52",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_451c55f863f7",
+    "record_id": "sub_96cb9efd7ada",
+    "customer_id": "cust_67783f4a1abc",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_a197a31b129f",
+    "record_id": "sub_e9c20deeb020",
+    "customer_id": "cust_4350c1d0fd64",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_81e2ec02b014",
+    "record_id": "sub_d514817dd333",
+    "customer_id": "cust_3773e65ef4bf",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_dc291f652830",
+    "record_id": "sub_0639e4f333c5",
+    "customer_id": "cust_0a0c633c4439",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_0cb48b61f88a",
+    "record_id": "sub_2041556f09dd",
+    "customer_id": "cust_202a36fd380e",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_7d9acdb83021",
+    "record_id": "sub_3e0a99933067",
+    "customer_id": "cust_b1468b19bca3",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_f878b83342a0",
+    "record_id": "sub_2c540c9f7a70",
+    "customer_id": "cust_41486f1e528e",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_4f7986bd17c5",
+    "record_id": "sub_33155f6d3381",
+    "customer_id": "cust_88fb132670a9",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_1bf82cb4ce0d",
+    "record_id": "sub_347d4f91979b",
+    "customer_id": "cust_b3bf6ed309e8",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_4112babff6b3",
+    "record_id": "sub_e6561244da91",
+    "customer_id": "cust_75023fa0078a",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_459062dffcbc",
+    "record_id": "sub_8aa38164d2f5",
+    "customer_id": "cust_241c7f0718c2",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_6e958a79cbb2",
+    "record_id": "sub_07a9e2716626",
+    "customer_id": "cust_ca55868911f2",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_bc32796548dd",
+    "record_id": "sub_ee0988440718",
+    "customer_id": "cust_75b680c37412",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_9d781a3fd5c2",
+    "record_id": "sub_41839e218307",
+    "customer_id": "cust_c5638bfc1945",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_35c870a550dd",
+    "record_id": "sub_82306db632fb",
+    "customer_id": "cust_67783f4a1abc",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_e8382cc7d87e",
+    "record_id": "sub_685743ee3318",
+    "customer_id": "cust_b3bf6ed309e8",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_20f8d7d18e96",
+    "record_id": "sub_48baa658ea15",
+    "customer_id": "cust_da0a18cfc5e0",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_193dac8e038e",
+    "record_id": "sub_8ff4a6b215bf",
+    "customer_id": "cust_8a2c9ce89064",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"
   },
   {
-    "record_id": "sub_c4ea4b18f31b",
+    "record_id": "sub_9ff4be2885b4",
+    "customer_id": "cust_ea42469536f7",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_20fccca07b93",
+    "customer_id": "cust_aa005d849d98",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_36ba9dfd56be",
+    "customer_id": "cust_fc944eeb99d7",
+    "action": "escalate_to_human",
+    "policy_check": "stopping_rule_triggered",
+    "outcome": "pending_human_review"
+  },
+  {
+    "record_id": "sub_67cc4ac25501",
+    "customer_id": "cust_54c72b1454bf",
     "action": "escalate_to_human",
     "policy_check": "stopping_rule_triggered",
     "outcome": "pending_human_review"

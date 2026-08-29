@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StampStatus } from "./Stamp";
+import { LinearProgress } from "./LinearProgress";
 
 export interface RecordItem {
   id: string;
@@ -19,54 +20,46 @@ interface RecordListProps {
 
 export function RecordList({ activeTab, onTabChange, records, selectedId, onSelect }: RecordListProps) {
   return (
-    <div className="w-full md:w-[55%] h-full flex flex-col p-6 pl-8">
-      {/* Tabs as an inset track */}
-      <div className="clay-inset p-1.5 flex mb-6 relative self-start">
-        <div className="flex relative z-10 w-full">
-          <button
-            className={`px-6 py-2 rounded-full font-display uppercase tracking-widest text-sm font-bold transition-colors ${
-              activeTab === "reconciliation" 
-                ? "text-[var(--color-clay-accent)]" 
-                : "text-[var(--color-clay-muted)] hover:text-[var(--color-clay-ink)]"
-            }`}
-            onClick={() => onTabChange("reconciliation")}
-          >
-            Reconciliation
-          </button>
-          <button
-            className={`px-6 py-2 rounded-full font-display uppercase tracking-widest text-sm font-bold transition-colors ${
-              activeTab === "recovery" 
-                ? "text-[var(--color-clay-accent)]" 
-                : "text-[var(--color-clay-muted)] hover:text-[var(--color-clay-ink)]"
-            }`}
-            onClick={() => onTabChange("recovery")}
-          >
-            Recovery
-          </button>
-        </div>
-        
-        {/* Animated pill slider */}
-        <div 
-          className="absolute top-1.5 bottom-1.5 w-1/2 clay-pill transition-all duration-300 ease-in-out"
-          style={{ left: activeTab === "reconciliation" ? "6px" : "calc(50% - 6px)" }}
-        />
+    <div className="w-full h-full flex flex-col p-4 md:p-6 bg-[var(--color-neu-bg)]">
+      {/* Tabs */}
+      <div className="flex space-x-4 mb-6 relative self-start">
+        <button
+          className={`px-8 py-3 rounded-full font-bold text-sm tracking-wide transition-all duration-200 ${
+            activeTab === "reconciliation" 
+              ? "neu-inset text-[var(--color-neu-accent-start)]" 
+              : "neu-pill text-[var(--color-neu-muted)] hover:text-[var(--color-neu-text)]"
+          }`}
+          onClick={() => onTabChange("reconciliation")}
+        >
+          Reconciliation
+        </button>
+        <button
+          className={`px-8 py-3 rounded-full font-bold text-sm tracking-wide transition-all duration-200 ${
+            activeTab === "recovery" 
+              ? "neu-inset text-[var(--color-neu-accent-start)]" 
+              : "neu-pill text-[var(--color-neu-muted)] hover:text-[var(--color-neu-text)]"
+          }`}
+          onClick={() => onTabChange("recovery")}
+        >
+          Recovery
+        </button>
       </div>
       
       <div className="pb-4">
-        <span className="text-[10px] font-mono text-[var(--color-clay-muted)] uppercase">
+        <span className="text-[10px] font-mono text-[var(--color-neu-muted)] uppercase">
           {activeTab === "reconciliation" ? "Sorted by unresolved first, then confidence" : "Sorted by expected value"}
         </span>
       </div>
 
-      <div className="flex-grow overflow-y-auto space-y-4 pr-4 pb-12">
+      <div className="flex-grow overflow-y-auto space-y-4 pb-12 pr-4">
         {records.map((r, idx) => {
           const isSelected = selectedId === r.id;
           const isPositive = ["RESOLVED", "RECOVERED", "PASSED"].includes(r.status);
           const isWarning = ["UNRESOLVED", "ESCALATED", "BLOCKED"].includes(r.status);
           
-          let statusColorClass = "text-[var(--color-clay-amber)] bg-[var(--color-clay-amber)]/20";
-          if (isPositive) statusColorClass = "text-[var(--color-clay-green)] bg-[var(--color-clay-green)]/20";
-          if (isWarning) statusColorClass = "text-[var(--color-clay-red)] bg-[var(--color-clay-red)]/20";
+          let statusColorClass = "text-[#B39352] bg-[#E3C58C]/20"; // amber-ish
+          if (isPositive) statusColorClass = "text-[#4C9A6B] bg-[#8FBFA0]/20"; // green-ish
+          if (isWarning) statusColorClass = "text-[#C0564F] bg-[#D9A0A0]/20"; // red-ish
 
           const recordId = String(r.id || "N/A");
           
@@ -74,42 +67,37 @@ export function RecordList({ activeTab, onTabChange, records, selectedId, onSele
             <div
               key={`${recordId}-${idx}`}
               onClick={() => onSelect(r.id)}
-              className={`flex items-center justify-between px-6 py-4 cursor-pointer transition-all duration-120 border-2 border-transparent ${
+              className={`animate-fade-in-up flex flex-col sm:flex-row sm:items-center justify-between p-5 cursor-pointer rounded-2xl transition-all duration-200 border-2 border-transparent ${
                 isSelected 
-                  ? "clay-inset border-[var(--color-clay-base)]" 
-                  : "clay-card hover:clay-inset"
+                  ? "neu-inset border-[var(--color-neu-bg)]" 
+                  : "neu-panel hover:neu-inset"
               }`}
+              style={{ animationDelay: `${Math.min(idx * 50, 500)}ms` }}
             >
-              <div className="flex items-center space-x-4">
-                <span className="font-mono text-[var(--color-clay-ink)]">{recordId.length > 12 ? recordId.substring(0, 12) + "..." : recordId}</span>
-                <span className={`px-2 py-1 rounded-full text-xs font-mono font-bold ${statusColorClass}`}>
-                  {r.status}
+              <div className="flex items-center space-x-4 mb-3 sm:mb-0">
+                <span className="font-mono font-bold text-[var(--color-neu-text)]">{recordId.length > 12 ? recordId.substring(0, 12) + "..." : recordId}</span>
+                <span className={`px-2.5 py-0.5 rounded-md text-xs font-mono font-bold ${statusColorClass} flex items-center space-x-1.5`}>
+                  <span className={`w-1.5 h-1.5 rounded-full ${isPositive ? 'bg-[#4C9A6B]' : isWarning ? 'bg-[#C0564F]' : 'bg-[#B39352]'}`}></span>
+                  <span>{r.status}</span>
                 </span>
               </div>
               
-              <div className="flex flex-col items-end w-32">
-                <span className="font-mono text-sm text-[var(--color-clay-ink)]">
+              <div className="flex flex-col sm:items-end w-full sm:w-36">
+                <span className="font-bold text-[var(--color-neu-text)]">
                   ₹{r.amount.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                 </span>
                 
                 {(r.confidence !== undefined || r.expectedValue !== undefined) && (
-                  <div className="w-full h-1.5 clay-inset mt-2 relative overflow-hidden">
-                    <div 
-                      className="absolute left-0 top-0 h-full bg-[var(--color-clay-accent)] rounded-full opacity-80"
-                      style={{ 
-                        width: r.confidence !== undefined 
-                          ? `${r.confidence * 100}%` 
-                          : `${Math.min(100, ((r.expectedValue || 0) / r.amount) * 100)}%` 
-                      }}
-                    />
-                  </div>
+                  <LinearProgress 
+                    value={r.confidence !== undefined ? r.confidence : Math.min(1, (r.expectedValue || 0) / r.amount)} 
+                  />
                 )}
               </div>
             </div>
           );
         })}
         {records.length === 0 && (
-          <div className="px-6 py-8 text-sm font-mono text-[var(--color-clay-muted)]">
+          <div className="p-6 text-sm font-mono text-[var(--color-neu-muted)] text-center neu-inset rounded-2xl">
             No unresolved records in this batch
           </div>
         )}

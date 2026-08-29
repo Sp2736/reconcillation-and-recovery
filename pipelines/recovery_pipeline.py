@@ -20,11 +20,16 @@ STRUCTURAL_REASONS = {"card_expired", "issuer_decline"}
 BEHAVIORAL_REASONS = {"insufficient_funds", "risk_block"}
 
 # fixed policy table — intervention selection is NEVER a free-form LLM call
+# cost_inr is the real-world cost of executing that action once (support
+# time, messaging cost, retry infra cost) — expected value must net this
+# out, or the queue can rank a ₹40 recovery with a ₹50 cost above a
+# genuinely better use of the same effort.
 INTERVENTION_POLICY = {
-    "transient": {"action": "auto_retry", "delay_minutes": 30, "base_recovery_p": 0.80},
-    "structural": {"action": "request_update", "delay_minutes": 0, "base_recovery_p": 0.55},
-    "behavioral": {"action": "scheduled_retry_salary_cycle", "delay_minutes": 0, "base_recovery_p": 0.62},
+    "transient": {"action": "auto_retry", "delay_minutes": 30, "base_recovery_p": 0.80, "cost_inr": 2.0},
+    "structural": {"action": "request_update", "delay_minutes": 0, "base_recovery_p": 0.55, "cost_inr": 8.0},
+    "behavioral": {"action": "scheduled_retry_salary_cycle", "delay_minutes": 0, "base_recovery_p": 0.62, "cost_inr": 8.0},
 }
+ESCALATION_COST_INR = 45.0  # human review time — the real reason escalation isn't the default
 
 MAX_AUTOMATED_RETRIES = 3
 MAX_MESSAGES_PER_CUSTOMER_48H = 1
@@ -46,26 +51,42 @@ def estimate_recovery_probability(category: str, retry_count: int) -> float:
     return round(max(0.02, min(0.97, decayed)), 4)
 
 
-def select_intervention(category: str, retry_count: int, amount: float):
+def select_intervention(category: str, retry_count: int, amount: float, recovery_probability: float):
     if retry_count > MAX_AUTOMATED_RETRIES:
-        return {"action": "escalate_to_human", "reason": "exceeded max automated retries"}
+        return {"action": "escalate_to_human", "reason": "exceeded max automated retries",
+                "cost_inr": ESCALATION_COST_INR}
     if amount > HUMAN_APPROVAL_THRESHOLD_AMOUNT:
-        return {"action": "escalate_to_human", "reason": "amount above auto-approval threshold"}
+        return {"action": "escalate_to_human", "reason": "amount above auto-approval threshold",
+                "cost_inr": ESCALATION_COST_INR}
+
     policy = INTERVENTION_POLICY[category]
-    return {"action": policy["action"], "delay_minutes": policy["delay_minutes"]}
+    cost = policy["cost_inr"]
+    gross_expected = amount * recovery_probability
+    if gross_expected <= cost:
+        # the intervention costs more than it's expected to recover — this
+        # is a real, defensible "do nothing" decision, not a missed case
+        return {"action": "no_action_uneconomical",
+                "reason": f"expected recovery ₹{gross_expected:.2f} does not exceed "
+                          f"intervention cost ₹{cost:.2f}",
+                "cost_inr": 0.0}
+
+    return {"action": policy["action"], "delay_minutes": policy["delay_minutes"], "cost_inr": cost}
 
 
-def build_queue(failed_payments, subscriptions):
+def build_queue(failed_payments, subscriptions, orders):
     items = []
+    orders_by_id = {o["order_id"]: o for o in orders}
 
     for p in failed_payments:
         category = classify_root_cause(p["failure_reason"])
         retry_count = 0  # first-touch failures from the payments table
         prob = estimate_recovery_probability(category, retry_count)
-        intervention = select_intervention(category, retry_count, p["amount"])
-        expected_value = round(p["amount"] * prob, 2)
+        order = orders_by_id.get(p["order_id"])
+        customer_id = order["customer_id"] if order else f"unknown_{p['payment_id']}"
+        intervention = select_intervention(category, retry_count, p["amount"], prob)
+        expected_value = round(p["amount"] * prob - intervention.get("cost_inr", 0.0), 2)
         items.append({
-            "source": "payment", "record_id": p["payment_id"],
+            "source": "payment", "record_id": p["payment_id"], "customer_id": customer_id,
             "amount": p["amount"], "failure_reason": p["failure_reason"],
             "category": category, "recovery_probability": prob,
             "intervention": intervention, "expected_value": expected_value,
@@ -75,18 +96,20 @@ def build_queue(failed_payments, subscriptions):
         if s["last_charge_status"] != "failed":
             continue
         category = classify_root_cause(s["failure_reason"])
-        if s["mandate_status"] == "revoked":
-            intervention = {"action": "escalate_to_human", "reason": "mandate revoked"}
-            prob = 0.05
-        else:
-            prob = estimate_recovery_probability(category, s["retry_count"])
-            intervention = select_intervention(category, s["retry_count"], amount=0)
         # subscription failed-charge amount isn't in this synthetic table;
         # assume a representative recurring amount for expected-value ranking
         assumed_amount = 999.0
-        expected_value = round(assumed_amount * prob, 2)
+        if s["mandate_status"] == "revoked":
+            intervention = {"action": "escalate_to_human", "reason": "mandate revoked",
+                             "cost_inr": ESCALATION_COST_INR}
+            prob = 0.05
+        else:
+            prob = estimate_recovery_probability(category, s["retry_count"])
+            intervention = select_intervention(category, s["retry_count"], assumed_amount, prob)
+        expected_value = round(assumed_amount * prob - intervention.get("cost_inr", 0.0), 2)
         items.append({
             "source": "subscription", "record_id": s["subscription_id"],
+            "customer_id": s["customer_id"],
             "amount": assumed_amount, "failure_reason": s["failure_reason"],
             "category": category, "recovery_probability": prob,
             "intervention": intervention, "expected_value": expected_value,
@@ -102,52 +125,74 @@ def simulate_execution(queue):
     messages_sent = {}
     total_at_risk = 0.0
     total_recovered = 0.0
+    total_intervention_cost = 0.0
     escalated = 0
     executed = 0
+    skipped_uneconomical = 0
 
     for item in queue:
         total_at_risk += item["amount"]
         action = item["intervention"]["action"]
+        customer_id = item.get("customer_id", item["record_id"])  # fallback for safety
 
         if action == "escalate_to_human":
             escalated += 1
+            total_intervention_cost += item["intervention"].get("cost_inr", 0.0)
             audit.append({
-                "record_id": item["record_id"], "action": "escalate_to_human",
+                "record_id": item["record_id"], "customer_id": customer_id,
+                "action": "escalate_to_human",
                 "policy_check": "stopping_rule_triggered", "outcome": "pending_human_review",
             })
             continue
 
-        # rate-limit outbound messages per customer (record_id stands in for
-        # customer in this simplified simulation; production would key on
-        # actual customer_id)
-        sent_so_far = messages_sent.get(item["record_id"], 0)
+        if action == "no_action_uneconomical":
+            skipped_uneconomical += 1
+            audit.append({
+                "record_id": item["record_id"], "customer_id": customer_id,
+                "action": "no_action_uneconomical",
+                "policy_check": "expected_value_negative",
+                "outcome": "skipped", "reason": item["intervention"]["reason"],
+            })
+            continue
+
+        # rate-limit outbound messages per CUSTOMER, not per record — a
+        # customer with three failed payments in one batch must still only
+        # get one message in the window, or the stopping rule is a no-op
+        sent_so_far = messages_sent.get(customer_id, 0)
         if action in ("request_update", "scheduled_retry_salary_cycle") and \
                 sent_so_far >= MAX_MESSAGES_PER_CUSTOMER_48H:
             audit.append({
-                "record_id": item["record_id"], "action": action,
+                "record_id": item["record_id"], "customer_id": customer_id,
+                "action": action,
                 "policy_check": "rate_limit_blocked", "outcome": "skipped",
             })
             continue
 
-        messages_sent[item["record_id"]] = sent_so_far + 1
+        messages_sent[customer_id] = sent_so_far + 1
         executed += 1
+        total_intervention_cost += item["intervention"].get("cost_inr", 0.0)
         # simulate outcome probabilistically using the estimated recovery probability
         import random
         recovered = random.random() < item["recovery_probability"]
         if recovered:
             total_recovered += item["amount"]
         audit.append({
-            "record_id": item["record_id"], "action": action,
+            "record_id": item["record_id"], "customer_id": customer_id,
+            "action": action,
             "policy_check": "passed", "outcome": "recovered" if recovered else "not_recovered",
             "amount": item["amount"],
         })
 
+    net_recovered = round(total_recovered - total_intervention_cost, 2)
     return {
         "total_at_risk": round(total_at_risk, 2),
         "total_recovered_simulated": round(total_recovered, 2),
+        "total_intervention_cost": round(total_intervention_cost, 2),
+        "net_recovered_after_cost": net_recovered,
         "recovery_rate_simulated": round(total_recovered / total_at_risk, 4) if total_at_risk else 0,
         "interventions_executed": executed,
         "escalated_to_human": escalated,
+        "skipped_uneconomical": skipped_uneconomical,
     }, audit
 
 
@@ -156,9 +201,11 @@ def run(data_dir: Path):
         payments = json.load(f)
     with open(data_dir / "subscriptions.json") as f:
         subscriptions = json.load(f)
+    with open(data_dir / "orders.json") as f:
+        orders = json.load(f)
 
     failed_payments = [p for p in payments if p["status"] == "failed"]
-    queue = build_queue(failed_payments, subscriptions)
+    queue = build_queue(failed_payments, subscriptions, orders)
     summary, audit = simulate_execution(queue)
 
     print(json.dumps(summary, indent=2))

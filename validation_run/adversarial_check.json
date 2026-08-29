@@ -1,0 +1,6 @@
+{
+  "expected": "UNRESOLVED \u2014 settlement.payment_id does not exist; a coincidental amount match must not be treated as a real match",
+  "actual_stage1_matched": [],
+  "actual_stage2_matched": [],
+  "passed": true
+}

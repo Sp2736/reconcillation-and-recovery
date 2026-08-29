@@ -8,7 +8,11 @@ investigator, and a Revenue Recovery autopilot.
 
 ```bash
 pip install -r requirements.txt --break-system-packages
-export ANTHROPIC_API_KEY=your_key_here   # needed only for stage 3
+
+# Set LLM credentials (needed for stage 3)
+export LLM_PROVIDER=groq
+export GROQ_API_KEY=your_key_here
+# (or LLM_PROVIDER=openrouter with OPENROUTER_API_KEY, and optional LLM_MODEL)
 ```
 
 ## Run order

@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { CircularProgress } from "./CircularProgress";
 
 interface LedgerHeaderProps {
   atRisk: number;
@@ -12,23 +13,29 @@ function AnimatedNumber({ value, isCurrency = false, isPercent = false }: { valu
   const [displayValue, setDisplayValue] = useState(0);
 
   useEffect(() => {
+    let startTime: number;
     const duration = 800; // ms
-    const steps = 60;
-    const stepTime = duration / steps;
-    const increment = value / steps;
-    let current = 0;
+    let animationFrame: number;
 
-    const timer = setInterval(() => {
-      current += increment;
-      if (current >= value) {
-        setDisplayValue(value);
-        clearInterval(timer);
+    const animate = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      
+      // easeOutQuart
+      const easeProgress = 1 - Math.pow(1 - progress, 4);
+      
+      setDisplayValue(value * easeProgress);
+
+      if (progress < 1) {
+        animationFrame = requestAnimationFrame(animate);
       } else {
-        setDisplayValue(current);
+        setDisplayValue(value);
       }
-    }, stepTime);
+    };
 
-    return () => clearInterval(timer);
+    animationFrame = requestAnimationFrame(animate);
+
+    return () => cancelAnimationFrame(animationFrame);
   }, [value]);
 
   let formatted = displayValue.toLocaleString("en-IN", {
@@ -36,7 +43,6 @@ function AnimatedNumber({ value, isCurrency = false, isPercent = false }: { valu
   });
 
   if (isCurrency) {
-    // If it's a large amount, we can format as "L" for Lakhs or just standard locale string
     if (displayValue >= 100000) {
       formatted = "₹" + (displayValue / 100000).toFixed(2) + "L";
     } else {
@@ -53,40 +59,45 @@ function AnimatedNumber({ value, isCurrency = false, isPercent = false }: { valu
 
 export function LedgerHeader({ atRisk, recovered, matchRate, unresolvedCount }: LedgerHeaderProps) {
   return (
-    <header className="sticky top-0 z-10 py-6 px-4 sm:px-6 lg:px-8 bg-[var(--color-clay-base)] pointer-events-none">
-      <div className="max-w-7xl mx-auto flex flex-wrap gap-4 justify-between pointer-events-auto">
-        <div className="clay-card flex flex-col p-4 px-6 flex-1 min-w-[200px]">
-          <span className="font-mono text-3xl font-medium text-[var(--color-clay-ink)]">
+    <header className="sticky top-0 z-10 py-6 px-4 sm:px-6 lg:px-8 pointer-events-none">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 pointer-events-auto">
+        <div className="neu-panel flex flex-col p-6 justify-between h-32">
+          <span className="font-bold text-2xl md:text-3xl text-[var(--color-neu-text)] leading-none">
             <AnimatedNumber value={atRisk} isCurrency />
           </span>
-          <span className="text-xs uppercase tracking-widest text-[var(--color-clay-muted)] mt-1 font-display font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[var(--color-neu-muted)] font-bold">
             At Risk
           </span>
         </div>
 
-        <div className="clay-card flex flex-col p-4 px-6 flex-1 min-w-[200px]">
-          <span className="font-mono text-3xl font-medium text-[var(--color-clay-ink)]">
+        <div className="neu-panel flex flex-col p-6 justify-between h-32">
+          <span className="font-bold text-2xl md:text-3xl text-[var(--color-neu-text)] leading-none neu-gradient-text">
             <AnimatedNumber value={recovered} isCurrency />
           </span>
-          <span className="text-xs uppercase tracking-widest text-[var(--color-clay-muted)] mt-1 font-display font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[var(--color-neu-muted)] font-bold">
             Recovered
           </span>
         </div>
 
-        <div className="clay-card flex flex-col p-4 px-6 flex-1 min-w-[200px]">
-          <span className="font-mono text-3xl font-medium text-[var(--color-clay-ink)]">
-            <AnimatedNumber value={matchRate} isPercent />
-          </span>
-          <span className="text-xs uppercase tracking-widest text-[var(--color-clay-muted)] mt-1 font-display font-semibold">
-            Match Rate
-          </span>
+        <div className="neu-panel flex items-center justify-between p-4 h-32">
+          <div className="flex flex-col h-full justify-between py-2">
+            <span className="text-xs uppercase tracking-widest text-[var(--color-neu-muted)] font-bold">
+              Match Rate
+            </span>
+            <span className="font-bold text-2xl text-[var(--color-neu-text)]">
+              <AnimatedNumber value={matchRate} isPercent />
+            </span>
+          </div>
+          <div className="scale-75 origin-right">
+            <CircularProgress value={matchRate / 100} />
+          </div>
         </div>
 
-        <div className="clay-card flex flex-col p-4 px-6 flex-1 min-w-[200px]">
-          <span className="font-mono text-3xl font-medium text-[var(--color-clay-ink)]">
+        <div className="neu-panel flex flex-col p-6 justify-between h-32">
+          <span className="font-bold text-2xl md:text-3xl text-[var(--color-neu-text)] leading-none">
             <AnimatedNumber value={unresolvedCount} />
           </span>
-          <span className="text-xs uppercase tracking-widest text-[var(--color-clay-muted)] mt-1 font-display font-semibold">
+          <span className="text-xs uppercase tracking-widest text-[var(--color-neu-muted)] font-bold">
             Unresolved
           </span>
         </div>
