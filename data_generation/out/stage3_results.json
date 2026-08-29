@@ -2,1231 +2,12 @@
   "stlm_d1b206f8ad5a": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_fb050dda05ff, amount: 24903.62, gateway_fee: 587.73",
-      "payment_id: pay_aefcd522f4c8, amount: 24776.0, gateway_fee: 584.71"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the relevant payments."
+    "confidence": 0.0,
+    "hypothesis": "Error: 'NoneType' object is not subscriptable",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_4167b0729171": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not included in the settlement, possibly due to timing or a processing error.",
-    "evidence": [
-      "payment_id: pay_4362cdcee5fb, amount: 8007.0, captured_at: 2026-06-29T05:57:11.078569"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_4362cdcee5fb for potential inclusion in the settlement."
-  },
-  "stlm_b25d8d0e99ba": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not fully accounted for in the settlement amount.",
-    "evidence": [
-      "payment_id: pay_0d85c0cd6b67, amount: 23237.74, captured_at: 2026-07-02T03:10:21.971022"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_0d85c0cd6b67 for potential discrepancies."
-  },
-  "stlm_6d8fa6a56a5e": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment captured on the same day with a different amount, possibly indicating a gateway fee adjustment.",
-    "evidence": [
-      "settlement_id: stlm_6d8fa6a56a5e",
-      "payment_id: pay_4714ff7ca6f1",
-      "amount: 19844.11",
-      "gateway_fee: 468.32"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_4714ff7ca6f1 for potential adjustments or related fees."
-  },
-  "stlm_5a5b922ba4e3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement amount may be due to a gateway fee recalculation or an orphaned settlement since there are no matching payments or refunds.",
-    "evidence": [
-      "settlement_id: stlm_5a5b922ba4e3",
-      "bank_ref: Y79KVLS9",
-      "amount: 17029.74"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or gateway fee adjustments."
-  },
-  "stlm_60d93c707d3f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation or an orphaned settlement since no candidate payments match the settlement amount directly.",
-    "evidence": [
-      "settlement_id: stlm_60d93c707d3f",
-      "amount: 18675.93",
-      "candidate payments total: 18621.2 (pay_35ca9005fd80) + 556.52 (gateway fee) = 18677.72"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or gateway fee adjustments."
-  },
-  "stlm_2a61fd15c634": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_bacf22c0570d, amount: 16122.33, gateway_fee: 380.49"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payment."
-  },
-  "stlm_eee2b195e14b": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment captured on the same day with a gateway fee that was not accounted for.",
-    "evidence": [
-      "payment_id: pay_4714ff7ca6f1, amount: 19844.11, gateway_fee: 468.32, captured_at: 2026-07-11"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_4714ff7ca6f1 for potential discrepancies in the settlement calculation."
-  },
-  "stlm_9601565c4ec3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_cf0a9232e3eb, amount: 15946.76, gateway_fee: 376.34",
-      "payment_id: pay_1751c05bfbc6, amount: 12291.16, gateway_fee: 290.07"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the relevant payments."
-  },
-  "stlm_75ae1be2b2c9": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_a0b07559e9ca, amount: 21621.07, gateway_fee: 510.26",
-      "payment_id: pay_7bbb297a6d51, amount: 19858.44, gateway_fee: 468.66"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payments."
-  },
-  "stlm_5f840708236e": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment captured on June 19th that is not reflected in the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_5f840708236e",
-      "payment_id: pay_81097a331c6d",
-      "amount: 24036.78"
-    ],
-    "recommended_action": "Investigate the payment made on June 19th for potential inclusion in the settlement."
-  },
-  "stlm_85fcad483ca4": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly indicating a missing or orphaned payment.",
-    "evidence": [
-      "settlement_id: stlm_85fcad483ca4",
-      "payment_id: pay_a0b07559e9ca (amount: 21621.07)",
-      "payment_id: pay_4d50694cdd46 (amount: 22371.33)"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments or missing records related to the unmatched settlement."
-  },
-  "stlm_039a0d76a702": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_039a0d76a702",
-      "payment_id: pay_0341ce869559",
-      "gateway_fee: 27.13"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with order_06a194db012e."
-  },
-  "stlm_465e4bd7e15c": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_729d7c035fb2, amount: 17153.84, gateway_fee: 404.83"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment with ID pay_729d7c035fb2."
-  },
-  "stlm_376db35e2355": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not fully accounted for in the settlement amount due to gateway fees.",
-    "evidence": [
-      "payment_id: pay_bc6143609410, amount: 1253.73, gateway_fee: 29.59"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_bc6143609410 for potential discrepancies in the settlement calculation."
-  },
-  "stlm_19deb0a85b96": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_9f349bfea19f, amount: 1074.72, gateway_fee: 25.36",
-      "payment_id: pay_e42924980d73, amount: 489.18, gateway_fee: 11.54"
-    ],
-    "recommended_action": "Investigate gateway fee calculations for the captured payments."
-  },
-  "stlm_b79771d24a5e": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a combination of captured payments that do not sum to the settlement amount, possibly indicating a missing payment or a gateway fee adjustment.",
-    "evidence": [
-      "settlement_id: stlm_b79771d24a5e",
-      "payment_id: pay_0967af30cb93 (amount: 17443.41)",
-      "payment_id: pay_9ee89033d4de (amount: 16786.05)",
-      "payment_id: pay_4ea83fde5fa1 (amount: 24526.05)",
-      "payment_id: pay_bfc62d67d842 (amount: 20126.83)"
-    ],
-    "recommended_action": "Investigate for any missing payments or adjustments related to gateway fees."
-  },
-  "stlm_6177063b5f27": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, resulting in a mismatch in the expected amount.",
-    "evidence": [
-      "payment_id: pay_761175a91a56, amount: 11903.46, captured_at: 2026-07-22T17:05:40.422333"
-    ],
-    "recommended_action": "Investigate if any payments were intended to be included in the settlement but were captured after the settlement date."
-  },
-  "stlm_7f085137cdc9": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_0d85c0cd6b67, amount: 23237.74, gateway_fee: 548.41",
-      "payment_id: pay_41e3a992d03d, amount: 24370.16, gateway_fee: 575.14"
-    ],
-    "recommended_action": "Investigate gateway fee calculations for the relevant payments."
-  },
-  "stlm_ba3f8e9d352f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_a09588335325, amount: 20297.68, gateway_fee: 479.03"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payments."
-  },
-  "stlm_042ff871e0f1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, resulting in a mismatch.",
-    "evidence": [
-      "payment_id: pay_49bdb0f2a265, amount: 17507.23, captured_at: 2026-07-27T13:10:25.577857"
-    ],
-    "recommended_action": "Investigate the payment made on 2026-07-27 for potential inclusion in the settlement."
-  },
-  "stlm_e57c43c413e9": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a combination of captured payments that exceed the settlement amount, possibly indicating a missing refund or fee adjustment.",
-    "evidence": [
-      "payment_id: pay_0967af30cb93, amount: 17443.41",
-      "payment_id: pay_9ee89033d4de, amount: 16786.05",
-      "payment_id: pay_4ea83fde5fa1, amount: 24526.05"
-    ],
-    "recommended_action": "Investigate for any missing refunds or adjustments related to the unmatched settlement."
-  },
-  "stlm_68fb67f687a1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "payment_id: pay_ba5ffdc36029, amount: 9602.47, gateway_fee: 226.62",
-      "payment_id: pay_b5ff138fe322, amount: 6318.54, gateway_fee: 149.12",
-      "payment_id: pay_4ea7b9dfb7a9, amount: 9477.39, gateway_fee: 223.67",
-      "payment_id: pay_6a8485a5d129, amount: 6977.12, gateway_fee: 164.66",
-      "payment_id: pay_ca3113148a64, amount: 6681.8, gateway_fee: 157.69"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payments."
-  },
-  "stlm_f310df1831be": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation or an orphaned settlement since there are no matching payments or refunds.",
-    "evidence": [
-      "settlement_id: stlm_f310df1831be",
-      "bank_ref: TB02JCU4",
-      "amount: 8634.11"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or gateway fee adjustments."
-  },
-  "stlm_57dda399fc32": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "payment_id: pay_4f25fdfc9107, amount: 23581.31, gateway_fee: 556.52",
-      "payment_id: pay_0967af30cb93, amount: 17443.41, gateway_fee: 411.66",
-      "payment_id: pay_4ea83fde5fa1, amount: 24526.05, gateway_fee: 578.81",
-      "payment_id: pay_bfc62d67d842, amount: 20126.83, gateway_fee: 474.99",
-      "payment_id: pay_9754bbb4a2d8, amount: 22943.9, gateway_fee: 541.48"
-    ],
-    "recommended_action": "Investigate potential gateway fee adjustments for the payments."
-  },
-  "stlm_a8b2b3db635a": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_a8b2b3db635a",
-      "payment_id: pay_9ee89033d4de, amount: 16786.05, gateway_fee: 396.15"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the relevant payments."
-  },
-  "stlm_29e4ed19e73f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement amount may be due to a gateway fee recalculation affecting the net settlement.",
-    "evidence": [
-      "payment_id: pay_4f25fdfc9107, amount: 23581.31, gateway_fee: 556.52"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payments."
-  },
-  "stlm_f54baf659d32": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not included in the settlement, possibly indicating an orphaned settlement.",
-    "evidence": [
-      "settlement_id: stlm_f54baf659d32",
-      "amount: 6422.31",
-      "payment_id: ''"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments or missed updates in the system."
-  },
-  "stlm_a25c644c03fc": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not included in the settlement, possibly due to timing or a gateway fee adjustment.",
-    "evidence": [
-      "payment_id: pay_b5ff138fe322, amount: 6318.54, captured_at: 2026-06-07T14:17:44.371530",
-      "payment_id: pay_9764e16f748b, amount: 5046.32, captured_at: 2026-06-04T15:22:07.919071"
-    ],
-    "recommended_action": "Investigate the timing and inclusion of captured payments in the settlement."
-  },
-  "stlm_f4b50ec2cc5a": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not included in the settlement, specifically the payment of 24903.62 which exceeds the settlement amount.",
-    "evidence": [
-      "payment_id: pay_fb050dda05ff, amount: 24903.62"
-    ],
-    "recommended_action": "Investigate if the payment of 24903.62 was intended to be part of this settlement."
-  },
-  "stlm_d44c93b7d56e": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "payment_id: pay_d69ff188a912, amount: 10297.45, gateway_fee: 243.02",
-      "payment_id: pay_31d7d851b8d5, amount: 8125.28, gateway_fee: 191.76"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payments on the settlement date."
-  },
-  "stlm_792a4e695d43": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a combination of captured payments that exceed the settlement amount, indicating a potential miscalculation or missing records.",
-    "evidence": [
-      "payment_id: pay_9ee89033d4de (amount: 16786.05)",
-      "payment_id: pay_cb6cc424906c (amount: 19090.41)",
-      "payment_id: pay_80a8c5702f3f (amount: 21161.2)",
-      "payment_id: pay_4e2e959b79dc (amount: 20895.32)",
-      "payment_id: pay_8300dae66bc0 (amount: 22273.76)"
-    ],
-    "recommended_action": "Investigate further for any missing payments or refunds that could clarify the settlement amount."
-  },
-  "stlm_3e1de61ac52f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, which could indicate a timing issue.",
-    "evidence": [
-      "settlement_id: stlm_3e1de61ac52f",
-      "payment_id: pay_919fecc972e1",
-      "captured_at: 2026-07-13T22:32:31.442177"
-    ],
-    "recommended_action": "Investigate the timing of the payment capture relative to the settlement date."
-  },
-  "stlm_3e2c62f516f1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_3e2c62f516f1",
-      "payment_id: pay_dfd8351c9078",
-      "order_id: order_6d88884348fc"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_1371712a8a0a": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that account for the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_1371712a8a0a",
-      "amount: 7904.95",
-      "candidate_payments: none match the amount"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or payments not recorded in the system."
-  },
-  "stlm_71afb275e915": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to account for the zero amount settlement.",
-    "evidence": [
-      "settlement_id: stlm_71afb275e915",
-      "order_id: order_406984a7fb36"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_8a75f101ffe6": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_8a75f101ffe6",
-      "amount: 10784.76",
-      "candidate payments total: 10784.76 (after considering potential fees)"
-    ],
-    "recommended_action": "Investigate for any missing refund records or fee adjustments."
-  },
-  "stlm_171bba2c2758": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_171bba2c2758",
-      "payment_id: pay_583d28dfff40",
-      "order_id: order_6bc3475b31a4"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_41a01bd8b4d2": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_41a01bd8b4d2",
-      "amount: 7641.15",
-      "candidate payments total: 11903.46 + 14646.1 + 13179.32 + 13460.54 + 8347.15"
-    ],
-    "recommended_action": "Investigate if there were any partial refunds or fee adjustments related to the unmatched settlement."
-  },
-  "stlm_c6f99eb4a289": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system.",
-    "evidence": [
-      "settlement_id: stlm_c6f99eb4a289",
-      "order_id: order_a5c46c3c670a",
-      "amount: 15651.69"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_7d21fab44691": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "settlement_id: stlm_7d21fab44691",
-      "payment_id: pay_5a2fe2677d5f",
-      "amount: 2689.93",
-      "gateway_fee: 63.48"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with the unmatched settlement."
-  },
-  "stlm_2bffffc452fc": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_2bffffc452fc",
-      "order_id: order_d9d94d060367"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_7c50549ad7fb": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not fully accounted for in the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_7c50549ad7fb",
-      "payment_id: pay_9764e16f748b (amount: 5046.32)",
-      "payment_id: pay_64ca71af4596 (amount: 3561.23)",
-      "order_id: order_8ae51d2ffa7e (amount: 5386.82)"
-    ],
-    "recommended_action": "Investigate the payment records and their relation to the unmatched settlement."
-  },
-  "stlm_781db0e8fc4f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as the settlement amount is zero while there is a paid order with a significant amount.",
-    "evidence": [
-      "settlement_id: stlm_781db0e8fc4f",
-      "order_id: order_8ae51d2ffa7e",
-      "amount: 5386.82"
-    ],
-    "recommended_action": "Investigate if the payment for the order was processed but not recorded in the system."
-  },
-  "stlm_2f6b5a568fb3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement amount may be due to a gateway fee recalculation or an orphaned settlement since no candidate payments or refunds match the settlement amount directly.",
-    "evidence": [
-      "unmatched_settlement.amount: 6882.36",
-      "candidate_payments: pay_76db7e674b7e (amount: 6378.08 + gateway_fee: 150.52 = 6528.60)",
-      "candidate_payments: pay_d20e16eb840d (amount: 13044.61)",
-      "candidate_payments: pay_94f404b1995c (amount: 8191.5)",
-      "candidate_payments: pay_c97aef1a6222 (amount: 11058.23)",
-      "candidate_payments: pay_0fcab16bbb74 (amount: 13659.87)"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or gateway fee adjustments."
-  },
-  "stlm_7c5fc7233c8b": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_7c5fc7233c8b",
-      "payment_id: pay_cf9e25301a07",
-      "order_id: order_10054e474d8c"
-    ],
-    "recommended_action": "Investigate if there are any missing payments related to order_10054e474d8c."
-  },
-  "stlm_1f6f0c88a15b": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly due to a gateway fee or an orphaned transaction.",
-    "evidence": [
-      "settlement_id: stlm_1f6f0c88a15b",
-      "payment_id: pay_4f25fdfc9107, amount: 23581.31, gateway_fee: 556.52",
-      "order_id: order_03cc48562123, amount: 16468.83"
-    ],
-    "recommended_action": "Investigate the payment and order details for discrepancies and confirm if any fees or orphaned transactions exist."
-  },
-  "stlm_72cebaaaf479": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly due to a gateway fee or an orphaned transaction.",
-    "evidence": [
-      "settlement_id: stlm_72cebaaaf479",
-      "payment_id: pay_4f25fdfc9107 (amount: 23581.31)",
-      "payment_id: pay_0967af30cb93 (amount: 17443.41)",
-      "payment_id: pay_4ea83fde5fa1 (amount: 24526.05)",
-      "payment_id: pay_d20e16eb840d (amount: 13044.61)",
-      "payment_id: pay_c97aef1a6222 (amount: 11058.23)",
-      "order_id: order_03cc48562123 (amount: 16468.83)"
-    ],
-    "recommended_action": "Investigate the payment records for potential orphaned transactions or discrepancies in gateway fees."
-  },
-  "stlm_75893b7b95e3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_75893b7b95e3",
-      "amount: 11559.53",
-      "candidate payments total: 11559.53 (pay_ba5ffdc36029)"
-    ],
-    "recommended_action": "Investigate if there were any partial refunds or fee adjustments related to the unmatched settlement."
-  },
-  "stlm_4e3b09258aed": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a missing payment record for the order that was created just before the settlement date.",
-    "evidence": [
-      "order_70c6060bf160",
-      "settlement_id: stlm_4e3b09258aed"
-    ],
-    "recommended_action": "Investigate if a payment was made for order_70c6060bf160 that is not recorded."
-  },
-  "stlm_5094a1824b54": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "settlement_id: stlm_5094a1824b54",
-      "payment_id: pay_5068796ab29d",
-      "amount: 6984.48",
-      "gateway_fee: 164.83"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with the unmatched settlement."
-  },
-  "stlm_65ffd578f713": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_65ffd578f713",
-      "order_id: order_3aef8b38f849"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to order_3aef8b38f849."
-  },
-  "stlm_a959dc59de46": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, which could indicate a timing issue or a missed update.",
-    "evidence": [
-      "unmatched_settlement.settled_at: 2026-07-12T11:50:45.424612",
-      "candidate_payments[0].captured_at: 2026-07-13T22:24:24.227171",
-      "candidate_payments[1].captured_at: 2026-07-11T08:26:32.897112"
-    ],
-    "recommended_action": "Investigate the timing of captured payments relative to the settlement date."
-  },
-  "stlm_0f51d6846db4": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system.",
-    "evidence": [
-      "settlement_id: stlm_0f51d6846db4",
-      "order_id: order_9c682d12f096"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_26ea81442639": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount.",
-    "evidence": [
-      "settlement_id: stlm_26ea81442639",
-      "payment_id: pay_6ed76f5928d9",
-      "gateway_fee: 352.51"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with the unmatched settlement."
-  },
-  "stlm_9154f458e50f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_9154f458e50f",
-      "amount: 0.0",
-      "order_id: order_ddaee01c1f23"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_2439486d084d": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_2439486d084d",
-      "payment_id: pay_5068796ab29d",
-      "gateway_fee: 164.83"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with the unmatched settlement."
-  },
-  "stlm_ab8bdaf1e0c0": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a missing payment record for the order placed on 2026-07-01, which has a status of 'paid'.",
-    "evidence": [
-      "order_b5529c5bb5c6",
-      "pay_647455b6784f"
-    ],
-    "recommended_action": "Investigate if a payment record exists for the order or if it was processed outside the tracked system."
-  },
-  "stlm_30dfd08d731e": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement, possibly indicating an orphaned settlement.",
-    "evidence": [
-      "settlement_id: stlm_30dfd08d731e",
-      "payment_id: pay_a06c8cd774ea, amount: 381.22",
-      "payment_id: pay_e42924980d73, amount: 489.18",
-      "payment_id: pay_87041c722316, amount: 448.75",
-      "payment_id: pay_0e0197bea50a, amount: 326.14",
-      "payment_id: pay_25c1b0750bd9, amount: 472.09"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or missing updates for captured payments."
-  },
-  "stlm_176fc2c925d8": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there is a recent order with a paid status but no corresponding payment record.",
-    "evidence": [
-      "order_722f7768d00f",
-      "amount: 575.13"
-    ],
-    "recommended_action": "Investigate the payment status for order_722f7768d00f to confirm if it was processed correctly."
-  },
-  "stlm_ebb9bca8afdf": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_ebb9bca8afdf",
-      "amount: 2340.55",
-      "candidate payments total: 3156.95 + 3571.72 + 3873.83 + 2397.45 + 2610.38 = 18610.33"
-    ],
-    "recommended_action": "Investigate for any potential partial refunds or fee adjustments related to the unmatched settlement."
-  },
-  "stlm_c927c63023cc": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_c927c63023cc",
-      "order_id: order_1fcb8f216697"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_9d9f2c04ecf0": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that align with the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_9d9f2c04ecf0",
-      "amount: 10483.17",
-      "candidate_payments: none match",
-      "candidate_refunds: none available"
-    ],
-    "recommended_action": "Investigate for any orphaned payments or external transactions that may not be recorded in the system."
-  },
-  "stlm_220fc9c8ecdb": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that align with the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_220fc9c8ecdb",
-      "amount: 10483.17",
-      "candidate_payments: none match this amount"
-    ],
-    "recommended_action": "Investigate for any orphaned settlements or payments not recorded in the system."
-  },
-  "stlm_8a72b72cb56d": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly due to a gateway fee adjustment.",
-    "evidence": [
-      "payment_id: pay_6ed76f5928d9, amount: 14936.84, gateway_fee: 352.51",
-      "payment_id: pay_7f464ef181b9, amount: 7283.86, gateway_fee: 171.9"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payments."
-  },
-  "stlm_6ec6c6c67f7c": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_6ec6c6c67f7c",
-      "payment_id: pay_cc67bb55842a",
-      "order_id: order_a455fc6f5a71"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_46318222a80d": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not fully accounted for in the settlement amount.",
-    "evidence": [
-      "payment_id: pay_0fc76ee312d6, amount: 11918.23",
-      "payment_id: pay_e3a5376948ca, amount: 10006.31"
-    ],
-    "recommended_action": "Investigate the payment records for potential discrepancies or missing transactions."
-  },
-  "stlm_f662cbe85a32": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_f662cbe85a32",
-      "payment_id: pay_e160cea1ffc6",
-      "order_id: order_90d35a59a076"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_29e46fd986e3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_29e46fd986e3",
-      "payment_id: pay_26ef2ed19a3e, amount: 3487.13, gateway_fee: 82.3",
-      "payment_id: pay_5566df6daa79, amount: 2930.07, gateway_fee: 69.15"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payments."
-  },
-  "stlm_edf8508cf711": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_edf8508cf711",
-      "payment_id: pay_1f3320ff9816",
-      "order_id: order_24e2e3455e9b"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_fedf8771d137": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_fedf8771d137",
-      "amount: 531.38",
-      "candidate payments total: 489.18 + 381.22 = 870.40"
-    ],
-    "recommended_action": "Investigate potential partial refunds or fee adjustments related to the unmatched settlement."
-  },
-  "stlm_ddc23e62e8a0": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement as there are no corresponding payments or refunds for the recorded amount.",
-    "evidence": [
-      "settlement_id: stlm_ddc23e62e8a0",
-      "payment_id: pay_dc7371bd947e",
-      "order_id: order_735eb8a8a554"
-    ],
-    "recommended_action": "Investigate the payment system for any orphaned settlements related to the order."
-  },
-  "stlm_ccbde3104243": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or fee adjustment related to the captured payments, particularly the payment of 14666.81 which could have been affected by gateway fees.",
-    "evidence": [
-      "settlement_id: stlm_ccbde3104243",
-      "payment_id: pay_22eff19f099b",
-      "amount: 14666.81",
-      "gateway_fee: 346.14"
-    ],
-    "recommended_action": "Investigate if there were any refunds or fee adjustments related to payment_id pay_22eff19f099b."
-  },
-  "stlm_88e70fbb583f": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_88e70fbb583f",
-      "payment_id: pay_8621e810a52b",
-      "order_id: order_efd1c61c4f9e"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_43c51d6e31d1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, resulting in a mismatch in the expected amount.",
-    "evidence": [
-      "unmatched_settlement.amount: 6991.19",
-      "candidate_orders.amount: 14320.33"
-    ],
-    "recommended_action": "Investigate if any payments related to the order were captured after the settlement date."
-  },
-  "stlm_8e8e6c361a2b": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_8e8e6c361a2b",
-      "order_id: order_f5056a18fb4c"
-    ],
-    "recommended_action": "Investigate if the payment for order_f5056a18fb4c was processed but not recorded."
-  },
-  "stlm_2e55ba095cd2": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching payments or refunds that account for the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_2e55ba095cd2",
-      "amount: 937.34",
-      "candidate_payments: pay_7af535e2fc7c (738.58), pay_06c546f5ca82 (1207.49), pay_0e7ecca0d4bb (1798.4), pay_f927782cc8e0 (907.48), pay_eec7699bff3b (1857.71)",
-      "candidate_orders: order_3beededeba21 (1919.98)"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or payments not recorded in the system."
-  },
-  "stlm_f596af5c9ed1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded in the system, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_f596af5c9ed1",
-      "order_id: order_3beededeba21"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments related to the order."
-  },
-  "stlm_67e3bd53c4b9": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation that was not accounted for in the payment records.",
-    "evidence": [
-      "payment_id: pay_ca8cfb74d5ce, amount: 218.04, gateway_fee: 5.15",
-      "payment_id: pay_b45e79d62873, amount: 417.97, gateway_fee: 9.86",
-      "payment_id: pay_d93a40d681df, amount: 466.46, gateway_fee: 11.01",
-      "payment_id: pay_b232dde552ff, amount: 422.16, gateway_fee: 9.96",
-      "payment_id: pay_7e891b0d00ee, amount: 467.92, gateway_fee: 11.04"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payments."
-  },
-  "stlm_459f797f3949": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded in the system, as indicated by the absence of candidate payments and the presence of a paid order.",
-    "evidence": [
-      "settlement_id: stlm_459f797f3949",
-      "order_id: order_9201e96de2e6",
-      "amount: 504.9"
-    ],
-    "recommended_action": "Investigate the payment status for order_9201e96de2e6 to confirm if it was processed outside the tracked system."
-  },
-  "stlm_dd479157c802": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that is not reflected in the candidate records.",
-    "evidence": [
-      "settlement_id: stlm_dd479157c802",
-      "amount: 8065.39",
-      "candidate payments total: 14936.84 + 7283.86 + 8911.1 + 10946.92 + 7495.78 =  51573.5"
-    ],
-    "recommended_action": "Investigate potential refunds or fee adjustments related to the unmatched settlement."
-  },
-  "stlm_1814990d9e2a": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as the settlement amount is zero while there is a paid order with a significant amount.",
-    "evidence": [
-      "settlement_id: stlm_1814990d9e2a",
-      "order_id: order_bcb956af6e1a",
-      "amount: 16520.67"
-    ],
-    "recommended_action": "Investigate if the payment for the order was processed but not recorded in the system."
-  },
-  "stlm_6fcc7eec5219": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement amount may be due to a gateway fee recalculation from a captured payment.",
-    "evidence": [
-      "payment_id: pay_76db7e674b7e, amount: 6378.08, gateway_fee: 150.52",
-      "payment_id: pay_94f404b1995c, amount: 8191.5, gateway_fee: 193.32"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the captured payments."
-  },
-  "stlm_4473e11f0657": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there is a recent order with a paid status but no corresponding payment record.",
-    "evidence": [
-      "order_26d5f635580e",
-      "amount: 13344.72"
-    ],
-    "recommended_action": "Investigate if the payment for order_26d5f635580e was processed but not recorded."
-  },
-  "stlm_d47c5c6dd2b3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a combination of captured payments that do not sum to the settlement amount, possibly indicating a missing payment or a gateway fee adjustment.",
-    "evidence": [
-      "settlement_id: stlm_d47c5c6dd2b3",
-      "payment_id: pay_9764e16f748b (5046.32)",
-      "payment_id: pay_b5ff138fe322 (6318.54)",
-      "payment_id: pay_cf3212d19c02 (5638.1)"
-    ],
-    "recommended_action": "Investigate for any missing payments or adjustments related to gateway fees."
-  },
-  "stlm_95617ca9484d": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_95617ca9484d",
-      "order_id: order_1091484f307f"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_9794e61e7368": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a gateway fee adjustment that was not accounted for.",
-    "evidence": [
-      "settlement_id: stlm_9794e61e7368",
-      "payment_id: pay_db2d4a7d9d25, amount: 15341.01, gateway_fee: 362.05"
-    ],
-    "recommended_action": "Investigate if there was a partial refund or fee adjustment related to payment_id pay_db2d4a7d9d25."
-  },
-  "stlm_47821a0a4c47": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or adjustment related to the order amount of 15914.88, which is close to the settlement amount after considering potential fees.",
-    "evidence": [
-      "unmatched_settlement.amount: 15539.29",
-      "candidate_orders.amount: 15914.88"
-    ],
-    "recommended_action": "Investigate if there was a partial refund or adjustment related to the order amount."
-  },
-  "stlm_cad83fb5eaa8": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly due to a gateway fee adjustment.",
-    "evidence": [
-      "settlement_id: stlm_cad83fb5eaa8",
-      "payment_id: pay_cecfb08bdf2e (amount: 16525.72, gateway_fee: 390.01)",
-      "payment_id: pay_49bdb0f2a265 (amount: 17507.23, gateway_fee: 413.17)",
-      "payment_id: pay_35ca9005fd80 (amount: 18621.2, gateway_fee: 439.46)"
-    ],
-    "recommended_action": "Investigate the gateway fees and ensure all captured payments are accounted for in the settlement."
-  },
-  "stlm_82f560721146": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly due to a gateway fee adjustment.",
-    "evidence": [
-      "settlement_id: stlm_82f560721146",
-      "payment_id: pay_35ca9005fd80",
-      "amount: 18621.2",
-      "gateway_fee: 439.46"
-    ],
-    "recommended_action": "Investigate the payment with ID pay_35ca9005fd80 for any discrepancies related to gateway fees."
-  },
-  "stlm_fd60d4d803d7": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation affecting the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_fd60d4d803d7",
-      "payment_id: pay_d5fa1564d4db",
-      "amount: 1056.68",
-      "gateway_fee: 24.94"
-    ],
-    "recommended_action": "Investigate the gateway fee calculations for the payment associated with the unmatched settlement."
-  },
-  "stlm_3c7782b96263": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system.",
-    "evidence": [
-      "settlement_id: stlm_3c7782b96263",
-      "order_id: order_974352f03385"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_1a5b9c0af339": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that align with the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_1a5b9c0af339",
-      "amount: 2339.14",
-      "candidate_payments: none match",
-      "candidate_refunds: none available"
-    ],
-    "recommended_action": "Investigate for any orphaned payments or external transactions that may not be recorded in the system."
-  },
-  "stlm_94efb951db47": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to account for the zero amount settlement.",
-    "evidence": [
-      "settlement_id: stlm_94efb951db47",
-      "order_id: order_960b642d2e83"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to order_960b642d2e83."
-  },
-  "stlm_f2b4dfd1fa18": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that total the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_f2b4dfd1fa18",
-      "amount: 7298.03",
-      "candidate_payments total: 6378.08 + 7795.79 + 8191.5 + 11685.83 + 11975.35 = 0"
-    ],
-    "recommended_action": "Investigate for any orphaned payments or external transactions that may not be recorded."
-  },
-  "stlm_4bb3f14b1b10": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded in the system, as indicated by the absence of candidate payments and the presence of a recent order with a paid status.",
-    "evidence": [
-      "unmatched_settlement.amount: 0.0",
-      "candidate_orders.order_id: order_6c38060eb156"
-    ],
-    "recommended_action": "Investigate if there are any payments related to order_6c38060eb156 that were not recorded."
-  },
-  "stlm_d5d6c34a4f80": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching candidate payments or refunds that align with the settlement amount.",
-    "evidence": [
-      "unmatched_settlement.amount: 11916.01",
-      "candidate_payments amounts: [17507.23, 18621.2, 13509.57, 9053.44, 22943.9]",
-      "candidate_refunds: []"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments or external transactions that could explain the unmatched settlement."
-  },
-  "stlm_8155448b7855": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_8155448b7855",
-      "payment_id: pay_94c87195dd6c",
-      "order_id: order_b9149c84bf17"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
-  },
-  "stlm_24953bf303ff": {
-    "stage": 3,
-    "status": "RESOLVED",
-    "confidence": 0.6,
-    "hypothesis": "A partial refund of 6439.52 on payment_id pay_d5b9c01999ad reduced the net settlement amount.",
-    "evidence": [
-      "unmatched_settlement.amount: 11759.07",
-      "candidate_refunds.amount: 6439.52",
-      "candidate_refunds.payment_id: pay_d5b9c01999ad"
-    ],
-    "recommended_action": "Investigate the refund details further to confirm the impact on the settlement."
-  },
-  "stlm_169ac3175ea1": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund that was processed after the settlement date, resulting in a net settlement amount of 0.0.",
-    "evidence": [
-      "refund_id: rfnd_1cfce2201a2b",
-      "order_id: order_00ce5ed02285",
-      "settled_at: 2026-06-15T14:16:08.298271"
-    ],
-    "recommended_action": "Investigate the timing of the refund in relation to the settlement."
-  },
-  "stlm_c8dea79162e3": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a combination of captured payments that do not sum to the settlement amount, indicating a potential missing payment or miscalculation.",
-    "evidence": [
-      "unmatched_settlement.amount: 10285.19",
-      "candidate_payments: [pay_5068796ab29d (6984.48), pay_4362cdcee5fb (8007.0)]"
-    ],
-    "recommended_action": "Investigate for any missing payments or discrepancies in the payment records."
-  },
-  "stlm_636d7535ef7d": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system, as there are no candidate payments or refunds to match the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_636d7535ef7d",
-      "order_id: order_9936513a801c"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments related to the order."
-  },
-  "stlm_be284934f0e9": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, which could indicate a timing issue or a missed update.",
-    "evidence": [
-      "settlement_id: stlm_be284934f0e9",
-      "payment_id: pay_f45ee84c50ac",
-      "captured_at: 2026-06-18T16:13:29.797845"
-    ],
-    "recommended_action": "Investigate the timing of the payment and ensure all records are updated accordingly."
-  },
-  "stlm_e11bb6986cbe": {
-    "stage": 3,
-    "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as the settlement amount is zero while there is a paid order with a significant amount.",
-    "evidence": [
-      "settlement_id: stlm_e11bb6986cbe",
-      "order_id: order_469ef12fdf86",
-      "amount: 17967.42"
-    ],
-    "recommended_action": "Investigate if the payment for order_469ef12fdf86 was processed but not recorded in the system."
-  },
-  "stlm_beda45e3b03a": {
     "stage": 3,
     "status": "UNRESOLVED",
     "confidence": 0.0,
@@ -1234,153 +15,932 @@
     "evidence": [],
     "recommended_action": "manual review \u2014 model output was not valid JSON"
   },
+  "stlm_b25d8d0e99ba": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_6d8fa6a56a5e": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_5a5b922ba4e3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_60d93c707d3f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: 'NoneType' object is not subscriptable",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_2a61fd15c634": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_eee2b195e14b": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_9601565c4ec3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_75ae1be2b2c9": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_5f840708236e": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_85fcad483ca4": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_039a0d76a702": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_465e4bd7e15c": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_376db35e2355": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: 'NoneType' object is not subscriptable",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_19deb0a85b96": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_b79771d24a5e": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: 'NoneType' object is not subscriptable",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_6177063b5f27": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_7f085137cdc9": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_ba3f8e9d352f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_042ff871e0f1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_e57c43c413e9": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_68fb67f687a1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_f310df1831be": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_57dda399fc32": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "parse_error",
+    "evidence": [],
+    "recommended_action": "manual review \u2014 model output was not valid JSON"
+  },
+  "stlm_a8b2b3db635a": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_29e4ed19e73f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_f54baf659d32": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_a25c644c03fc": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_f4b50ec2cc5a": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_d44c93b7d56e": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_792a4e695d43": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_3e1de61ac52f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_3e2c62f516f1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_1371712a8a0a": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_71afb275e915": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_8a75f101ffe6": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_171bba2c2758": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_41a01bd8b4d2": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_c6f99eb4a289": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_7d21fab44691": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_2bffffc452fc": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_7c50549ad7fb": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_781db0e8fc4f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_2f6b5a568fb3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_7c5fc7233c8b": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_1f6f0c88a15b": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_72cebaaaf479": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_75893b7b95e3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_4e3b09258aed": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_5094a1824b54": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_65ffd578f713": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_a959dc59de46": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_0f51d6846db4": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_26ea81442639": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_9154f458e50f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_2439486d084d": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_ab8bdaf1e0c0": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_30dfd08d731e": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_176fc2c925d8": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_ebb9bca8afdf": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_c927c63023cc": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_9d9f2c04ecf0": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_220fc9c8ecdb": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_8a72b72cb56d": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_6ec6c6c67f7c": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_46318222a80d": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_f662cbe85a32": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_29e46fd986e3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_edf8508cf711": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_fedf8771d137": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_ddc23e62e8a0": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_ccbde3104243": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_88e70fbb583f": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_43c51d6e31d1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_8e8e6c361a2b": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_2e55ba095cd2": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_f596af5c9ed1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_67e3bd53c4b9": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_459f797f3949": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_dd479157c802": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_1814990d9e2a": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_6fcc7eec5219": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_4473e11f0657": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_d47c5c6dd2b3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_95617ca9484d": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_9794e61e7368": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_47821a0a4c47": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_cad83fb5eaa8": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_82f560721146": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_fd60d4d803d7": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_3c7782b96263": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_1a5b9c0af339": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_94efb951db47": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_f2b4dfd1fa18": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_4bb3f14b1b10": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_d5d6c34a4f80": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_8155448b7855": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_24953bf303ff": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_169ac3175ea1": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_c8dea79162e3": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_636d7535ef7d": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_be284934f0e9": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_e11bb6986cbe": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
+  "stlm_beda45e3b03a": {
+    "stage": 3,
+    "status": "UNRESOLVED",
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
+  },
   "stlm_54a7a9a7114e": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system.",
-    "evidence": [
-      "settlement_id: stlm_54a7a9a7114e",
-      "order_id: order_4fce77bf3486"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_f94c27d1f53b": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "A refund of 21726.11 was processed for the payment associated with the unmatched settlement, which may explain the reduced net settlement amount.",
-    "evidence": [
-      "unmatched_settlement.amount: 10606.68",
-      "candidate_refunds.amount: 21726.11",
-      "candidate_refunds.payment_id: pay_0a75a1e32bad"
-    ],
-    "recommended_action": "Investigate the relationship between the refund and the unmatched settlement further."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_7df7c5ed39a6": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement record with zero amount may be explained by a processed refund that matches the order amount.",
-    "evidence": [
-      "unmatched_settlement.amount (0.0)",
-      "candidate_refunds.refund_id (rfnd_f31e6213a2f6)",
-      "candidate_orders.order_id (order_4296a8d5da64)"
-    ],
-    "recommended_action": "Investigate the relationship between the refund and the unmatched settlement further."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_d22ce993905a": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a partial refund or a fee adjustment that reduced the net amount settled.",
-    "evidence": [
-      "settlement_id: stlm_d22ce993905a",
-      "payment_id: pay_e4bdd43fc3a9, amount: 1501.55",
-      "gateway_fee: 35.44"
-    ],
-    "recommended_action": "Investigate if there was a partial refund or fee adjustment related to payment_id pay_e4bdd43fc3a9."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_9accea39989e": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to an orphaned settlement for a payment that was not recorded in the system, as there are no candidate payments or refunds to match the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_9accea39989e",
-      "order_id: order_381635408c37"
-    ],
-    "recommended_action": "Investigate if there are any orphaned payments related to the order."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_698d5ec7b04e": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured after the settlement date, leading to a discrepancy in the recorded amounts.",
-    "evidence": [
-      "settlement_id: stlm_698d5ec7b04e",
-      "payment_id: pay_cecfb08bdf2e (amount: 16525.72, captured_at: 2026-07-23)",
-      "payment_id: pay_761175a91a56 (amount: 11903.46, captured_at: 2026-07-22)"
-    ],
-    "recommended_action": "Investigate the payment records for potential late captures or misreported amounts."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_d090768d48e7": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_d090768d48e7",
-      "payment_id: pay_61c372d3515a",
-      "order_id: order_8d81e6dde145"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_8a12de7ad60a": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment made outside the tracked system, as there are no matching payments or refunds that account for the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_8a12de7ad60a",
-      "amount: 8423.34",
-      "no matching payments or refunds"
-    ],
-    "recommended_action": "Investigate for any orphaned payments or external transactions."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_a5286396f862": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to explain the zero amount.",
-    "evidence": [
-      "settlement_id: stlm_a5286396f862",
-      "order_id: order_5d5b74482366"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_999b7626d01c": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a gateway fee recalculation or an orphaned settlement since the captured payment amounts do not match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_999b7626d01c",
-      "payment_id: pay_94f404b1995c, amount: 8191.5, gateway_fee: 193.32"
-    ],
-    "recommended_action": "Investigate potential orphaned settlements or gateway fee adjustments."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_7a6b4a1bff75": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.4,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there is a corresponding order with a paid status but no associated payment record.",
-    "evidence": [
-      "order_3f349d442373",
-      "amount: 19694.0"
-    ],
-    "recommended_action": "Investigate the payment records for order_3f349d442373 to confirm if a payment was made."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_e3509818c0b3": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was captured but not reflected in the settlement amount, possibly indicating a missing or orphaned transaction.",
-    "evidence": [
-      "unmatched_settlement.amount: 4988.1",
-      "candidate_payments: pay_4cdf8fec57bb (4061.64) + pay_7f464ef181b9 (7283.86) + pay_b2d644145091 (8911.1) + pay_c07e25b57a16 (7495.78) + pay_01bb30f85323 (3589.44)"
-    ],
-    "recommended_action": "Investigate potential orphaned transactions or missing updates in the payment records."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   },
   "stlm_b30ec0862709": {
     "stage": 3,
     "status": "UNRESOLVED",
-    "confidence": 0.3,
-    "hypothesis": "The unmatched settlement may be due to a payment that was not recorded, as there are no candidate payments or refunds to match the settlement amount.",
-    "evidence": [
-      "settlement_id: stlm_b30ec0862709",
-      "order_id: order_d857c14315c6"
-    ],
-    "recommended_action": "Investigate if there are any missing payment records related to the order."
+    "confidence": 0.0,
+    "hypothesis": "Error: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1788048000000'}, 'limit_source': 'openrouter_free_tier_daily', 'remedy_hint': 'Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.', 'provider_name': None}}, 'user_id': 'user_3Ib1QQbunOaF3UH8mpZArSHCsh7'}",
+    "evidence": null,
+    "recommended_action": null
   }
 }
