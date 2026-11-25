@@ -64,3 +64,12 @@ uvicorn app.main:app --reload --port 8000
   and gated" requirement from the brief.
 - `/audit-trail` is the single best demo screen — every decision traces
   input → reasoning/policy → action → outcome.
+
+
+---
+
+## 📦 Project Snapshot
+
+<!--ARCHIVE_STATS_START-->
+<!-- auto-generated — do not edit manually -->
+<!--ARCHIVE_STATS_END-->
